@@ -1,0 +1,68 @@
+Source: plasma-framework
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules (>= 0.0.10), qtbase5-dev, libkf5i18n-dev (>= 4.96.0),
+ libkf5guiaddons-dev (>= 4.96.0), libkf5widgetsaddons-dev (>= 4.96.0), libkf5dbusaddons-dev (>= 4.96.0), libkf5configwidgets-dev (>= 4.96.0), libkf5itemviews-dev (>= 4.96.0), libkf5iconthemes-dev (>= 4.96.0),
+ libkf5windowsystem-dev (>= 4.96.0), libkf5service-dev (>= 4.96.0),
+ libkf5completion-dev (>= 4.96.0), libkf5textwidgets-dev (>= 4.96.0),
+ libkf5coreaddons-dev (>= 4.96.0), libkf5parts-dev (>= 4.96.0),
+ libkf5xmlgui-dev (>= 4.96.0), libkf5kjs-dev (>= 4.96.0),
+ libkf5auth-dev (>= 4.96.0), libkf5codecs-dev (>= 4.96.0),
+ libkf5config-dev (>= 4.96.0), libkf5sonnet-dev (>= 4.96.0),
+ kf5-kio-dev (>= 4.96.0), libkf5bookmarks-dev (>= 4.96.0),
+ libkf5globalaccel-dev (>= 4.96.0), libkf5jobwidgets-dev (>= 4.96.0),
+ libkf5solid-dev (>= 4.96.0), libkf5notifications-dev (>= 4.96.0),
+ libkf5attica-dev (>= 4.96.0), qtquick1-5-dev, libkf5idletime-dev (>= 4.96.0),
+ libkf5itemmodels-dev (>= 4.96.0), libkf5threadweaver-dev (>= 4.96.0),
+ kross-dev (>= 4.96.0), libkf5dnssd-dev (>= 4.96.0), libkf5activities-dev (>= 4.96.0),
+ libxcb-composite0-dev, libxcb-damage0-dev, libxcb-shape0-dev, xauth, xvfb,
+ openbox, qtdeclarative5-dev, libqt5x11extras-dev, qttools5-dev,
+ libqt5svg5-dev, qtscript5-dev, libkf5archive-dev (>= 4.96.0),
+ libkf5wallet-dev (>= 4.96.0), libkf5crash-dev (>= 4.96.0),
+ libkf5declarative-dev (>= 4.96.0), libkf5unitconversion-dev (>= 4.96.0),
+ libsm-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
+
+Package: plasma-framework-dev
+Section: libdevel
+Architecture: any
+Depends: plasma-framework5 (= ${binary:Version}), ${misc:Depends}
+Description: development files for plasma-framework
+ Plasma library and runtime components based upon KF5 and Qt5.
+ .
+ Contains development files for plasma-framework.
+
+Package: plasma-framework5
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Plasma Runtime components.
+ Plasma library and runtime components based upon KF5 and Qt5.
+ 
+Package: libkf5plasma5
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Plasma Runtime components.
+ Plasma library and runtime components based upon KF5 and Qt5.
+
+Package: libkf5plasmaquick5
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Plasma Runtime components.
+ Plasma library and runtime components based upon KF5 and Qt5.
+ 
+Package: plasma-framework5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Depends: plasma-framework5 (= ${binary:Version}), ${misc:Depends}
+Description: debug symbols for kprintutils
+ Plasma library and runtime components based upon KF5 and Qt5.
+ .
+ Contains debug symbols for plasma-framework.

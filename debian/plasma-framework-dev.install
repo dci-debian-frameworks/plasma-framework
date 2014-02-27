@@ -1,0 +1,5 @@
+usr/include/KF5/
+usr/lib/*/libKF5Plasma.so
+usr/lib/*/libKF5PlasmaQuick.so
+usr/lib/*/cmake/KF5Plasma/
+usr/lib/*/cmake/KF5PlasmaQuick/

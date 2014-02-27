@@ -1,0 +1,413 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: plasma-framework
+Source: https://projects.kde.org/projects/frameworks/plasma-framework
+
+Files: *
+       debian/*
+Copyright: © 2005-2013 Aaron Seigo <aseigo@kde.org>
+           © 2008-2011, 20111, 2012-2014 Marco Martin <mart@kde.org> <notmart@gmail.com> <notmart@kde.org>
+           © 2011-2014 Sebastian Kügler <sebas@kde.org>
+           © 2008, 2010 Ménard Alexis <menard@kde.org> <darktears31@gmail.com>
+           © 2007, 2010, 2012-2013 Ivan Cukic <ivan.cukic@kde.org> <ivan.cukic+kde@gmail.com>
+           © 2008-2010 Chani Armitage <chani@kde.org>
+           © 2010 Ryan Rix <ry@n.rix.si>
+           © 2009, 2011 All Rights Reserved. <qt-info@nokia.com>
+           © 2009, 2011 Contact: Nokia Corporation
+           © 2010, 2012, 2014 Aleix Pol Gonzalez <aleixpol@kde.org> <aleixpol@blue-systems.com>
+           © 2013 Mark Gaiser <markg85@gmail.com>
+           ©  Gregory Schlomoff <greg@betterinbox.com>
+           © 2009 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           © 2010 Siddharth Sharma <siddharth.kde@gmail.com>
+           © 2010 BetterInbox <contact@betterinbox.com>
+           © 2009 Alan Alpert <alan.alpert@nokia.com>
+           © 2007 Riccardo Iaconelli <riccardo@kde.org>
+           © 2007, 2009 Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           © 2007 Richard J. Moore <rich@kde.org>
+           © 2011 Viranch Mehta <viranch.mehta@gmail.com>
+           © 2010 Martin Blumenstingl <darklight.xdarklight@googlemail.com>
+           © 2008 Simon Edwards <simon@simonzone.com>
+           © 2010 Diego '[Po]lentino' Casella <polentino911@gmail.com>
+           © 2013-2014 Martin Gräßlin <mgraesslin@kde.org>
+           © 2014 David Edmundson <davidedmundson@kde.org>
+           © 1992-2007 Trolltech ASA. All Rights Reserved.
+           © 2012 Aurélien Gâteau <agateau@kde.org>
+           ©  Martin Klapetek <mklapetek@kde.org>
+           © 2009 Ana Cecília Martins <anaceciliamb@gmail.com>
+           © 2009 Stephen Kelly <steveire@gmail.com>
+           © 2007 Bertjan Broeksema <b.broeksema@kdemail.net>
+           © 2010 Brian Pritchett <batenkaitos@gmail.com>
+           © 2008 Gilles CHAUVIN <gcnweb+kde@gmail.com>
+           © 2014 Bhushan Shah <bhush94@gmail.com>
+           © 2011 Artur Duque de Souza <asouza@kde.org>
+           © 2007 Matt Broadstone <mbroadst@gmail.com>
+           © 2008 Jordi Polo <mumismo@gmail.com>
+           © 2011 Kevin Kofler <kevin.kofler@chello.at>
+           © 2009 Alexander Neundorf <neundorf@kde.org>
+           © 2008 Patrick Spendrin <ps_ml@gmx.de>
+           © 2010 Davide Bettio <davide.bettio@kdemail.net>
+           © 2009 Petri Damstén <damu@iki.fi>
+           © 2010 Kevin Ottens <ervin@kde.org>
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+Files:     examples/dataengines/customDataContainers/* excluding:
+    -? examples/dataengines/customDataContainers/CMakeLists.txt
+    examples/dataengines/dataEngineTracker/*
+    examples/dataengines/simpleEngine/* excluding:
+    -? examples/dataengines/simpleEngine/CMakeLists.txt
+    examples/dataengines/sourcesOnRequest/* excluding:
+    -? examples/dataengines/sourcesOnRequest/CMakeLists.txt
+    examples/runner/* excluding:
+    -? examples/runner/CMakeLists.txt
+    + src/declarativeimports/plasmacomponents/qrangemodel.cpp
+    + src/declarativeimports/plasmacomponents/qrangemodel.h
+    src/declarativeimports/plasmacomponents/qml/private/* excluding:
+    -+ src/declarativeimports/plasmacomponents/qml/private/Config.js
+Copyright: 2011 Aaron Seigo <aseigo@kde.org>
+           2011 Nokia Corporation and/or its subsidiary(-ies).
+License: BSD-BY-LC-NE
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ *
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ *    THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ *    IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ *    OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ *    IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ *    INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ *    NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ *    DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ *    THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ *    (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ *   THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Files: src/kpart/scripting/backportglobal.h
+       src/shell/scripting/backportglobal.h
+Copyright: 1992-2007 Trolltech ASA. All rights reserved.
+License: GPL-2
+ ** This file is part of the plugins of the Qt Toolkit.
+ **
+ ** This file may be used under the terms of the GNU General Public
+ ** License version 2.0 as published by the Free Software Foundation
+ ** and appearing in the file LICENSE.GPL included in the packaging of
+ ** this file.  Please review the following information to ensure GNU
+ ** General Public Licensing requirements will be met:
+ ** http://trolltech.com/products/qt/licenses/licensing/opensource/
+ **
+ ** If you are unsure which license is appropriate for your use, please
+ ** review the following information:
+ ** http://trolltech.com/products/qt/licenses/licensing/licensingoverview
+ ** or contact the sales department at sales@trolltech.com.
+ **
+ ** In addition, as a special exception, Trolltech gives you certain
+ ** additional rights. These rights are described in the Trolltech GPL
+ ** Exception version 1.0, which can be found at
+ ** http://www.trolltech.com/products/qt/gplexception/ and in the file
+ ** GPL_EXCEPTION.txt in this package.
+ **
+ ** In addition, as a special exception, Trolltech, as the sole copyright
+ ** holder for Qt Designer, grants users of the Qt/Eclipse Integration
+ ** plug-in the right for the Qt/Eclipse Integration to link to
+ ** functionality provided by Qt Designer and its related libraries.
+ **
+ ** Trolltech reserves all rights not expressly granted herein.
+ ** 
+ ** Trolltech ASA (c) 2007
+ **
+ ** This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
+ ** WARRANTY OF DESIGN, MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+
+Files: src/declarativeimports/plasmacomponents/qml/*
+Copyright: 2011 Nokia Corporation and/or its subsidiary(-ies).
+License: LGPL 2.1 Alternatively, GPL-3
+ ** This file is part of the Qt Components project.
+ **
+ ** $QT_BEGIN_LICENSE:LGPL$
+ ** GNU Lesser General Public License Usage
+ ** This file may be used under the terms of the GNU Lesser General Public
+ ** License version 2.1 as published by the Free Software Foundation and
+ ** appearing in the file LICENSE.LGPL included in the packaging of this
+ ** file. Please review the following information to ensure the GNU Lesser
+ ** General Public License version 2.1 requirements will be met:
+ ** http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.
+ **
+ ** In addition, as a special exception, Nokia gives you certain additional
+ ** rights. These rights are described in the Nokia Qt LGPL Exception
+ ** version 1.1, included in the file LGPL_EXCEPTION.txt in this package.
+ **
+ ** GNU General Public License Usage
+ ** Alternatively, this file may be used under the terms of the GNU General
+ ** Public License version 3.0 as published by the Free Software Foundation
+ ** and appearing in the file LICENSE.GPL included in the packaging of this
+ ** file. Please review the following information to ensure the GNU General
+ ** Public License version 3.0 requirements will be met:
+ ** http://www.gnu.org/copyleft/gpl.html.
+ **
+ ** Other Usage
+ ** Alternatively, this file may be used in accordance with the terms and
+ ** conditions contained in a signed written agreement between you and Nokia.
+
+Files: examples/kpart/* excluding:
+       -? examples/kpart/CMakeLists.txt
+       examples/kpart/appletselector.cpp
+       examples/kpart/appletselector.h
+       src/declarativeimports/core/dataenginebindings.cpp
+       src/declarativeimports/core/dataenginebindings_p.h
+       src/kpart/plasmakpartview.cpp
+       src/kpart/scripting/rect.cpp
+       src/plasma/private/package_p.h
+       src/plasma/private/servicejob_p.h
+       src/plasma/remote/credentials.cpp
+       src/plasma/remote/credentials.h
+       src/shell/scripting/rect.cpp
+Copyright: 2010 Ryan Rix <ry@n.rix.si>
+           2010 Siddharth Sharma <siddharth.kde@gmail.com>
+           2007 Richard J. Moore <rich@kde.org>
+           2007-2008 Aaron Seigo <aseigo@kde.org>
+           2009 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+License: LGPL-2
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU Library General Public License version 2 as
+ *   published by the Free Software Foundation
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details
+ *
+ *   You should have received a copy of the GNU Library General Public
+ *   License along with this program; if not, write to the
+ *   Free Software Foundation, Inc.,
+ *   51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+Files: examples/kpart/appletselector.cpp
+       examples/kpart/appletselector.h
+       src/declarativeimports/core/* excluding:
+       -? src/declarativeimports/core/CMakeLists.txt
+       src/declarativeimports/core/dataenginebindings.cpp
+       src/declarativeimports/core/dataenginebindings_p.h
+       src/declarativeimports/core/dialog.cpp
+       src/declarativeimports/core/dialog.h
+       src/declarativeimports/core/formats.cpp
+       src/declarativeimports/core/formats.h
+       src/declarativeimports/core/framesvgitem.h
+       src/declarativeimports/core/serviceoperationstatus.h
+       src/declarativeimports/core/svgitem.h
+       src/declarativeimports/core/tooltip.cpp
+       src/declarativeimports/core/tooltip.h
+       src/declarativeimports/core/tooltipdialog.cpp
+       src/declarativeimports/core/tooltipdialog.h
+       src/declarativeimports/core/units.cpp
+       src/declarativeimports/core/units.h
+       src/declarativeimports/dirmodel/dirmodelplugin.cpp
+       src/declarativeimports/dirmodel/dirmodelplugin.h
+       src/declarativeimports/krunnermodel/* excluding:
+       -? src/declarativeimports/krunnermodel/CMakeLists.txt
+       src/declarativeimports/plasmacomponents/enums.cpp
+       src/declarativeimports/plasmacomponents/enums.h
+       src/declarativeimports/plasmacomponents/plasmacomponentsplugin.cpp
+       src/declarativeimports/plasmacomponents/plasmacomponentsplugin.h
+       src/declarativeimports/plasmacomponents/platformcomponents/touch/private/*
+       src/declarativeimports/plasmacomponents/qml/private/Config.js
+       src/declarativeimports/plasmaextracomponents/* excluding:
+       -? src/declarativeimports/plasmaextracomponents/CMakeLists.txt
+       src/declarativeimports/platformcomponents/utils/* excluding:
+       -+ src/declarativeimports/platformcomponents/utils/sharedsingleton.h
+       src/declarativeimports/qtextracomponents/* excluding:
+       -? src/declarativeimports/qtextracomponents/CMakeLists.txt
+       src/declarativeimports/qtextracomponents/qiconitem.h
+       src/declarativeimports/qtextracomponents/qimageitem.h
+       src/declarativeimports/qtextracomponents/qpixmapitem.h
+       src/kpart/plasmakpart.cpp
+       src/kpart/plasmakpartcorona.cpp
+       src/kpart/plasmakpartcorona.h
+       src/kpart/scripting/* excluding:
+       -+ src/kpart/scripting/backportglobal.h
+       -+ src/kpart/scripting/rect.cpp
+       src/plasma/* excluding:
+       -? src/plasma/CMakeLists.txt
+       -? src/plasma/config-plasma.h.cmake
+       src/plasma/autotests/* excluding:
+       -? src/plasma/autotests/CMakeLists.txt
+       src/plasma/private/* excluding:
+       -+ src/plasma/private/authorizationmanager_p.h
+       -+ src/plasma/private/package_p.h
+       -+ src/plasma/private/servicejob_p.h
+       -+ src/plasma/private/storage.cpp
+       -+ src/plasma/private/storage_p.h
+       src/plasma/scripting/*
+       src/plasma/staging/signingtest.cpp
+       src/plasma/staging/signingtest.h
+       src/plasma/tests/dpi/dpitest.cpp
+       src/plasma/tests/dpi/dpitest.h
+       src/plasma/tests/kplugins/plugintest.cpp
+       src/plasma/tests/kplugins/plugintest.h
+       src/plasma/tests/testcontainmentactionsplugin/* excluding:
+       -? src/plasma/tests/testcontainmentactionsplugin/CMakeLists.txt
+       src/plasmapkg/plasmapkg.cpp
+       src/plasmapkg/plasmapkg.h
+       src/plasmaquick/* excluding:
+       -? src/plasmaquick/CMakeLists.txt
+       -+ src/plasmaquick/plasmaquickview.cpp
+       -+ src/plasmaquick/plasmaquickview.h
+       src/plasmaquick/autotests/* excluding:
+       -? src/plasmaquick/autotests/CMakeLists.txt
+       src/plasmaquick/private/*
+       src/scriptengines/python/* excluding:
+       -? src/scriptengines/python/CMakeLists.txt
+       src/scriptengines/qml/plasmoid/*
+       src/shell/* excluding:
+       -? src/shell/CMakeLists.txt
+       -+ src/shell/activity.cpp
+       -+ src/shell/activity.h
+       -+ src/shell/desktopview.cpp
+       -+ src/shell/desktopview.h
+       -+ src/shell/main.cpp
+       -+ src/shell/osd.cpp
+       -+ src/shell/osd.h
+       -+ src/shell/panelview.cpp
+       -+ src/shell/panelview.h
+       -+ src/shell/shellmanager.cpp
+       -+ src/shell/shellmanager.h
+       -+ src/shell/shellpluginloader.cpp
+       -+ src/shell/shellpluginloader.h
+       src/shell/scripting/* excluding:
+       -+ src/shell/scripting/backportglobal.h
+       -+ src/shell/scripting/rect.cpp
+       src/shell/widgetexplorer/* excluding:
+       -? src/shell/widgetexplorer/CMakeLists.txt
+       -+ src/shell/widgetexplorer/widgetexplorerplugin.cpp
+       -+ src/shell/widgetexplorer/widgetexplorerplugin.h
+Copyright: © 2005-2013 Aaron Seigo <aseigo@kde.org>
+           © 2008-2011, 20111, 2012-2014 Marco Martin <mart@kde.org> <notmart@gmail.com> <notmart@kde.org>
+           © 2011-2014 Sebastian Kügler <sebas@kde.org>
+           © 2008, 2010 Ménard Alexis <menard@kde.org> <darktears31@gmail.com>
+           © 2007, 2010, 2012-2013 Ivan Cukic <ivan.cukic@kde.org> <ivan.cukic+kde@gmail.com>
+           © 2008-2010 Chani Armitage <chani@kde.org>
+           © 2010 Ryan Rix <ry@n.rix.si>
+           © 2009, 2011 All Rights Reserved. <qt-info@nokia.com>
+           © 2009, 2011 Contact: Nokia Corporation
+           © 2010, 2012, 2014 Aleix Pol Gonzalez <aleixpol@kde.org> <aleixpol@blue-systems.com>
+           © 2013 Mark Gaiser <markg85@gmail.com>
+           ©  Gregory Schlomoff <greg@betterinbox.com>
+           © 2009 Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           © 2010 Siddharth Sharma <siddharth.kde@gmail.com>
+           © 2010 BetterInbox <contact@betterinbox.com>
+           © 2009 Alan Alpert <alan.alpert@nokia.com>
+           © 2007 Riccardo Iaconelli <riccardo@kde.org>
+           © 2007, 2009 Ryan P. Bitanga <ryan.bitanga@gmail.com>
+           © 2007 Richard J. Moore <rich@kde.org>
+           © 2011 Viranch Mehta <viranch.mehta@gmail.com>
+           © 2010 Martin Blumenstingl <darklight.xdarklight@googlemail.com>
+           © 2008 Simon Edwards <simon@simonzone.com>
+           © 2010 Diego '[Po]lentino' Casella <polentino911@gmail.com>
+           © 2013-2014 Martin Gräßlin <mgraesslin@kde.org>
+           © 2014 David Edmundson <davidedmundson@kde.org>
+           © 1992-2007 Trolltech ASA. All Rights Reserved.
+           © 2012 Aurélien Gâteau <agateau@kde.org>
+           ©  Martin Klapetek <mklapetek@kde.org>
+           © 2009 Ana Cecília Martins <anaceciliamb@gmail.com>
+           © 2009 Stephen Kelly <steveire@gmail.com>
+           © 2007 Bertjan Broeksema <b.broeksema@kdemail.net>
+           © 2010 Brian Pritchett <batenkaitos@gmail.com>
+           © 2008 Gilles CHAUVIN <gcnweb+kde@gmail.com>
+           © 2014 Bhushan Shah <bhush94@gmail.com>
+           © 2011 Artur Duque de Souza <asouza@kde.org>
+           © 2007 Matt Broadstone <mbroadst@gmail.com>
+           © 2008 Jordi Polo <mumismo@gmail.com>
+           © 2011 Kevin Kofler <kevin.kofler@chello.at>
+           © 2009 Alexander Neundorf <neundorf@kde.org>
+           © 2008 Patrick Spendrin <ps_ml@gmx.de>
+           © 2010 Davide Bettio <davide.bettio@kdemail.net>
+           © 2009 Petri Damstén <damu@iki.fi>
+           © 2010 Kevin Ottens <ervin@kde.org>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ On Debian systems, the complete text of the
+ GNU Library General Public License version 2 can be found in
+ /usr/share/common-licenses/LGPL-2
+
+Files: src/declarativeimports/core/tests/sortfiltermodeltest.cpp
+       src/declarativeimports/core/tests/sortfiltermodeltest.h
+       src/declarativeimports/qtextracomponents/tests/* excluding:
+       -? src/declarativeimports/qtextracomponents/tests/CMakeLists.txt
+       src/plasma/private/authorizationmanager_p.h
+       src/plasma/private/storage.cpp
+       src/plasma/private/storage_p.h
+       src/plasma/remote/authorizationmanager.cpp
+       src/plasma/remote/authorizationmanager.h
+Copyright: 2012 Aurélien Gâteau <agateau@kde.org>
+           2009 by Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
+           2010 Brian Pritchett <batenkaitos@gmail.com>       
+           2010  Marco Martin <mart@kde.org>
+License: LGPL-2.1+
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301  USA
+
+Files: src/declarativeimports/draganddrop/* excluding:
+       -? src/declarativeimports/draganddrop/CMakeLists.txt
+       src/shell/widgetexplorer/widgetexplorerplugin.cpp
+       src/shell/widgetexplorer/widgetexplorerplugin.h
+Copyright: 2010 by BetterInbox <contact@betterinbox.com>
+           Gregory Schlomoff <greg@betterinbox.com>
+           2014 by David Edmundson <davidedmundson@kde.org>
+License: MIT
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    .
+    The above copyright notice and this permission notice shall be included in
+    all copies or substantial portions of the Software.
+    .
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+    THE SOFTWARE.

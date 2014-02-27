@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=plasma-framework5-dbg
+
+override_dh_fixperms:
+	chmod +x debian/plasma-framework5/usr/share/plasma/plasmoids/org.kde.example.widgetgallery/widgetgallery-tablet
+	$(overridden_command)
+
+override_dh_auto_test:
+	dh_installwm openbox\
+	xvfb-run -a dh_auto_test

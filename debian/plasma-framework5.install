@@ -1,0 +1,5 @@
+usr/lib/*/platformqml/*
+usr/lib/*/qml/*
+usr/lib/*/qt5/*
+usr/share/*
+usr/bin/*

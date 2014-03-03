@@ -1,3 +1,9 @@
+plasma-framework (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:40:40 +0000
+
 plasma-framework (4.96.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream alpha release 

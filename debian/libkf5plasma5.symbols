@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 4.96.0 amd64
-libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -33,25 +33,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZN6Plasma10DataEngineD0Ev@Base 4.96.0
  _ZN6Plasma10DataEngineD1Ev@Base 4.96.0
  _ZN6Plasma10DataEngineD2Ev@Base 4.96.0
- _ZN6Plasma10QueryMatch10setEnabledEb@Base 4.96.0
- _ZN6Plasma10QueryMatch10setSubtextERK7QString@Base 4.96.0
- _ZN6Plasma10QueryMatch11setMimeTypeERK7QString@Base 4.96.0
- _ZN6Plasma10QueryMatch12setRelevanceEd@Base 4.96.0
- _ZN6Plasma10QueryMatch17setSelectedActionEP7QAction@Base 4.96.0
- _ZN6Plasma10QueryMatch28createConfigurationInterfaceEP7QWidget@Base 4.96.0
- _ZN6Plasma10QueryMatch5setIdERK7QString@Base 4.96.0
- _ZN6Plasma10QueryMatch7setDataERK8QVariant@Base 4.96.0
- _ZN6Plasma10QueryMatch7setIconERK5QIcon@Base 4.96.0
- _ZN6Plasma10QueryMatch7setTextERK7QString@Base 4.96.0
- _ZN6Plasma10QueryMatch7setTypeENS0_4TypeE@Base 4.96.0
- _ZN6Plasma10QueryMatch7setUrlsERK5QListI4QUrlE@Base 4.96.0
- _ZN6Plasma10QueryMatchC1EPNS_14AbstractRunnerE@Base 4.96.0
- _ZN6Plasma10QueryMatchC1ERKS0_@Base 4.96.0
- _ZN6Plasma10QueryMatchC2EPNS_14AbstractRunnerE@Base 4.96.0
- _ZN6Plasma10QueryMatchC2ERKS0_@Base 4.96.0
- _ZN6Plasma10QueryMatchD1Ev@Base 4.96.0
- _ZN6Plasma10QueryMatchD2Ev@Base 4.96.0
- _ZN6Plasma10QueryMatchaSERKS0_@Base 4.96.0
  _ZN6Plasma10ServiceJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma10ServiceJob11qt_metacastEPKc@Base 4.96.0
  _ZN6Plasma10ServiceJob16staticMetaObjectE@Base 4.96.0
@@ -163,43 +144,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZN6Plasma12PluginLoaderD0Ev@Base 4.96.0
  _ZN6Plasma12PluginLoaderD1Ev@Base 4.96.0
  _ZN6Plasma12PluginLoaderD2Ev@Base 4.96.0
- _ZN6Plasma12RunnerScript10dataEngineERK7QString@Base 4.96.0
- _ZN6Plasma12RunnerScript11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN6Plasma12RunnerScript11qt_metacastEPKc@Base 4.96.0
- _ZN6Plasma12RunnerScript11setPriorityENS_14AbstractRunner8PriorityE@Base 4.96.0
- _ZN6Plasma12RunnerScript11setSyntaxesERK5QListINS_12RunnerSyntaxEE@Base 4.96.0
- _ZN6Plasma12RunnerScript12clearActionsEv@Base 4.96.0
- _ZN6Plasma12RunnerScript12removeActionERK7QString@Base 4.96.0
- _ZN6Plasma12RunnerScript15actionsForMatchERKNS_10QueryMatchEP5QListIP7QActionE@Base 4.96.0
- _ZN6Plasma12RunnerScript15setIgnoredTypesE6QFlagsINS_13RunnerContext4TypeEE@Base 4.96.0
- _ZN6Plasma12RunnerScript16createRunOptionsEP7QWidget@Base 4.96.0
- _ZN6Plasma12RunnerScript16setHasRunOptionsEb@Base 4.96.0
- _ZN6Plasma12RunnerScript16staticMetaObjectE@Base 4.96.0
- _ZN6Plasma12RunnerScript19reloadConfigurationEv@Base 4.96.0
- _ZN6Plasma12RunnerScript3runERKNS_13RunnerContextERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma12RunnerScript5matchERNS_13RunnerContextE@Base 4.96.0
- _ZN6Plasma12RunnerScript7prepareEv@Base 4.96.0
- _ZN6Plasma12RunnerScript8setSpeedENS_14AbstractRunner5SpeedE@Base 4.96.0
- _ZN6Plasma12RunnerScript8teardownEv@Base 4.96.0
- _ZN6Plasma12RunnerScript9addActionERK7QStringP7QAction@Base 4.96.0
- _ZN6Plasma12RunnerScript9addActionERK7QStringRK5QIconS3_@Base 4.96.0
- _ZN6Plasma12RunnerScript9addSyntaxERKNS_12RunnerSyntaxE@Base 4.96.0
- _ZN6Plasma12RunnerScript9setRunnerEPNS_14AbstractRunnerE@Base 4.96.0
- _ZN6Plasma12RunnerScriptC1EP7QObject@Base 4.96.0
- _ZN6Plasma12RunnerScriptC2EP7QObject@Base 4.96.0
- _ZN6Plasma12RunnerScriptD0Ev@Base 4.96.0
- _ZN6Plasma12RunnerScriptD1Ev@Base 4.96.0
- _ZN6Plasma12RunnerScriptD2Ev@Base 4.96.0
- _ZN6Plasma12RunnerSyntax14setDescriptionERK7QString@Base 4.96.0
- _ZN6Plasma12RunnerSyntax15addExampleQueryERK7QString@Base 4.96.0
- _ZN6Plasma12RunnerSyntax24setSearchTermDescriptionERK7QString@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxC1ERK7QStringS3_@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxC1ERKS0_@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxC2ERK7QStringS3_@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxC2ERKS0_@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxD1Ev@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxD2Ev@Base 4.96.0
- _ZN6Plasma12RunnerSyntaxaSERKS0_@Base 4.96.0
  _ZN6Plasma12ScriptEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma12ScriptEngine11qt_metacastEPKc@Base 4.96.0
  _ZN6Plasma12ScriptEngine16staticMetaObjectE@Base 4.96.0
@@ -236,93 +180,7 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZN6Plasma13DataContainerD0Ev@Base 4.96.0
  _ZN6Plasma13DataContainerD1Ev@Base 4.96.0
  _ZN6Plasma13DataContainerD2Ev@Base 4.96.0
- _ZN6Plasma13RunnerContext10addMatchesERK5QListINS_10QueryMatchEE@Base 4.96.0
- _ZN6Plasma13RunnerContext11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN6Plasma13RunnerContext11qt_metacastEPKc@Base 4.96.0
- _ZN6Plasma13RunnerContext11removeMatchE7QString@Base 4.96.0
- _ZN6Plasma13RunnerContext13removeMatchesE11QStringList@Base 4.96.0
- _ZN6Plasma13RunnerContext13removeMatchesEPNS_14AbstractRunnerE@Base 4.96.0
- _ZN6Plasma13RunnerContext14matchesChangedEv@Base 4.96.0
- _ZN6Plasma13RunnerContext16staticMetaObjectE@Base 4.96.0
- _ZN6Plasma13RunnerContext24setSingleRunnerQueryModeEb@Base 4.96.0
- _ZN6Plasma13RunnerContext3runERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma13RunnerContext4saveER12KConfigGroup@Base 4.96.0
- _ZN6Plasma13RunnerContext5resetEv@Base 4.96.0
- _ZN6Plasma13RunnerContext7restoreERK12KConfigGroup@Base 4.96.0
- _ZN6Plasma13RunnerContext8addMatchERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma13RunnerContext8setQueryERK7QString@Base 4.96.0
- _ZN6Plasma13RunnerContextC1EP7QObject@Base 4.96.0
- _ZN6Plasma13RunnerContextC1ERS0_P7QObject@Base 4.96.0
- _ZN6Plasma13RunnerContextC2EP7QObject@Base 4.96.0
- _ZN6Plasma13RunnerContextC2ERS0_P7QObject@Base 4.96.0
- _ZN6Plasma13RunnerContextD0Ev@Base 4.96.0
- _ZN6Plasma13RunnerContextD1Ev@Base 4.96.0
- _ZN6Plasma13RunnerContextD2Ev@Base 4.96.0
- _ZN6Plasma13RunnerContextaSERKS0_@Base 4.96.0
- _ZN6Plasma13RunnerManager10loadRunnerE28QExplicitlySharedDataPointerI8KServiceE@Base 4.96.0
- _ZN6Plasma13RunnerManager10loadRunnerERK7QString@Base 4.96.0
- _ZN6Plasma13RunnerManager11launchQueryERK7QString@Base 4.96.0
- _ZN6Plasma13RunnerManager11launchQueryERK7QStringS3_@Base 4.96.0
- _ZN6Plasma13RunnerManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN6Plasma13RunnerManager11qt_metacastEPKc@Base 4.96.0
- _ZN6Plasma13RunnerManager13queryFinishedEv@Base 4.96.0
- _ZN6Plasma13RunnerManager13setSingleModeEb@Base 4.96.0
- _ZN6Plasma13RunnerManager14listRunnerInfoERK7QString@Base 4.96.0
- _ZN6Plasma13RunnerManager14matchesChangedERK5QListINS_10QueryMatchEE@Base 4.96.0
- _ZN6Plasma13RunnerManager15actionsForMatchERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma13RunnerManager16staticMetaObjectE@Base 4.96.0
- _ZN6Plasma13RunnerManager17setAllowedRunnersERK11QStringList@Base 4.96.0
- _ZN6Plasma13RunnerManager17setupMatchSessionEv@Base 4.96.0
- _ZN6Plasma13RunnerManager19reloadConfigurationEv@Base 4.96.0
- _ZN6Plasma13RunnerManager20matchSessionCompleteEv@Base 4.96.0
- _ZN6Plasma13RunnerManager21setSingleModeRunnerIdERK7QString@Base 4.96.0
- _ZN6Plasma13RunnerManager3runERK7QString@Base 4.96.0
- _ZN6Plasma13RunnerManager3runERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma13RunnerManager5resetEv@Base 4.96.0
- _ZN6Plasma13RunnerManagerC1EP7QObject@Base 4.96.0
- _ZN6Plasma13RunnerManagerC1ER12KConfigGroupP7QObject@Base 4.96.0
- _ZN6Plasma13RunnerManagerC2EP7QObject@Base 4.96.0
- _ZN6Plasma13RunnerManagerC2ER12KConfigGroupP7QObject@Base 4.96.0
- _ZN6Plasma13RunnerManagerD0Ev@Base 4.96.0
- _ZN6Plasma13RunnerManagerD1Ev@Base 4.96.0
- _ZN6Plasma13RunnerManagerD2Ev@Base 4.96.0
- _ZN6Plasma13versionStringEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN6Plasma14AbstractRunner11qt_metacastEPKc@Base 4.96.0
- _ZN6Plasma14AbstractRunner11setPriorityENS0_8PriorityE@Base 4.96.0
- _ZN6Plasma14AbstractRunner11setSyntaxesERK5QListINS_12RunnerSyntaxEE@Base 4.96.0
- _ZN6Plasma14AbstractRunner12clearActionsEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner12performMatchERNS_13RunnerContextE@Base 4.96.0
- _ZN6Plasma14AbstractRunner12removeActionERK7QString@Base 4.96.0
- _ZN6Plasma14AbstractRunner13hasRunOptionsEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner15actionsForMatchERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma14AbstractRunner15setIgnoredTypesE6QFlagsINS_13RunnerContext4TypeEE@Base 4.96.0
- _ZN6Plasma14AbstractRunner15suspendMatchingEb@Base 4.96.0
- _ZN6Plasma14AbstractRunner16createRunOptionsEP7QWidget@Base 4.96.0
- _ZN6Plasma14AbstractRunner16mimeDataForMatchERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma14AbstractRunner16setDefaultSyntaxERKNS_12RunnerSyntaxE@Base 4.96.0
- _ZN6Plasma14AbstractRunner16setHasRunOptionsEb@Base 4.96.0
- _ZN6Plasma14AbstractRunner16staticMetaObjectE@Base 4.96.0
- _ZN6Plasma14AbstractRunner17matchingSuspendedEb@Base 4.96.0
- _ZN6Plasma14AbstractRunner19reloadConfigurationEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner3runERKNS_13RunnerContextERKNS_10QueryMatchE@Base 4.96.0
- _ZN6Plasma14AbstractRunner4initEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner5matchERNS_13RunnerContextE@Base 4.96.0
- _ZN6Plasma14AbstractRunner7prepareEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner8setSpeedENS0_5SpeedE@Base 4.96.0
- _ZN6Plasma14AbstractRunner8teardownEv@Base 4.96.0
- _ZN6Plasma14AbstractRunner9addActionERK7QStringP7QAction@Base 4.96.0
- _ZN6Plasma14AbstractRunner9addActionERK7QStringRK5QIconS3_@Base 4.96.0
- _ZN6Plasma14AbstractRunner9addSyntaxERKNS_12RunnerSyntaxE@Base 4.96.0
- _ZN6Plasma14AbstractRunnerC1E28QExplicitlySharedDataPointerI8KServiceEP7QObject@Base 4.96.0
- _ZN6Plasma14AbstractRunnerC1EP7QObjectRK5QListI8QVariantE@Base 4.96.0
- _ZN6Plasma14AbstractRunnerC1EP7QObjectRK7QString@Base 4.96.0
- _ZN6Plasma14AbstractRunnerC2E28QExplicitlySharedDataPointerI8KServiceEP7QObject@Base 4.96.0
- _ZN6Plasma14AbstractRunnerC2EP7QObjectRK5QListI8QVariantE@Base 4.96.0
- _ZN6Plasma14AbstractRunnerC2EP7QObjectRK7QString@Base 4.96.0
- _ZN6Plasma14AbstractRunnerD0Ev@Base 4.96.0
- _ZN6Plasma14AbstractRunnerD1Ev@Base 4.96.0
- _ZN6Plasma14AbstractRunnerD2Ev@Base 4.96.0
+ _ZN6Plasma13versionStringEv@Base 4.97.0
  _ZN6Plasma14knownLanguagesE6QFlagsINS_5Types13ComponentTypeEE@Base 4.96.0
  _ZN6Plasma14versionReleaseEv@Base 4.96.0
  _ZN6Plasma16DataEngineScript10removeDataERK7QStringS3_@Base 4.96.0
@@ -362,7 +220,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZN6Plasma16PackageStructureD1Ev@Base 4.96.0
  _ZN6Plasma16PackageStructureD2Ev@Base 4.96.0
  _ZN6Plasma16loadScriptEngineERK7QStringPNS_10DataEngineE@Base 4.96.0
- _ZN6Plasma16loadScriptEngineERK7QStringPNS_14AbstractRunnerE@Base 4.96.0
  _ZN6Plasma16loadScriptEngineERK7QStringPNS_6AppletE@Base 4.96.0
  _ZN6Plasma17DataEngineManager10loadEngineERK7QString@Base 4.96.0
  _ZN6Plasma17DataEngineManager10timerEventEP11QTimerEvent@Base 4.96.0
@@ -410,10 +267,13 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZN6Plasma3Svg11sizeChangedEv@Base 4.96.0
  _ZN6Plasma3Svg12setImagePathERK7QString@Base 4.96.0
  _ZN6Plasma3Svg13repaintNeededEv@Base 4.96.0
+ _ZN6Plasma3Svg16devicePixelRatioEv@Base 4.97.0
  _ZN6Plasma3Svg16imagePathChangedEv@Base 4.96.0
  _ZN6Plasma3Svg16staticMetaObjectE@Base 4.96.0
+ _ZN6Plasma3Svg19setDevicePixelRatioEd@Base 4.97.0
  _ZN6Plasma3Svg22setUsingRenderingCacheEb@Base 4.96.0
  _ZN6Plasma3Svg25setContainsMultipleImagesEb@Base 4.96.0
+ _ZN6Plasma3Svg5imageERK5QSizeRK7QString@Base 4.97.0
  _ZN6Plasma3Svg5paintEP8QPainterRK6QRectFRK7QString@Base 4.96.0
  _ZN6Plasma3Svg5paintEP8QPainterRK7QPointFRK7QString@Base 4.96.0
  _ZN6Plasma3Svg5paintEP8QPainteriiRK7QString@Base 4.96.0
@@ -486,7 +346,7 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZN6Plasma6Applet7destroyEv@Base 4.96.0
  _ZN6Plasma6Applet7restoreER12KConfigGroup@Base 4.96.0
  _ZN6Plasma6Applet7setIconERK7QString@Base 4.96.0
- _ZN6Plasma6Applet8activateEv@Base 4.96.0
+ _ZN6Plasma6Applet9activatedEv@Base 4.97.0
  _ZN6Plasma6Applet9setStatusENS_5Types10ItemStatusE@Base 4.96.0
  _ZN6Plasma6AppletC1EP7QObjectRK5QListI8QVariantE@Base 4.96.0
  _ZN6Plasma6AppletC1EP7QObjectRK7QStringj@Base 4.96.0
@@ -592,24 +452,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma10DataEngine7isValidEv@Base 4.96.0
  _ZNK6Plasma10DataEngine7packageEv@Base 4.96.0
  _ZNK6Plasma10DataEngine7sourcesEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch14selectedActionEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch25hasConfigurationInterfaceEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch2idEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch3runERKNS_13RunnerContextE@Base 4.96.0
- _ZNK6Plasma10QueryMatch4dataEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch4iconEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch4textEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch4typeEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch4urlsEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch6runnerEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch7isValidEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch7subtextEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch8mimeTypeEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch9isEnabledEv@Base 4.96.0
- _ZNK6Plasma10QueryMatch9relevanceEv@Base 4.96.0
- _ZNK6Plasma10QueryMatcheqERKS0_@Base 4.96.0
- _ZNK6Plasma10QueryMatchltERKS0_@Base 4.96.0
- _ZNK6Plasma10QueryMatchneERKS0_@Base 4.96.0
  _ZNK6Plasma10ServiceJob10metaObjectEv@Base 4.96.0
  _ZNK6Plasma10ServiceJob10parametersEv@Base 4.96.0
  _ZNK6Plasma10ServiceJob11destinationEv@Base 4.96.0
@@ -646,18 +488,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma12PluginLoader27standardInternalServiceInfoEv@Base 4.96.0
  _ZNK6Plasma12PluginLoader30internalContainmentActionsInfoEv@Base 4.96.0
  _ZNK6Plasma12PluginLoader30standardInternalDataEngineInfoEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript10mainScriptEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript10metaObjectEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript11descriptionEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript6actionERK7QString@Base 4.96.0
- _ZNK6Plasma12RunnerScript6configEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript6runnerEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript7actionsEv@Base 4.96.0
- _ZNK6Plasma12RunnerScript7packageEv@Base 4.96.0
- _ZNK6Plasma12RunnerSyntax11descriptionEv@Base 4.96.0
- _ZNK6Plasma12RunnerSyntax14exampleQueriesEv@Base 4.96.0
- _ZNK6Plasma12RunnerSyntax21searchTermDescriptionEv@Base 4.96.0
- _ZNK6Plasma12RunnerSyntax33exampleQueriesWithTermDescriptionEv@Base 4.96.0
  _ZNK6Plasma12ScriptEngine10mainScriptEv@Base 4.96.0
  _ZNK6Plasma12ScriptEngine10metaObjectEv@Base 4.96.0
  _ZNK6Plasma12ScriptEngine7packageEv@Base 4.96.0
@@ -668,44 +498,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma13DataContainer24visualizationIsConnectedEP7QObject@Base 4.96.0
  _ZNK6Plasma13DataContainer4dataEv@Base 4.96.0
  _ZNK6Plasma13DataContainer6isUsedEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext10metaObjectEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext21singleRunnerQueryModeEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext4typeEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext5matchERK7QString@Base 4.96.0
- _ZNK6Plasma13RunnerContext5queryEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext7isValidEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext7matchesEv@Base 4.96.0
- _ZNK6Plasma13RunnerContext8mimeTypeEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager10metaObjectEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager10runnerNameERK7QString@Base 4.96.0
- _ZNK6Plasma13RunnerManager10singleModeEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager13searchContextEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager14allowedRunnersEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager16mimeDataForMatchERK7QString@Base 4.96.0
- _ZNK6Plasma13RunnerManager16mimeDataForMatchERKNS_10QueryMatchE@Base 4.96.0
- _ZNK6Plasma13RunnerManager16singleModeRunnerEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager18singleModeRunnerIdEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager29singleModeAdvertisedRunnerIdsEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager5queryEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager6runnerERK7QString@Base 4.96.0
- _ZNK6Plasma13RunnerManager7matchesEv@Base 4.96.0
- _ZNK6Plasma13RunnerManager7runnersEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner10dataEngineERK7QString@Base 4.96.0
- _ZNK6Plasma14AbstractRunner10metaObjectEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner11descriptionEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner12ignoredTypesEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner13defaultSyntaxEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner19isMatchingSuspendedEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner2idEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner4iconEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner4nameEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner5speedEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner6actionERK7QString@Base 4.96.0
- _ZNK6Plasma14AbstractRunner6configEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner7actionsEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner7packageEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner8priorityEv@Base 4.96.0
- _ZNK6Plasma14AbstractRunner8syntaxesEv@Base 4.96.0
  _ZNK6Plasma16DataEngineScript10dataEngineEv@Base 4.96.0
  _ZNK6Plasma16DataEngineScript10mainScriptEv@Base 4.96.0
  _ZNK6Plasma16DataEngineScript10metaObjectEv@Base 4.96.0
@@ -723,7 +515,6 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma3Svg10metaObjectEv@Base 4.96.0
  _ZNK6Plasma3Svg11elementRectERK7QString@Base 4.96.0
  _ZNK6Plasma3Svg11elementSizeERK7QString@Base 4.96.0
- _ZNK6Plasma3Svg14elementAtPointERK6QPoint@Base 4.96.0
  _ZNK6Plasma3Svg21isUsingRenderingCacheEv@Base 4.96.0
  _ZNK6Plasma3Svg22containsMultipleImagesEv@Base 4.96.0
  _ZNK6Plasma3Svg4sizeEv@Base 4.96.0
@@ -748,11 +539,15 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma5Theme16findInRectsCacheERK7QStringS3_R6QRectF@Base 4.96.0
  _ZNK6Plasma5Theme16visitedLinkColorEv@Base 4.96.0
  _ZNK6Plasma5Theme17useGlobalSettingsEv@Base 4.96.0
+ _ZNK6Plasma5Theme18backgroundContrastEv@Base 4.97.0
  _ZNK6Plasma5Theme18listCachedRectKeysERK7QString@Base 4.96.0
+ _ZNK6Plasma5Theme19backgroundIntensityEv@Base 4.97.0
  _ZNK6Plasma5Theme19viewBackgroundColorEv@Base 4.96.0
+ _ZNK6Plasma5Theme20backgroundSaturationEv@Base 4.97.0
  _ZNK6Plasma5Theme20currentThemeHasImageERK7QString@Base 4.96.0
  _ZNK6Plasma5Theme20wallpaperPathForSizeEii@Base 4.96.0
  _ZNK6Plasma5Theme21buttonBackgroundColorEv@Base 4.96.0
+ _ZNK6Plasma5Theme25backgroundContrastEnabledEv@Base 4.97.0
  _ZNK6Plasma5Theme5colorENS0_9ColorRoleE@Base 4.96.0
  _ZNK6Plasma5Theme5mSizeERK5QFont@Base 4.96.0
  _ZNK6Plasma5Theme9imagePathERK7QString@Base 4.96.0
@@ -829,6 +624,8 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma8FrameSvg10metaObjectEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg12contentsRectEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg14enabledBordersEv@Base 4.96.0
+ _ZNK6Plasma8FrameSvg15fixedMarginSizeENS_5Types10MarginEdgeE@Base 4.97.0
+ _ZNK6Plasma8FrameSvg15getFixedMarginsERdS1_S1_S1_@Base 4.97.0
  _ZNK6Plasma8FrameSvg16hasElementPrefixENS_5Types8LocationE@Base 4.96.0
  _ZNK6Plasma8FrameSvg16hasElementPrefixERK7QString@Base 4.96.0
  _ZNK6Plasma8FrameSvg22cacheAllRenderedFramesEv@Base 4.96.0
@@ -837,20 +634,14 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZNK6Plasma8FrameSvg9frameSizeEv@Base 4.96.0
  _ZTI11QSharedData@Base 4.96.0
  _ZTI16KSharedDataCache@Base 4.96.0
- _ZTIN12ThreadWeaver11QueuePolicyE@Base 4.96.0
- _ZTIN12ThreadWeaver12JobInterfaceE@Base 4.96.0
  _ZTIN6Plasma10DataEngineE@Base 4.96.0
  _ZTIN6Plasma10ServiceJobE@Base 4.96.0
  _ZTIN6Plasma11ContainmentE@Base 4.96.0
  _ZTIN6Plasma12AppletScriptE@Base 4.96.0
  _ZTIN6Plasma12ConfigLoaderE@Base 4.96.0
  _ZTIN6Plasma12PluginLoaderE@Base 4.96.0
- _ZTIN6Plasma12RunnerScriptE@Base 4.96.0
  _ZTIN6Plasma12ScriptEngineE@Base 4.96.0
  _ZTIN6Plasma13DataContainerE@Base 4.96.0
- _ZTIN6Plasma13RunnerContextE@Base 4.96.0
- _ZTIN6Plasma13RunnerManagerE@Base 4.96.0
- _ZTIN6Plasma14AbstractRunnerE@Base 4.96.0
  _ZTIN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTIN6Plasma16PackageStructureE@Base 4.96.0
  _ZTIN6Plasma17DataEngineManagerE@Base 4.96.0
@@ -864,20 +655,14 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZTIN6Plasma8FrameSvgE@Base 4.96.0
  _ZTS11QSharedData@Base 4.96.0
  _ZTS16KSharedDataCache@Base 4.96.0
- _ZTSN12ThreadWeaver11QueuePolicyE@Base 4.96.0
- _ZTSN12ThreadWeaver12JobInterfaceE@Base 4.96.0
  _ZTSN6Plasma10DataEngineE@Base 4.96.0
  _ZTSN6Plasma10ServiceJobE@Base 4.96.0
  _ZTSN6Plasma11ContainmentE@Base 4.96.0
  _ZTSN6Plasma12AppletScriptE@Base 4.96.0
  _ZTSN6Plasma12ConfigLoaderE@Base 4.96.0
  _ZTSN6Plasma12PluginLoaderE@Base 4.96.0
- _ZTSN6Plasma12RunnerScriptE@Base 4.96.0
  _ZTSN6Plasma12ScriptEngineE@Base 4.96.0
  _ZTSN6Plasma13DataContainerE@Base 4.96.0
- _ZTSN6Plasma13RunnerContextE@Base 4.96.0
- _ZTSN6Plasma13RunnerManagerE@Base 4.96.0
- _ZTSN6Plasma14AbstractRunnerE@Base 4.96.0
  _ZTSN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTSN6Plasma16PackageStructureE@Base 4.96.0
  _ZTSN6Plasma17DataEngineManagerE@Base 4.96.0
@@ -889,19 +674,14 @@ libKF5Plasma.so.5 libkf5plasma5-v4.96.0 #MINVER#
  _ZTSN6Plasma6CoronaE@Base 4.96.0
  _ZTSN6Plasma7ServiceE@Base 4.96.0
  _ZTSN6Plasma8FrameSvgE@Base 4.96.0
- _ZTVN12ThreadWeaver11QueuePolicyE@Base 4.96.0
  _ZTVN6Plasma10DataEngineE@Base 4.96.0
  _ZTVN6Plasma10ServiceJobE@Base 4.96.0
  _ZTVN6Plasma11ContainmentE@Base 4.96.0
  _ZTVN6Plasma12AppletScriptE@Base 4.96.0
  _ZTVN6Plasma12ConfigLoaderE@Base 4.96.0
  _ZTVN6Plasma12PluginLoaderE@Base 4.96.0
- _ZTVN6Plasma12RunnerScriptE@Base 4.96.0
  _ZTVN6Plasma12ScriptEngineE@Base 4.96.0
  _ZTVN6Plasma13DataContainerE@Base 4.96.0
- _ZTVN6Plasma13RunnerContextE@Base 4.96.0
- _ZTVN6Plasma13RunnerManagerE@Base 4.96.0
- _ZTVN6Plasma14AbstractRunnerE@Base 4.96.0
  _ZTVN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTVN6Plasma16PackageStructureE@Base 4.96.0
  _ZTVN6Plasma17DataEngineManagerE@Base 4.96.0

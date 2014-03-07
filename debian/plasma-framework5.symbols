@@ -1,0 +1,67 @@
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+kded_platformstatus.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+plasma_appletscript_declarative.so plasma-framework5 #MINVER#
+ _ZTI26QQmlAbstractUrlInterceptor@Base 4.97.0
+ _ZTS26QQmlAbstractUrlInterceptor@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+plasma_dataengine_example_customDataContainers.so plasma-framework5 #MINVER#
+ kde_plugin_version@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+plasma_dataengine_example_simpleEngine.so plasma-framework5 #MINVER#
+ kde_plugin_version@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+plasma_dataengine_example_sourcesOnRequest.so plasma-framework5 #MINVER#
+ kde_plugin_version@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libdirmodelplugin.so plasma-framework5 #MINVER#
+ _ZTI16KSharedDataCache@Base 4.97.0
+ _ZTS16KSharedDataCache@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libdraganddropplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libcalendarplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libplasmacomponentsplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libcorebindingsplugin.so plasma-framework5 #MINVER#
+ _ZN20QSGSimpleTextureNodeD0Ev@Base 4.97.0
+ _ZN20QSGSimpleTextureNodeD1Ev@Base 4.97.0
+ _ZN20QSGSimpleTextureNodeD2Ev@Base 4.97.0
+ _ZTI20QSGSimpleTextureNode@Base 4.97.0
+ _ZTIN6Plasma18DataEngineConsumerE@Base 4.97.0
+ _ZTS20QSGSimpleTextureNode@Base 4.97.0
+ _ZTSN6Plasma18DataEngineConsumerE@Base 4.97.0
+ _ZTV20QSGSimpleTextureNode@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libplasmaextracomponentsplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libplatformcomponentsplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libplasmawidgetexplorerplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+# SymbolsHelper-Confirmed: 4.97.0 amd64
+libqtextracomponentsplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.97.0 amd64 i386
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
@@ -632,6 +632,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma8FrameSvg4maskEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg9alphaMaskEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg9frameSizeEv@Base 4.96.0
+ (optional=templinst|arch=i386)_ZSt4swapIN8QVariant7PrivateEEvRT_S3_@Base 4.97.0
  _ZTI11QSharedData@Base 4.96.0
  _ZTI16KSharedDataCache@Base 4.96.0
  _ZTIN6Plasma10DataEngineE@Base 4.96.0

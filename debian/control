@@ -25,7 +25,7 @@ Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
  libqt5svg5-dev, qtscript5-dev, libkf5archive-dev (>= 4.98.0),
  libkf5wallet-dev (>= 4.98.0), libkf5crash-dev (>= 4.98.0),
  libkf5declarative-dev (>= 4.98.0), libkf5unitconversion-dev (>= 4.98.0),
- libsm-dev, pkg-config
+ libsm-dev, pkg-config, kdoctools-dev (>= 4.98.0), libkf5texteditor-dev (>= 4.98.0)
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
 

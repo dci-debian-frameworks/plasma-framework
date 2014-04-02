@@ -1,5 +1,64 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 kded_platformstatus.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libcalendarplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libcorebindingsplugin.so plasma-framework5 #MINVER#
+ _ZN20QSGSimpleTextureNodeD0Ev@Base 4.97.0
+ _ZN20QSGSimpleTextureNodeD1Ev@Base 4.97.0
+ _ZN20QSGSimpleTextureNodeD2Ev@Base 4.97.0
+ _ZTI20QSGSimpleTextureNode@Base 4.97.0
+ _ZTIN6Plasma18DataEngineConsumerE@Base 4.97.0
+ _ZTS20QSGSimpleTextureNode@Base 4.97.0
+ _ZTSN6Plasma18DataEngineConsumerE@Base 4.97.0
+ _ZTV20QSGSimpleTextureNode@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libdirmodelplugin.so plasma-framework5 #MINVER#
+ _ZTI16KSharedDataCache@Base 4.97.0
+ _ZTS16KSharedDataCache@Base 4.97.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libdraganddropplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libplasmacomponentsplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libplasmaextracomponentsplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libplasmawidgetexplorerplugin.so plasma-framework5 #MINVER#
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libplatformcomponentsplugin.so plasma-framework5 #MINVER#
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4.98.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 4.98.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 4.98.0
+ (optional=templinst)_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 4.98.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv@Base 4.98.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv@Base 4.98.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info@Base 4.98.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED0Ev@Base 4.98.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED1Ev@Base 4.98.0
+ (optional=templinst)_ZNSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EED2Ev@Base 4.98.0
+ (optional=templinst)_ZNSt8weak_ptrI11KIconDialogED1Ev@Base 4.98.0
+ (optional=templinst)_ZNSt8weak_ptrI11KIconDialogED2Ev@Base 4.98.0
+ _ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTISt19_Sp_make_shared_tag@Base 4.98.0
+ _ZTISt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTSSt19_Sp_make_shared_tag@Base 4.98.0
+ _ZTSSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTVSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ _ZTVSt23_Sp_counted_ptr_inplaceI11KIconDialogSaIS0_ELN9__gnu_cxx12_Lock_policyE2EE@Base 4.98.0
+ qt_plugin_instance@Base 4.97.0
+ qt_plugin_query_metadata@Base 4.97.0
+libqtextracomponentsplugin.so plasma-framework5 #MINVER#
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0
 plasma_appletscript_declarative.so plasma-framework5 #MINVER#
@@ -17,51 +76,5 @@ plasma_dataengine_example_simpleEngine.so plasma-framework5 #MINVER#
  qt_plugin_query_metadata@Base 4.97.0
 plasma_dataengine_example_sourcesOnRequest.so plasma-framework5 #MINVER#
  kde_plugin_version@Base 4.97.0
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libdirmodelplugin.so plasma-framework5 #MINVER#
- _ZTI16KSharedDataCache@Base 4.97.0
- _ZTS16KSharedDataCache@Base 4.97.0
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libdraganddropplugin.so plasma-framework5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libcalendarplugin.so plasma-framework5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libplasmacomponentsplugin.so plasma-framework5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libcorebindingsplugin.so plasma-framework5 #MINVER#
- _ZN20QSGSimpleTextureNodeD0Ev@Base 4.97.0
- _ZN20QSGSimpleTextureNodeD1Ev@Base 4.97.0
- _ZN20QSGSimpleTextureNodeD2Ev@Base 4.97.0
- _ZTI20QSGSimpleTextureNode@Base 4.97.0
- _ZTIN6Plasma18DataEngineConsumerE@Base 4.97.0
- _ZTS20QSGSimpleTextureNode@Base 4.97.0
- _ZTSN6Plasma18DataEngineConsumerE@Base 4.97.0
- _ZTV20QSGSimpleTextureNode@Base 4.97.0
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libplasmaextracomponentsplugin.so plasma-framework5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libplatformcomponentsplugin.so plasma-framework5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libplasmawidgetexplorerplugin.so plasma-framework5 #MINVER#
- qt_plugin_instance@Base 4.97.0
- qt_plugin_query_metadata@Base 4.97.0
-# SymbolsHelper-Confirmed: 4.97.0 amd64
-libqtextracomponentsplugin.so plasma-framework5 #MINVER#
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0

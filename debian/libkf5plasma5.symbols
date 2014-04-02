@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64 i386
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
@@ -325,11 +325,13 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Applet13appletDeletedEPS0_@Base 4.96.0
  _ZN6Plasma6Applet13configChangedEv@Base 4.96.0
  _ZN6Plasma6Applet13statusChangedENS_5Types10ItemStatusE@Base 4.96.0
+ _ZN6Plasma6Applet15locationChangedENS_5Types8LocationE@Base 4.98.0
  _ZN6Plasma6Applet15setImmutabilityENS_5Types16ImmutabilityTypeE@Base 4.96.0
  _ZN6Plasma6Applet16constraintsEventE6QFlagsINS_5Types10ConstraintEE@Base 4.96.0
  _ZN6Plasma6Applet16staticMetaObjectE@Base 4.96.0
  _ZN6Plasma6Applet17configNeedsSavingEv@Base 4.96.0
  _ZN6Plasma6Applet17contextualActionsEv@Base 4.96.0
+ _ZN6Plasma6Applet17formFactorChangedENS_5Types10FormFactorE@Base 4.98.0
  _ZN6Plasma6Applet17setGlobalShortcutERK12QKeySequence@Base 4.96.0
  _ZN6Plasma6Applet17updateConstraintsE6QFlagsINS_5Types10ConstraintEE@Base 4.96.0
  _ZN6Plasma6Applet18setUserConfiguringEb@Base 4.96.0
@@ -376,6 +378,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Corona17requireConfigSyncEv@Base 4.96.0
  _ZN6Plasma6Corona18screenOwnerChangedEi@Base 4.96.0
  _ZN6Plasma6Corona19immutabilityChangedENS_5Types16ImmutabilityTypeE@Base 4.96.0
+ _ZN6Plasma6Corona26availableScreenRectChangedEv@Base 4.98.0
  _ZN6Plasma6Corona28availableScreenRegionChangedEv@Base 4.96.0
  _ZN6Plasma6CoronaC1EP7QObject@Base 4.96.0
  _ZN6Plasma6CoronaC2EP7QObject@Base 4.96.0
@@ -590,6 +593,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Corona12containmentsEv@Base 4.96.0
  _ZNK6Plasma6Corona12immutabilityEv@Base 4.96.0
  _ZNK6Plasma6Corona14screenGeometryEi@Base 4.96.0
+ _ZNK6Plasma6Corona19availableScreenRectEi@Base 4.98.0
  _ZNK6Plasma6Corona20containmentForScreenEi@Base 4.96.0
  _ZNK6Plasma6Corona20screenForContainmentEPKNS_11ContainmentE@Base 4.96.0
  _ZNK6Plasma6Corona21availableScreenRegionEi@Base 4.96.0

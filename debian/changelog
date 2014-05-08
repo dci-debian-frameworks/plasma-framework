@@ -1,6 +1,11 @@
 plasma-framework (4.99.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ Scarlett Clark ]
+  * Removed fixperms rule that is no longer needed.
+  * Patched symbols 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:45 +0100
 

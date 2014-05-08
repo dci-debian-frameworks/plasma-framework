@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.98.0 amd64
+# SymbolsHelper-Confirmed: 4.99.0 amd64
 kded_platformstatus.so plasma-framework5 #MINVER#
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0
@@ -78,3 +78,7 @@ plasma_dataengine_example_sourcesOnRequest.so plasma-framework5 #MINVER#
  kde_plugin_version@Base 4.97.0
  qt_plugin_instance@Base 4.97.0
  qt_plugin_query_metadata@Base 4.97.0
+plasma_containmentactions_test.so plasma-framework5 #MINVER#
+ kde_plugin_version@Base 4.99.0
+plasma_engine_testengine.so plasma-framework5 #MINVER#
+ kde_plugin_version@Base 4.99.0

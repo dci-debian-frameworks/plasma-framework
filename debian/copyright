@@ -47,7 +47,7 @@ Copyright: © 2005-2013 Aaron Seigo <aseigo@kde.org>
            © 2010 Davide Bettio <davide.bettio@kdemail.net>
            © 2009 Petri Damstén <damu@iki.fi>
            © 2010 Kevin Ottens <ervin@kde.org>
-           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 	  
+           2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -132,7 +132,7 @@ License: GPL-2
  ** functionality provided by Qt Designer and its related libraries.
  **
  ** Trolltech reserves all rights not expressly granted herein.
- ** 
+ **
  ** Trolltech ASA (c) 2007
  **
  ** This file is provided AS IS with NO WARRANTY OF ANY KIND, INCLUDING THE
@@ -368,7 +368,7 @@ Files: src/declarativeimports/core/tests/sortfiltermodeltest.cpp
        src/plasma/remote/authorizationmanager.h
 Copyright: 2012 Aurélien Gâteau <agateau@kde.org>
            2009 by Rob Scheepmaker <r.scheepmaker@student.utwente.nl>
-           2010 Brian Pritchett <batenkaitos@gmail.com>       
+           2010 Brian Pritchett <batenkaitos@gmail.com>
            2010  Marco Martin <mart@kde.org>
 License: LGPL-2.1+
  * This library is free software; you can redistribute it and/or

@@ -80,6 +80,13 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Plasma Runtime components.
  Plasma library and runtime components based upon KF5 and Qt5.
 
+Package: libkf5plasmaquick5
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Plasma Runtime components.
+ Plasma library and runtime components based upon KF5 and Qt5.
+
 Package: libkf5plasma5
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}

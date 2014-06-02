@@ -1,6 +1,12 @@
 plasma-framework (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream beta release
+
+  [ José Manuel Santamaría Lema ]
+  * Re-add plasma-framework5 missing package after a faulty wrap-and-sort.
+  * Re-add libkf5plasmaquick5 missing package after a faulty wrap-and-sort.
+  * Update paths in plasma-framework5.install.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:16 +0100
 

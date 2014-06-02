@@ -2,6 +2,7 @@ plasma-framework (4.99.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Re-add plasma-framework5 missing package after a faulty wrap-and-sort.
   * Re-add libkf5plasmaquick5 missing package after a faulty wrap-and-sort.
+  * Update paths in plasma-framework5.install.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Mon, 02 Jun 2014 13:46:21 +0200
 

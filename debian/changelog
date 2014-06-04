@@ -18,6 +18,14 @@ plasma-framework (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Fix -dev package dependencies: now depends on the libraries and not
     on plasma-framework5 which contains runtime files.
 
+  [ Harald Sitter ]
+  * Add plasma-framework5.linitan-overrides
+    - binary-without-manpage usr/bin/dpitest
+  * Update libkf5plasma5.symbols for i386
+  * Change plasma-framework5-dbg to depend on libkf5plasma5 and libkf5plasma5
+    instead of the runtime asset package plasma-framework5
+  * Set libkf5plasmaquick5 to multiarch:same (was none) 
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:16 +0100
 
 plasma-framework (4.99.0-0ubuntu1) trusty; urgency=medium

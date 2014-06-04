@@ -84,6 +84,7 @@ Description: Plasma Runtime components.
 
 Package: libkf5plasmaquick5
 Architecture: any
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components.
@@ -100,7 +101,9 @@ Description: Plasma Runtime components.
 Package: plasma-framework5-dbg
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
-Depends: plasma-framework5 (= ${binary:Version}), ${misc:Depends}
+Depends: ${misc:Depends},
+ libkf5plasma5 (= ${binary:Version}),
+ libkf5plasmaquick5 (= ${binary:Version})
 Multi-Arch: same
 Description: debug symbols for kprintutils
  Plasma library and runtime components based upon KF5 and Qt5.

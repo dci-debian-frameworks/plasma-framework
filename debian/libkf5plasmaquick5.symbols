@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -54,6 +54,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick15AppletQuickItem30preferredRepresentationChangedEP13QQmlComponent@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem32compactRepresentationItemChangedEP7QObject@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem4initEv@Base 4.97.0
+ _ZN11PlasmaQuick15AppletQuickItem8rootItemEv@Base 4.100.0
  _ZN11PlasmaQuick15AppletQuickItem9qmlObjectEv@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItemC1EPN6Plasma6AppletEP10QQuickItem@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItemC2EPN6Plasma6AppletEP10QQuickItem@Base 4.97.0
@@ -77,7 +78,6 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick4View16staticMetaObjectE@Base 4.97.0
  _ZN11PlasmaQuick4View17formFactorChangedEN6Plasma5Types10FormFactorE@Base 4.97.0
  _ZN11PlasmaQuick4View18containmentChangedEv@Base 4.97.0
- _ZN11PlasmaQuick4View20coronaPackageChangedERKN6Plasma7PackageE@Base 4.97.0
  _ZN11PlasmaQuick4View21screenGeometryChangedEv@Base 4.97.0
  _ZN11PlasmaQuick4View26showConfigurationInterfaceEPN6Plasma6AppletE@Base 4.97.0
  _ZN11PlasmaQuick4ViewC1EPN6Plasma6CoronaEP7QWindow@Base 4.97.0
@@ -118,6 +118,8 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick6DialogD0Ev@Base 4.98.0
  _ZN11PlasmaQuick6DialogD1Ev@Base 4.98.0
  _ZN11PlasmaQuick6DialogD2Ev@Base 4.98.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN17ShellPluginLoader19internalLoadPackageERK7QStringS2_@Base 4.98.0
  _ZN17ShellPluginLoader4initEv@Base 4.98.0
  _ZN17ShellPluginLoaderC1Ev@Base 4.98.0
@@ -158,6 +160,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZNK11PlasmaQuick6Dialog7marginsEv@Base 4.98.0
  _ZNK11PlasmaQuick6Dialog8locationEv@Base 4.98.0
  _ZNK11PlasmaQuick6Dialog8mainItemEv@Base 4.98.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZTI17ShellPluginLoader@Base 4.98.0
  _ZTI20QSGSimpleTextureNode@Base 4.98.0
  _ZTI26QQmlAbstractUrlInterceptor@Base 4.96.0

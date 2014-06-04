@@ -15,6 +15,8 @@ plasma-framework (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Delete plasma-framework5.symbols since this package doesn't contain
     shared libraries, only plugins.
   * Update symbols files.
+  * Fix -dev package dependencies: now depends on the libraries and not
+    on plasma-framework5 which contains runtime files.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:16 +0100
 

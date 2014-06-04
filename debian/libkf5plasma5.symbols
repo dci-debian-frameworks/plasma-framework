@@ -1,5 +1,7 @@
-# SymbolsHelper-Confirmed: 4.99.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
+ (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -203,8 +205,8 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma16PackageStructureD0Ev@Base 4.96.0
  _ZN6Plasma16PackageStructureD1Ev@Base 4.96.0
  _ZN6Plasma16PackageStructureD2Ev@Base 4.96.0
- _ZN6Plasma16loadScriptEngineERK7QStringPNS_10DataEngineE@Base 4.96.0
- _ZN6Plasma16loadScriptEngineERK7QStringPNS_6AppletE@Base 4.96.0
+ _ZN6Plasma16loadScriptEngineERK7QStringPNS_10DataEngineERK5QListI8QVariantE@Base 4.100.0
+ _ZN6Plasma16loadScriptEngineERK7QStringPNS_6AppletERK5QListI8QVariantE@Base 4.100.0
  _ZN6Plasma17DataEngineManager10loadEngineERK7QString@Base 4.96.0
  _ZN6Plasma17DataEngineManager10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma17DataEngineManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -430,6 +432,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma8FrameSvgD0Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD1Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD2Ev@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK6Plasma10DataEngine10metaObjectEv@Base 4.96.0
  _ZNK6Plasma10DataEngine10pluginInfoEv@Base 4.96.0
  _ZNK6Plasma10DataEngine13connectSourceERK7QStringP7QObjectjNS_5Types17IntervalAlignmentE@Base 4.96.0

@@ -28,6 +28,11 @@ plasma-framework (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
   * Remove incorrect Section fields
+  * Fix descriptions and field oder
+  * Rename plasma-framework5 to plasma-framework in line with other frameworks
+    + Breaks+Replaces previous package
+  * Rename plasma-framewokr5-dbg to plasma-framework-dbg
+    + Breaks+Replaces previous package
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:16 +0100
 

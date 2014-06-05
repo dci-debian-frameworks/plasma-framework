@@ -25,6 +25,8 @@ plasma-framework (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Change plasma-framework5-dbg to depend on libkf5plasma5 and libkf5plasma5
     instead of the runtime asset package plasma-framework5
   * Set libkf5plasmaquick5 to multiarch:same (was none) 
+  * Remove useless Pre-Depends fields used for multiarch compat in
+    releases older than trusty
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:16 +0100
 

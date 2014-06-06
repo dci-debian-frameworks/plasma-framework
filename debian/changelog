@@ -34,6 +34,9 @@ plasma-framework (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename plasma-framewokr5-dbg to plasma-framework-dbg
     + Breaks+Replaces previous package
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on kio-dev instead of kf5-kio-dev.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:46:16 +0100
 
 plasma-framework (4.99.0-0ubuntu1) trusty; urgency=medium

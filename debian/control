@@ -71,7 +71,7 @@ Depends: libkf5plasma5 (= ${binary:Version}),
          libkf5plasmaquick5 (= ${binary:Version}),
          ${misc:Depends}
 Description: development files for plasma-framework
- Plasma library and runtime components based upon KF5 and Qt5.
+ Plasma library and runtime components based upon KF5 and Qt 5.
  .
  Contains development files for plasma-framework.
 
@@ -81,14 +81,14 @@ Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: plasma-framework5
 Replaces: plasma-framework5
 Description: Plasma Runtime components
- Plasma library and runtime components based upon KF5 and Qt5.
+ Plasma library and runtime components based upon KF5 and Qt 5.
 
 Package: libkf5plasmaquick5
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components
- Plasma library and runtime components based upon KF5 and Qt5.
+ Plasma library and runtime components based upon KF5 and Qt 5.
 
 Package: libkf5plasma5
 Architecture: any
@@ -108,6 +108,6 @@ Depends: ${misc:Depends},
  libkf5plasma5 (= ${binary:Version}),
  libkf5plasmaquick5 (= ${binary:Version})
 Description: Plasma Runtime components - debug symbols
- Plasma library and runtime components based upon KF5 and Qt5.
+ Plasma library and runtime components based upon KF5 and Qt 5.
  .
  Contains debug symbols for plasma-framework.

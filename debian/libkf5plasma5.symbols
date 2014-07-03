@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64 i386
+# SymbolsHelper-Confirmed: 5.0.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -253,9 +253,12 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma3Svg11sizeChangedEv@Base 4.96.0
  _ZN6Plasma3Svg12setImagePathERK7QString@Base 4.96.0
  _ZN6Plasma3Svg13repaintNeededEv@Base 4.96.0
+ _ZN6Plasma3Svg13setColorGroupENS_5Theme10ColorGroupE@Base 5.0.0
+ _ZN6Plasma3Svg16colorHintChangedEv@Base 5.0.0
  _ZN6Plasma3Svg16devicePixelRatioEv@Base 4.97.0
  _ZN6Plasma3Svg16imagePathChangedEv@Base 4.96.0
  _ZN6Plasma3Svg16staticMetaObjectE@Base 4.96.0
+ _ZN6Plasma3Svg17colorGroupChangedEv@Base 5.0.0
  _ZN6Plasma3Svg19setDevicePixelRatioEd@Base 4.97.0
  _ZN6Plasma3Svg22setUsingRenderingCacheEb@Base 4.96.0
  _ZN6Plasma3Svg25setContainsMultipleImagesEb@Base 4.96.0
@@ -432,6 +435,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma8FrameSvgD0Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD1Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD2Ev@Base 4.96.0
+ (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 5.0.0
  (optional=templinst|arch=i386)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK6Plasma10DataEngine10metaObjectEv@Base 4.96.0
@@ -500,6 +504,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma17DataEngineManager6engineERK7QString@Base 4.96.0
  _ZNK6Plasma18ContainmentActions10metaObjectEv@Base 4.96.0
  _ZNK6Plasma18ContainmentActions10pluginInfoEv@Base 4.96.0
+ _ZNK6Plasma3Svg10colorGroupEv@Base 5.0.0
  _ZNK6Plasma3Svg10hasElementERK7QString@Base 4.96.0
  _ZNK6Plasma3Svg10metaObjectEv@Base 4.96.0
  _ZNK6Plasma3Svg11elementRectERK7QString@Base 4.96.0
@@ -516,33 +521,20 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma5Theme11colorSchemeEv@Base 4.96.0
  _ZNK6Plasma5Theme11defaultFontEv@Base 4.96.0
  _ZNK6Plasma5Theme12smallestFontEv@Base 4.96.0
- _ZNK6Plasma5Theme13viewTextColorEv@Base 4.96.0
  _ZNK6Plasma5Theme13wallpaperPathERK5QSize@Base 4.96.0
  _ZNK6Plasma5Theme14backgroundPathERK7QString@Base 4.99.0
- _ZNK6Plasma5Theme14highlightColorEv@Base 4.96.0
- _ZNK6Plasma5Theme14viewFocusColorEv@Base 4.96.0
- _ZNK6Plasma5Theme14viewHoverColorEv@Base 4.96.0
- _ZNK6Plasma5Theme15backgroundColorEv@Base 4.96.0
- _ZNK6Plasma5Theme15buttonTextColorEv@Base 4.96.0
- _ZNK6Plasma5Theme16buttonFocusColorEv@Base 4.96.0
- _ZNK6Plasma5Theme16buttonHoverColorEv@Base 4.96.0
  _ZNK6Plasma5Theme16findInRectsCacheERK7QStringS3_R6QRectF@Base 4.96.0
- _ZNK6Plasma5Theme16visitedLinkColorEv@Base 4.96.0
  _ZNK6Plasma5Theme17useGlobalSettingsEv@Base 4.96.0
  _ZNK6Plasma5Theme18backgroundContrastEv@Base 4.97.0
  _ZNK6Plasma5Theme18listCachedRectKeysERK7QString@Base 4.96.0
  _ZNK6Plasma5Theme19backgroundIntensityEv@Base 4.97.0
- _ZNK6Plasma5Theme19viewBackgroundColorEv@Base 4.96.0
  _ZNK6Plasma5Theme20backgroundSaturationEv@Base 4.97.0
  _ZNK6Plasma5Theme20currentThemeHasImageERK7QString@Base 4.96.0
  _ZNK6Plasma5Theme20wallpaperPathForSizeEii@Base 4.96.0
- _ZNK6Plasma5Theme21buttonBackgroundColorEv@Base 4.96.0
  _ZNK6Plasma5Theme25backgroundContrastEnabledEv@Base 4.97.0
- _ZNK6Plasma5Theme5colorENS0_9ColorRoleE@Base 4.96.0
+ _ZNK6Plasma5Theme5colorENS0_9ColorRoleENS0_10ColorGroupE@Base 5.0.0
  _ZNK6Plasma5Theme5mSizeERK5QFont@Base 4.96.0
  _ZNK6Plasma5Theme9imagePathERK7QString@Base 4.96.0
- _ZNK6Plasma5Theme9linkColorEv@Base 4.96.0
- _ZNK6Plasma5Theme9textColorEv@Base 4.96.0
  _ZNK6Plasma5Theme9themeNameEv@Base 4.96.0
  _ZNK6Plasma5Types10metaObjectEv@Base 4.96.0
  _ZNK6Plasma6Applet10formFactorEv@Base 4.96.0
@@ -579,7 +571,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Corona10saveLayoutERK7QString@Base 4.96.0
  _ZNK6Plasma6Corona12containmentsEv@Base 4.96.0
  _ZNK6Plasma6Corona12immutabilityEv@Base 4.96.0
- _ZNK6Plasma6Corona14screenGeometryEi@Base 4.96.0
  _ZNK6Plasma6Corona18isStartupCompletedEv@Base 4.99.0
  _ZNK6Plasma6Corona19availableScreenRectEi@Base 4.98.0
  _ZNK6Plasma6Corona20containmentForScreenEi@Base 4.96.0

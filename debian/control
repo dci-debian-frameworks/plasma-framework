@@ -51,7 +51,6 @@ Build-Depends: cmake,
                libxcb-composite0-dev,
                libxcb-damage0-dev,
                libxcb-shape0-dev,
-               openbox,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev,
@@ -80,8 +79,6 @@ Description: development files for plasma-framework
 Package: plasma-framework
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: plasma-framework5
-Replaces: plasma-framework5
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 
@@ -104,8 +101,6 @@ Architecture: any
 Multi-Arch: same
 Section: debug
 Priority: extra
-Breaks: plasma-framework5-dbg
-Replaces: plasma-framework5-dbg
 Depends: ${misc:Depends},
  libkf5plasma5 (= ${binary:Version}),
  libkf5plasmaquick5 (= ${binary:Version})

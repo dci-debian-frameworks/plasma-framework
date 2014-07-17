@@ -1,0 +1,30 @@
+From: Marco Martin <notmart@gmail.com>
+Date: Thu, 17 Jul 2014 10:30:43 +0000
+Subject: packages with Hidden=true metadata are invalid
+X-Git-Url: http://quickgit.kde.org/?p=plasma-framework.git&a=commitdiff&h=9ba599e1b9d66b16a46f2e29b97717d874bc5505
+---
+packages with Hidden=true metadata are invalid
+
+This originates from the request of downstreams to hide packages that are still installed.
+why should be easier than not installing them i don't know, *but* semantically I think it makes sense act as if the package was not existing when the metadata says it's hidden
+
+REVIEW:119329
+---
+
+
+--- a/src/plasma/package.cpp
++++ b/src/plasma/package.cpp
+@@ -78,6 +78,12 @@
+         return false;
+     }
+ 
++    //Minimal packages with no metadata *are* supposed to be possible
++    //so if !metadata().isValid() go ahead
++    if (metadata().isValid() && metadata().isHidden()) {
++        return false;
++    }
++
+     if (d->checkedValid) {
+         return d->valid;
+     }
+

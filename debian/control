@@ -70,6 +70,7 @@ Architecture: any
 Section: libdevel
 Depends: libkf5plasma5 (= ${binary:Version}),
          libkf5plasmaquick5 (= ${binary:Version}),
+         libkf5service-dev,
          ${misc:Depends}
 Description: development files for plasma-framework
  Plasma library and runtime components based upon KF5 and Qt 5.

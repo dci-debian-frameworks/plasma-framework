@@ -1,6 +1,7 @@
 plasma-framework (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Patch symbols with batchpatch. 
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 19:05:13 -0700
 

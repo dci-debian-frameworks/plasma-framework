@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -69,6 +69,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma11Containment21setContainmentActionsERK7QStringS3_@Base 4.96.0
  _ZN6Plasma11Containment22containmentTypeChangedEv@Base 4.96.0
  _ZN6Plasma11Containment23showAddWidgetsInterfaceERK7QPointF@Base 4.96.0
+ _ZN6Plasma11Containment27appletAlternativesRequestedEPNS_6AppletE@Base 5.1.0
  _ZN6Plasma11Containment4initEv@Base 4.96.0
  _ZN6Plasma11Containment7restoreER12KConfigGroup@Base 4.96.0
  _ZN6Plasma11Containment9addAppletEPNS_6AppletE@Base 4.96.0
@@ -81,6 +82,17 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma11ContainmentD0Ev@Base 4.96.0
  _ZN6Plasma11ContainmentD1Ev@Base 4.96.0
  _ZN6Plasma11ContainmentD2Ev@Base 4.96.0
+ _ZN6Plasma11TimeTracker11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.1.0
+ _ZN6Plasma11TimeTracker11qt_metacastEPKc@Base 5.1.0
+ _ZN6Plasma11TimeTracker15propertyChangedEv@Base 5.1.0
+ _ZN6Plasma11TimeTracker16staticMetaObjectE@Base 5.1.0
+ _ZN6Plasma11TimeTracker4initEv@Base 5.1.0
+ _ZN6Plasma11TimeTracker4syncEv@Base 5.1.0
+ _ZN6Plasma11TimeTrackerC1EP7QObject@Base 5.1.0
+ _ZN6Plasma11TimeTrackerC2EP7QObject@Base 5.1.0
+ _ZN6Plasma11TimeTrackerD0Ev@Base 5.1.0
+ _ZN6Plasma11TimeTrackerD1Ev@Base 5.1.0
+ _ZN6Plasma11TimeTrackerD2Ev@Base 5.1.0
  _ZN6Plasma12AppletScript11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma12AppletScript11qt_metacastEPKc@Base 4.96.0
  _ZN6Plasma12AppletScript13configChangedEv@Base 4.96.0
@@ -368,6 +380,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Corona17requireConfigSyncEv@Base 4.96.0
  _ZN6Plasma6Corona18screenOwnerChangedEi@Base 4.96.0
  _ZN6Plasma6Corona19immutabilityChangedENS_5Types16ImmutabilityTypeE@Base 4.96.0
+ _ZN6Plasma6Corona20containmentForScreenEiRK7QStringRK5QListI8QVariantE@Base 5.1.0
  _ZN6Plasma6Corona24createContainmentDelayedERK7QStringRK5QListI8QVariantE@Base 4.99.0
  _ZN6Plasma6Corona26availableScreenRectChangedEv@Base 4.98.0
  _ZN6Plasma6Corona28availableScreenRegionChangedEv@Base 4.96.0
@@ -465,6 +478,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma11Containment8activityEv@Base 4.96.0
  _ZNK6Plasma11Containment9isUiReadyEv@Base 4.96.0
  _ZNK6Plasma11Containment9wallpaperEv@Base 4.96.0
+ _ZNK6Plasma11TimeTracker10metaObjectEv@Base 5.1.0
  _ZNK6Plasma12AppletScript10mainScriptEv@Base 4.96.0
  _ZNK6Plasma12AppletScript10metaObjectEv@Base 4.96.0
  _ZNK6Plasma12AppletScript11descriptionEv@Base 4.96.0
@@ -605,6 +619,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma8FrameSvg10getMarginsERdS1_S1_S1_@Base 4.96.0
  _ZNK6Plasma8FrameSvg10marginSizeENS_5Types10MarginEdgeE@Base 4.96.0
  _ZNK6Plasma8FrameSvg10metaObjectEv@Base 4.96.0
+ _ZNK6Plasma8FrameSvg12actualPrefixEv@Base 5.1.0
  _ZNK6Plasma8FrameSvg12contentsRectEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg14enabledBordersEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg15fixedMarginSizeENS_5Types10MarginEdgeE@Base 4.97.0
@@ -620,6 +635,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTIN6Plasma10DataEngineE@Base 4.96.0
  _ZTIN6Plasma10ServiceJobE@Base 4.96.0
  _ZTIN6Plasma11ContainmentE@Base 4.96.0
+ _ZTIN6Plasma11TimeTrackerE@Base 5.1.0
  _ZTIN6Plasma12AppletScriptE@Base 4.96.0
  _ZTIN6Plasma12PluginLoaderE@Base 4.96.0
  _ZTIN6Plasma12ScriptEngineE@Base 4.96.0
@@ -640,6 +656,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTSN6Plasma10DataEngineE@Base 4.96.0
  _ZTSN6Plasma10ServiceJobE@Base 4.96.0
  _ZTSN6Plasma11ContainmentE@Base 4.96.0
+ _ZTSN6Plasma11TimeTrackerE@Base 5.1.0
  _ZTSN6Plasma12AppletScriptE@Base 4.96.0
  _ZTSN6Plasma12PluginLoaderE@Base 4.96.0
  _ZTSN6Plasma12ScriptEngineE@Base 4.96.0
@@ -658,6 +675,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTVN6Plasma10DataEngineE@Base 4.96.0
  _ZTVN6Plasma10ServiceJobE@Base 4.96.0
  _ZTVN6Plasma11ContainmentE@Base 4.96.0
+ _ZTVN6Plasma11TimeTrackerE@Base 5.1.0
  _ZTVN6Plasma12AppletScriptE@Base 4.96.0
  _ZTVN6Plasma12PluginLoaderE@Base 4.96.0
  _ZTVN6Plasma12ScriptEngineE@Base 4.96.0

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.0.0 amd64
+# SymbolsHelper-Confirmed: 5.1.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0

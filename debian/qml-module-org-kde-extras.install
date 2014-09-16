@@ -1,0 +1,4 @@
+usr/lib/*/qt5/qml/org/kde/plasma/extras/qmldir
+usr/lib/*/qt5/qml/org/kde/plasma/extras/libplasmaextracomponentsplugin.so
+usr/lib/*/qt5/qml/org/kde/plasma/extras/animations/*
+usr/lib/*/qt5/qml/org/kde/plasma/extras/*.qml

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.1.0 amd64
+# SymbolsHelper-Confirmed: 5.2.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -107,7 +107,9 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick6Dialog17outputOnlyChangedEv@Base 4.98.0
  _ZN11PlasmaQuick6Dialog17setFramelessFlagsE6QFlagsIN2Qt10WindowTypeEE@Base 4.98.0
  _ZN11PlasmaQuick6Dialog17windowDeactivatedEv@Base 4.99.0
+ _ZN11PlasmaQuick6Dialog18setBackgroundHintsENS0_15BackgroundHintsE@Base 5.2.0
  _ZN11PlasmaQuick6Dialog19visualParentChangedEv@Base 4.98.0
+ _ZN11PlasmaQuick6Dialog22backgroundHintsChangedEv@Base 5.2.0
  _ZN11PlasmaQuick6Dialog25setHideOnWindowDeactivateEb@Base 4.98.0
  _ZN11PlasmaQuick6Dialog29hideOnWindowDeactivateChangedEv@Base 4.98.0
  _ZN11PlasmaQuick6Dialog5eventEP6QEvent@Base 4.98.0
@@ -156,6 +158,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZNK11PlasmaQuick6Dialog10metaObjectEv@Base 4.98.0
  _ZNK11PlasmaQuick6Dialog12isOutputOnlyEv@Base 4.98.0
  _ZNK11PlasmaQuick6Dialog12visualParentEv@Base 4.98.0
+ _ZNK11PlasmaQuick6Dialog15backgroundHintsEv@Base 5.2.0
  _ZNK11PlasmaQuick6Dialog22hideOnWindowDeactivateEv@Base 4.98.0
  _ZNK11PlasmaQuick6Dialog4typeEv@Base 4.98.0
  _ZNK11PlasmaQuick6Dialog7marginsEv@Base 4.98.0

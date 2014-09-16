@@ -1,0 +1,6 @@
+usr/lib/*/qt5/qml/org/kde/plasma/components/qmldir
+usr/lib/*/qt5/qml/org/kde/plasma/components/*.qml
+usr/lib/*/qt5/qml/org/kde/plasma/components/libplasmacomponentsplugin.so
+usr/lib/*/qt5/qml/org/kde/plasma/components/ButtonGroup.js
+usr/lib/*/qt5/qml/org/kde/plasma/components/private/*
+usr/lib/*/qt5/qml/org/kde/plasma/components/styles/*

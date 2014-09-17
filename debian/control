@@ -101,8 +101,8 @@ Package: qml-module-org-kde-accessdenied
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5plasma5 (<< 5.1.0-0ubuntu1)
-Breaks: libkf5plasma5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
+Breaks: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
 Description: provides integration of QML and KDE frameworks - accessdenied
  Provides QML accessdenied functionality.
  .
@@ -112,8 +112,8 @@ Package: qml-module-org-kde-calendar
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5plasma5 (<< 5.1.0-0ubuntu1)
-Breaks: libkf5plasma5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
+Breaks: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
 Description: provides integration of QML and KDE frameworks - calendar
  Provides QML calendar functionality.
  .
@@ -123,8 +123,8 @@ Package: qml-module-org-kde-components
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5plasma5 (<< 5.1.0-0ubuntu1)
-Breaks: libkf5plasma5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
+Breaks: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
 Description: provides integration of QML and KDE frameworks - components
  Provides QML components functionality.
  .
@@ -134,8 +134,8 @@ Package: qml-module-org-kde-core
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5plasma5 (<< 5.1.0-0ubuntu1)
-Breaks: libkf5plasma5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
+Breaks: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
 Description: provides integration of QML and KDE frameworks - core
  Provides QML core functionality.
  .
@@ -145,8 +145,8 @@ Package: qml-module-org-kde-extras
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5plasma5 (<< 5.1.0-0ubuntu1)
-Breaks: libkf5plasma5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
+Breaks: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
 Description: provides integration of QML and KDE frameworks - extras
  Provides QML extras functionality.
  .
@@ -156,8 +156,8 @@ Package: qml-module-org-kde-platformcomponents
 Architecture: any
 Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Replaces: libkf5plasma5 (<< 5.1.0-0ubuntu1)
-Breaks: libkf5plasma5 (<< 5.1.0-0ubuntu1)
+Replaces: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
+Breaks: libkf5plasma5 (<< 5.1.0+git20140907.0511~0)
 Description: provides integration of QML and KDE frameworks - platformcomponents
  Provides QML platformcomponents functionality.
  .

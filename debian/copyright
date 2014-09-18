@@ -136,7 +136,7 @@ License: GPL-2
 
 Files: src/declarativeimports/plasmacomponents/qml/*
 Copyright: 2011 Nokia Corporation and/or its subsidiary(-ies).
-License: LGPL-2.1
+License: LGPL 2.1 Alternatively, GPL-3
  This file is part of the Qt Components project.
  .
  $QT_BEGIN_LICENSE:LGPL$
@@ -163,7 +163,6 @@ License: LGPL-2.1
  Other Usage
  Alternatively, this file may be used in accordance with the terms and
  conditions contained in a signed written agreement between you and Nokia.
-Comment: Alternatively, GPL-3
 
 Files: examples/kpart/* 
        examples/kpart/appletselector.cpp

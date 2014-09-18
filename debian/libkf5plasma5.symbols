@@ -1,5 +1,5 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
-libKF5Plasma.so.5 libkf5plasma5 #MINVER#, qml-module-org-kde-platformcomponents, qml-module-org-kde-components, qml-module-org-kde-calendar, qml-module-org-kde-accessdenied
+# SymbolsHelper-Confirmed: 5.1.0 amd64
+libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
@@ -394,7 +394,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#, qml-module-org-kde-platformcomponents,
  _ZN6Plasma7Package16removeDefinitionEPKc@Base 4.96.0
  _ZN6Plasma7Package16setServicePrefixERK7QString@Base 4.96.0
  _ZN6Plasma7Package17addFileDefinitionEPKcRK7QStringS5_@Base 4.96.0
- _ZN6Plasma7Package18setFallbackPackageERKS0_@Base 5.2.0
  _ZN6Plasma7Package19setDefaultMimeTypesE11QStringList@Base 4.96.0
  _ZN6Plasma7Package21setAllowExternalPathsEb@Base 4.96.0
  _ZN6Plasma7Package21setDefaultPackageRootERK7QString@Base 4.96.0
@@ -600,8 +599,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#, qml-module-org-kde-platformcomponents,
  _ZNK6Plasma7Package12contentsHashEv@Base 4.96.0
  _ZNK6Plasma7Package13requiredFilesEv@Base 4.96.0
  _ZNK6Plasma7Package13servicePrefixEv@Base 4.96.0
- _ZNK6Plasma7Package15fallbackPackageEv@Base 5.2.0
- _ZNK6Plasma7Package17hasValidStructureEv@Base 5.2.0
  _ZNK6Plasma7Package18allowExternalPathsEv@Base 4.96.0
  _ZNK6Plasma7Package18defaultPackageRootEv@Base 4.96.0
  _ZNK6Plasma7Package19contentsPrefixPathsEv@Base 4.96.0

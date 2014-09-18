@@ -1,14 +1,7 @@
 plasma-framework (5.2.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Jonathan Riddell ]
   * New upstream release
   * Use pkg-kde-tools version 3 scripts
-
-  [ Scarlett Clark ]
-  * Split out QML into packages. 
-  * Move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error.
-  * Fix breaks-replace version on QML packages. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Thu, 11 Sep 2014 20:51:31 +0000
 

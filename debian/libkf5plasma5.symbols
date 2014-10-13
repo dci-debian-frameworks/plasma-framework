@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0+git20141013 i386
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -273,6 +273,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma3Svg17colorGroupChangedEv@Base 5.0.0
  _ZN6Plasma3Svg19setDevicePixelRatioEd@Base 4.97.0
  _ZN6Plasma3Svg22setUsingRenderingCacheEb@Base 4.96.0
+ _ZN6Plasma3Svg23fromCurrentThemeChangedEb@Base 5.3.0+git20141013
  _ZN6Plasma3Svg25setContainsMultipleImagesEb@Base 4.96.0
  _ZN6Plasma3Svg5imageERK5QSizeRK7QString@Base 4.97.0
  _ZN6Plasma3Svg5paintEP8QPainterRK6QRectFRK7QString@Base 4.96.0
@@ -524,6 +525,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma3Svg10metaObjectEv@Base 4.96.0
  _ZNK6Plasma3Svg11elementRectERK7QString@Base 4.96.0
  _ZNK6Plasma3Svg11elementSizeERK7QString@Base 4.96.0
+ _ZNK6Plasma3Svg16fromCurrentThemeEv@Base 5.3.0+git20141013
  _ZNK6Plasma3Svg21isUsingRenderingCacheEv@Base 4.96.0
  _ZNK6Plasma3Svg22containsMultipleImagesEv@Base 4.96.0
  _ZNK6Plasma3Svg4sizeEv@Base 4.96.0

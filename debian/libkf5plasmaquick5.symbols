@@ -123,7 +123,6 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick6DialogD0Ev@Base 4.98.0
  _ZN11PlasmaQuick6DialogD1Ev@Base 4.98.0
  _ZN11PlasmaQuick6DialogD2Ev@Base 4.98.0
-#MISSING: 5.0.0# (optional=templinst)_ZN12KConfigGroup10writeEntryIdEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN17ShellPluginLoader19internalLoadPackageERK7QStringS2_@Base 4.98.0
  _ZN17ShellPluginLoader4initEv@Base 4.98.0

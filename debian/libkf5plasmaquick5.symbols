@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.2.0+git20141003 i386
+# SymbolsHelper-Confirmed: 5.3.0+git20141016.0942 amd64 i386
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -131,6 +131,9 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN17ShellPluginLoaderD0Ev@Base 4.98.0
  _ZN17ShellPluginLoaderD1Ev@Base 4.98.0
  _ZN17ShellPluginLoaderD2Ev@Base 4.98.0
+ _ZN18ManagedTextureNodeD0Ev@Base 5.3.0+git20141016.0942
+ _ZN18ManagedTextureNodeD1Ev@Base 5.3.0+git20141016.0942
+ _ZN18ManagedTextureNodeD2Ev@Base 5.3.0+git20141016.0942
  _ZN20QSGSimpleTextureNodeD0Ev@Base 4.98.0
  _ZN20QSGSimpleTextureNodeD1Ev@Base 4.98.0
  _ZN20QSGSimpleTextureNodeD2Ev@Base 4.98.0
@@ -168,6 +171,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZNK11PlasmaQuick6Dialog9isVisibleEv@Base 5.2.0+git20141003
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZTI17ShellPluginLoader@Base 4.98.0
+ _ZTI18ManagedTextureNode@Base 5.3.0+git20141016.0942
  _ZTI20QSGSimpleTextureNode@Base 4.98.0
  _ZTI26QQmlAbstractUrlInterceptor@Base 4.96.0
  _ZTIN11PlasmaQuick10ConfigViewE@Base 4.97.0
@@ -177,6 +181,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTIN11PlasmaQuick4ViewE@Base 4.97.0
  _ZTIN11PlasmaQuick6DialogE@Base 4.98.0
  _ZTS17ShellPluginLoader@Base 4.98.0
+ _ZTS18ManagedTextureNode@Base 5.3.0+git20141016.0942
  _ZTS20QSGSimpleTextureNode@Base 4.98.0
  _ZTS26QQmlAbstractUrlInterceptor@Base 4.96.0
  _ZTSN11PlasmaQuick10ConfigViewE@Base 4.97.0
@@ -186,6 +191,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTSN11PlasmaQuick4ViewE@Base 4.97.0
  _ZTSN11PlasmaQuick6DialogE@Base 4.98.0
  _ZTV17ShellPluginLoader@Base 4.98.0
+ _ZTV18ManagedTextureNode@Base 5.3.0+git20141016.0942
  _ZTV20QSGSimpleTextureNode@Base 4.98.0
  _ZTV26QQmlAbstractUrlInterceptor@Base 4.96.0
  _ZTVN11PlasmaQuick10ConfigViewE@Base 4.97.0

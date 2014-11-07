@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.3.0+git20141101.0456 amd64 i386
+# SymbolsHelper-Confirmed: 5.4.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -330,7 +330,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Applet15locationChangedENS_5Types8LocationE@Base 4.98.0
  _ZN6Plasma6Applet15setImmutabilityENS_5Types16ImmutabilityTypeE@Base 4.96.0
  _ZN6Plasma6Applet16constraintsEventE6QFlagsINS_5Types10ConstraintEE@Base 4.96.0
- _ZN6Plasma6Applet16destroyedChangedEb@Base 5.3.0+git20141101.0456
  _ZN6Plasma6Applet16staticMetaObjectE@Base 4.96.0
  _ZN6Plasma6Applet17configNeedsSavingEv@Base 4.96.0
  _ZN6Plasma6Applet17contextualActionsEv@Base 4.96.0

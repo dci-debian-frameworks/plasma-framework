@@ -8,6 +8,19 @@ plasma-framework (5.4.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:40:15 +0100
 
+plasma-framework (5.4.0-0ubuntu1~ubuntu15.04~ppa2) vivid; urgency=medium
+
+  * Batchpatch symbols. Removed Plasma::Applet::destroyedChanged(bool)
+    which was inserted by the CI system and should not be in this release.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 05 Nov 2014 23:37:27 +0000
+
+plasma-framework (5.4.0-0ubuntu1~ubuntu15.04~ppa1) vivid; urgency=medium
+
+  * New upstream release
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Nov 2014 18:40:15 +0100
+
 plasma-framework (5.3.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release

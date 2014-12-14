@@ -2,4 +2,3 @@ usr/bin/*
 usr/lib/*/qt5/plugins/*
 usr/lib/*/qt5/qml/*
 usr/share/*
-usr/lib/*/qt5/platformqml/touch/org/kde/plasma/

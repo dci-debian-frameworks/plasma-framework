@@ -65,11 +65,11 @@ License: GPL-2+
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
-Files: examples/dataengines/customDataContainers/* 
+Files: examples/dataengines/customDataContainers/*
        examples/dataengines/dataEngineTracker/*
-       examples/dataengines/simpleEngine/* 
-       examples/dataengines/sourcesOnRequest/* 
-       examples/runner/* 
+       examples/dataengines/simpleEngine/*
+       examples/dataengines/sourcesOnRequest/*
+       examples/runner/*
        src/declarativeimports/plasmacomponents/qrangemodel.cpp
        src/declarativeimports/plasmacomponents/qrangemodel.h
        src/declarativeimports/plasmacomponents/qml/private/* excluding:
@@ -165,7 +165,7 @@ License: LGPL-2.1
  conditions contained in a signed written agreement between you and Nokia.
 Comment: Alternatively, GPL-3
 
-Files: examples/kpart/* 
+Files: examples/kpart/*
        examples/kpart/appletselector.cpp
        examples/kpart/appletselector.h
        src/declarativeimports/core/dataenginebindings.cpp
@@ -199,7 +199,7 @@ License: LGPL-2
 
 Files: examples/kpart/appletselector.cpp
        examples/kpart/appletselector.h
-       src/declarativeimports/core/* 
+       src/declarativeimports/core/*
        src/declarativeimports/core/dataenginebindings.cpp
        src/declarativeimports/core/dataenginebindings_p.h
        src/declarativeimports/core/dialog.cpp
@@ -217,17 +217,17 @@ Files: examples/kpart/appletselector.cpp
        src/declarativeimports/core/units.h
        src/declarativeimports/dirmodel/dirmodelplugin.cpp
        src/declarativeimports/dirmodel/dirmodelplugin.h
-       src/declarativeimports/krunnermodel/* 
+       src/declarativeimports/krunnermodel/*
        src/declarativeimports/plasmacomponents/enums.cpp
        src/declarativeimports/plasmacomponents/enums.h
        src/declarativeimports/plasmacomponents/plasmacomponentsplugin.cpp
        src/declarativeimports/plasmacomponents/plasmacomponentsplugin.h
        src/declarativeimports/plasmacomponents/platformcomponents/touch/private/*
        src/declarativeimports/plasmacomponents/qml/private/Config.js
-       src/declarativeimports/plasmaextracomponents/* 
+       src/declarativeimports/plasmaextracomponents/*
        src/declarativeimports/platformcomponents/utils/* excluding:
         -src/declarativeimports/platformcomponents/utils/sharedsingleton.h
-       src/declarativeimports/qtextracomponents/* 
+       src/declarativeimports/qtextracomponents/*
        src/declarativeimports/qtextracomponents/qiconitem.h
        src/declarativeimports/qtextracomponents/qimageitem.h
        src/declarativeimports/qtextracomponents/qpixmapitem.h
@@ -238,7 +238,7 @@ Files: examples/kpart/appletselector.cpp
         -src/kpart/scripting/backportglobal.h
         -src/kpart/scripting/rect.cpp
        src/plasma/*
-       src/plasma/autotests/* 
+       src/plasma/autotests/*
        src/plasma/private/* excluding:
         -src/plasma/private/authorizationmanager_p.h
         -src/plasma/private/package_p.h
@@ -252,14 +252,14 @@ Files: examples/kpart/appletselector.cpp
        src/plasma/tests/dpi/dpitest.h
        src/plasma/tests/kplugins/plugintest.cpp
        src/plasma/tests/kplugins/plugintest.h
-       src/plasma/tests/testcontainmentactionsplugin/* 
+       src/plasma/tests/testcontainmentactionsplugin/*
        src/plasmapkg/plasmapkg.cpp
        src/plasmapkg/plasmapkg.h
-       src/plasmaquick/* 
-       src/plasmaquick/autotests/* 
+       src/plasmaquick/*
+       src/plasmaquick/autotests/*
        src/plasmaquick/private/*
-       src/scriptengines/python/* 
-       src/scriptengines/qml/plasmoid/*      
+       src/scriptengines/python/*
+       src/scriptengines/qml/plasmoid/*
 Copyright: © 2005-2013 Aaron Seigo <aseigo@kde.org>
            © 2008-2011, 2011, 2012-2014 Marco Martin <mart@kde.org> <notmart@gmail.com> <notmart@kde.org>
            © 2011-2014 Sebastian Kügler <sebas@kde.org>
@@ -320,7 +320,7 @@ License: LGPL-2+
 
 Files: src/declarativeimports/core/tests/sortfiltermodeltest.cpp
        src/declarativeimports/core/tests/sortfiltermodeltest.h
-       src/declarativeimports/qtextracomponents/tests/* 
+       src/declarativeimports/qtextracomponents/tests/*
        src/plasma/private/authorizationmanager_p.h
        src/plasma/private/storage.cpp
        src/plasma/private/storage_p.h
@@ -346,7 +346,7 @@ License: LGPL-2.1+
  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  02110-1301  USA
 
-Files: src/declarativeimports/draganddrop/*        
+Files: src/declarativeimports/draganddrop/*
 Copyright: 2010 by BetterInbox <contact@betterinbox.com>
            Gregory Schlomoff <greg@betterinbox.com>
            2014 by David Edmundson <davidedmundson@kde.org>

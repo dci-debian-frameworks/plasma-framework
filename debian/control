@@ -101,9 +101,9 @@ Architecture: any
 Multi-Arch: same
 Section: debug
 Priority: extra
-Depends: ${misc:Depends},
- libkf5plasma5 (= ${binary:Version}),
- libkf5plasmaquick5 (= ${binary:Version})
+Depends: libkf5plasma5 (= ${binary:Version}),
+         libkf5plasmaquick5 (= ${binary:Version}),
+         ${misc:Depends}
 Description: Plasma Runtime components - debug symbols
  Plasma library and runtime components based upon KF5 and Qt 5.
  .

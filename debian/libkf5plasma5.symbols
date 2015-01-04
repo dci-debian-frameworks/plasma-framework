@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.4.0+git20141112.1353+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.5.0+git20150104.1955+15.04 amd64 i386
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -368,10 +368,12 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Corona10setPackageERKNS_7PackageE@Base 4.96.0
  _ZN6Plasma6Corona11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma6Corona11qt_metacastEPKc@Base 4.96.0
+ _ZN6Plasma6Corona11setKPackageERKN8KPackage7PackageE@Base 5.5.0+git20150104.1955+15.04
  _ZN6Plasma6Corona12configSyncedEv@Base 4.96.0
  _ZN6Plasma6Corona12exportLayoutER12KConfigGroup5QListIPNS_11ContainmentEE@Base 4.96.0
  _ZN6Plasma6Corona12importLayoutERK12KConfigGroup@Base 4.96.0
  _ZN6Plasma6Corona14packageChangedERKNS_7PackageE@Base 4.96.0
+ _ZN6Plasma6Corona15kPackageChangedERKN8KPackage7PackageE@Base 5.5.0+git20150104.1955+15.04
  _ZN6Plasma6Corona15setImmutabilityENS_5Types16ImmutabilityTypeE@Base 4.96.0
  _ZN6Plasma6Corona16containmentAddedEPNS_11ContainmentE@Base 4.96.0
  _ZN6Plasma6Corona16startupCompletedEv@Base 4.99.0
@@ -580,6 +582,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Applet6statusEv@Base 4.96.0
  _ZNK6Plasma6Applet7actionsEv@Base 4.96.0
  _ZNK6Plasma6Applet7packageEv@Base 4.96.0
+ _ZNK6Plasma6Applet8kPackageEv@Base 5.5.0+git20150104.1955+15.04
  _ZNK6Plasma6Applet8locationEv@Base 4.96.0
  _ZNK6Plasma6Applet8setTitleERK7QString@Base 4.96.0
  _ZNK6Plasma6Applet9destroyedEv@Base 4.96.0
@@ -597,6 +600,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Corona6configEv@Base 4.96.0
  _ZNK6Plasma6Corona7actionsEv@Base 4.96.0
  _ZNK6Plasma6Corona7packageEv@Base 4.96.0
+ _ZNK6Plasma6Corona8kPackageEv@Base 5.5.0+git20150104.1955+15.04
  _ZNK6Plasma6Corona9freeEdgesEi@Base 4.96.0
  _ZNK6Plasma7Package10isRequiredEPKc@Base 4.96.0
  _ZNK6Plasma7Package11directoriesEv@Base 4.96.0

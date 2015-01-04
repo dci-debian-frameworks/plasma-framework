@@ -68,7 +68,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/plasma-framework.git
 Package: plasma-framework-dev
 Architecture: any
 Section: libdevel
-Depends: libkf5plasma5 (= ${binary:Version}),
+Depends: libkf5package-dev,
+         libkf5plasma5 (= ${binary:Version}),
          libkf5plasmaquick5 (= ${binary:Version}),
          libkf5service-dev,
          ${misc:Depends}

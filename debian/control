@@ -48,6 +48,7 @@ Build-Depends: cmake (>= 2.8.12),
                xauth,
                xvfb
 Standards-Version: 3.9.6
+XS-Testsuite: autopkgtest
 Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/plasma-framework.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/plasma-framework.git

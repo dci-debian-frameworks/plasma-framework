@@ -22,6 +22,5 @@ usr/share/kservicetypes5/plasma-service.desktop
 usr/share/kservicetypes5/plasma-shell.desktop
 usr/share/kservicetypes5/plasma-wallpaper.desktop
 usr/share/locale/*/*/libplasma5.mo
-usr/share/locale/*/*/libplasma5.js
-usr/share/locale/*/*/plasmoids.js
+usr/share/locale/*/*/libplasma5/
 usr/share/plasma/

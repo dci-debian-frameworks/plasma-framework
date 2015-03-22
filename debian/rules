@@ -7,4 +7,5 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=plasma-framework-dbg
 
 override_dh_auto_test:
-	xvfb-run -a $(overridden_command)
+	# Disable dh_auto_test at build time
+	:

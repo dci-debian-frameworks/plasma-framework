@@ -1,4 +1,3 @@
-usr/bin/dpitest
 usr/bin/plasmapkg2
 usr/lib/*/qt5/plugins/kf5/kded/platformstatus.so
 usr/lib/*/qt5/plugins/plasma_appletscript_declarative.so

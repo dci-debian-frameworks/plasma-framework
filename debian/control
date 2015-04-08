@@ -80,7 +80,10 @@ Description: development files for plasma-framework
 
 Package: plasma-framework
 Architecture: any
-Depends: qml-module-qtquick-controls, ${misc:Depends}, ${shlibs:Depends}
+Depends: qml-module-org-kde-kquickcontrols,
+         qml-module-qtquick-controls,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 

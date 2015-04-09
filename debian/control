@@ -81,6 +81,7 @@ Description: development files for plasma-framework
 Package: plasma-framework
 Architecture: any
 Depends: qml-module-org-kde-kquickcontrols,
+         qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-controls,
          ${misc:Depends},
          ${shlibs:Depends}

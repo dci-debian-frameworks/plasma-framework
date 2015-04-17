@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 amd64
+# SymbolsHelper-Confirmed: 5.7.0+git20150228.0151+15.04 amd64 i386
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -19,7 +19,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick11ConfigModel11qt_metacastEPKc@Base 4.97.0
  _ZN11PlasmaQuick11ConfigModel12countChangedEv@Base 4.97.0
  _ZN11PlasmaQuick11ConfigModel14appendCategoryERK7QStringS3_S3_S3_@Base 4.97.0
- _ZN11PlasmaQuick11ConfigModel14appendCategoryERK7QStringS3_S3_S3_b@Base 5.8.0
+ _ZN11PlasmaQuick11ConfigModel14appendCategoryERK7QStringS3_S3_S3_b@Base 5.7.0+git20150228.0151+15.04
  _ZN11PlasmaQuick11ConfigModel16staticMetaObjectE@Base 4.97.0
  _ZN11PlasmaQuick11ConfigModel5clearEv@Base 4.97.0
  _ZN11PlasmaQuick11ConfigModel9setAppletEPN6Plasma6AppletE@Base 4.97.0

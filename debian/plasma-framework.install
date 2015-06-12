@@ -1,6 +1,6 @@
 usr/bin/plasmapkg2
 usr/lib/*/qt5/plugins/kf5/kded/platformstatus.so
-usr/lib/*/qt5/plugins/plasma_appletscript_declarative.so
+usr/lib/*/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so
 usr/lib/*/qt5/plugins/plasma_engine_testengine.so
 usr/lib/*/qt5/qml/QtQuick/Controls/Styles/Plasma/
 usr/lib/*/qt5/qml/org/kde/plasma/

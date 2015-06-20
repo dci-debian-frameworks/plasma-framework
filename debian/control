@@ -60,6 +60,8 @@ Depends: libkf5package-dev (>= 5.10.0),
          libkf5plasmaquick5 (= ${binary:Version}),
          libkf5service-dev (>= 5.10.0),
          ${misc:Depends}
+Replaces: plasma-framework (<= 5.9.0+git20150516.1328+15.04-0)
+Breaks: plasma-framework (<= 5.9.0+git20150516.1328+15.04-0)
 Description: development files for plasma-framework
  Plasma library and runtime components based upon KF5 and Qt 5.
  .

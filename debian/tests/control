@@ -1,5 +1,5 @@
 Tests: testsuite
-Depends: @, debhelper, cmake, xvfb, dbus-x11, libqt5sql5-sqlite,
+Depends: @, debhelper, cmake, xvfb, xauth, dbus-x11, libqt5sql5-sqlite,
          libkf5globalaccel-bin, libkf5service-bin, oxygen-icon-theme,
          qml-module-qtquick2, libgl1-mesa-swx11, libgl1-mesa-swx11-dev
 Restrictions: build-needed

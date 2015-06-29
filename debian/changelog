@@ -1,3 +1,10 @@
+plasma-framework (5.11.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 10:02:07 +0200
+
 plasma-framework (5.10.0-0ubuntu1) wily; urgency=medium
 
   [ Maximiliano Curia ]

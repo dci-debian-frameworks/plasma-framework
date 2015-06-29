@@ -1,7 +1,8 @@
-# SymbolsHelper-Confirmed: 5.8.0+git20150317.1235+15.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.11.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN14KPluginFactory6createIN6Plasma6AppletEEEPT_P7QObjectRK5QListI8QVariantE@Base 5.11.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -642,6 +643,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma8FrameSvg4maskEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg9alphaMaskEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg9frameSizeEv@Base 4.96.0
+ (optional=templinst)_ZNK8KService14createInstanceIN6Plasma18ContainmentActionsEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 5.11.0
  _ZTI11QSharedData@Base 4.96.0
  _ZTI16KSharedDataCache@Base 4.96.0
  _ZTIN6Plasma10DataEngineE@Base 4.96.0

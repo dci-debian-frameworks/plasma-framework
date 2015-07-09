@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -63,6 +63,22 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick15AppletQuickItemD0Ev@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItemD1Ev@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItemD2Ev@Base 4.97.0
+ _ZN11PlasmaQuick15ContainmentView11qt_metacallEN11QMetaObject4CallEiPPv@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView11qt_metacastEPKc@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView11setLocationEN6Plasma5Types8LocationE@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView14screenGeometryEv@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView14setContainmentEPN6Plasma11ContainmentE@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView15locationChangedEN6Plasma5Types8LocationE@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView16staticMetaObjectE@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView17formFactorChangedEN6Plasma5Types10FormFactorE@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView18containmentChangedEv@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView21screenGeometryChangedEv@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentView26showConfigurationInterfaceEPN6Plasma6AppletE@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentViewC1EPN6Plasma6CoronaEP7QWindow@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentViewC2EPN6Plasma6CoronaEP7QWindow@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentViewD0Ev@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentViewD1Ev@Base 5.12.0
+ _ZN11PlasmaQuick15ContainmentViewD2Ev@Base 5.12.0
  _ZN11PlasmaQuick21PackageUrlInterceptor14addAllowedPathERK7QString@Base 4.97.0
  _ZN11PlasmaQuick21PackageUrlInterceptor17removeAllowedPathERK7QString@Base 4.97.0
  _ZN11PlasmaQuick21PackageUrlInterceptor9interceptERK4QUrlN26QQmlAbstractUrlInterceptor8DataTypeE@Base 4.97.0
@@ -153,6 +169,12 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZNK11PlasmaQuick15AppletQuickItem13appletPackageEv@Base 4.97.0
  _ZNK11PlasmaQuick15AppletQuickItem13coronaPackageEv@Base 4.97.0
  _ZNK11PlasmaQuick15AppletQuickItem6appletEv@Base 4.97.0
+ _ZNK11PlasmaQuick15ContainmentView10formFactorEv@Base 5.12.0
+ _ZNK11PlasmaQuick15ContainmentView10metaObjectEv@Base 5.12.0
+ _ZNK11PlasmaQuick15ContainmentView11containmentEv@Base 5.12.0
+ _ZNK11PlasmaQuick15ContainmentView6configEv@Base 5.12.0
+ _ZNK11PlasmaQuick15ContainmentView6coronaEv@Base 5.12.0
+ _ZNK11PlasmaQuick15ContainmentView8locationEv@Base 5.12.0
  _ZNK11PlasmaQuick21PackageUrlInterceptor12allowedPathsEv@Base 4.97.0
  _ZNK11PlasmaQuick4View10formFactorEv@Base 4.97.0
  _ZNK11PlasmaQuick4View10metaObjectEv@Base 4.97.0
@@ -178,6 +200,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTIN11PlasmaQuick10ConfigViewE@Base 4.97.0
  _ZTIN11PlasmaQuick11ConfigModelE@Base 4.97.0
  _ZTIN11PlasmaQuick15AppletQuickItemE@Base 4.97.0
+ _ZTIN11PlasmaQuick15ContainmentViewE@Base 5.12.0
  _ZTIN11PlasmaQuick21PackageUrlInterceptorE@Base 4.97.0
  _ZTIN11PlasmaQuick4ViewE@Base 4.97.0
  _ZTIN11PlasmaQuick6DialogE@Base 4.98.0
@@ -188,6 +211,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTSN11PlasmaQuick10ConfigViewE@Base 4.97.0
  _ZTSN11PlasmaQuick11ConfigModelE@Base 4.97.0
  _ZTSN11PlasmaQuick15AppletQuickItemE@Base 4.97.0
+ _ZTSN11PlasmaQuick15ContainmentViewE@Base 5.12.0
  _ZTSN11PlasmaQuick21PackageUrlInterceptorE@Base 4.97.0
  _ZTSN11PlasmaQuick4ViewE@Base 4.97.0
  _ZTSN11PlasmaQuick6DialogE@Base 4.98.0
@@ -198,6 +222,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTVN11PlasmaQuick10ConfigViewE@Base 4.97.0
  _ZTVN11PlasmaQuick11ConfigModelE@Base 4.97.0
  _ZTVN11PlasmaQuick15AppletQuickItemE@Base 4.97.0
+ _ZTVN11PlasmaQuick15ContainmentViewE@Base 5.12.0
  _ZTVN11PlasmaQuick21PackageUrlInterceptorE@Base 4.97.0
  _ZTVN11PlasmaQuick4ViewE@Base 4.97.0
  _ZTVN11PlasmaQuick6DialogE@Base 4.98.0
@@ -211,6 +236,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZZZN11PlasmaQuick21PackageUrlInterceptor13prefixForTypeEN26QQmlAbstractUrlInterceptor8DataTypeERK7QStringENKUlvE_clEvE15qstring_literal@Base 4.97.0
  (c++)"non-virtual thunk to PlasmaQuick::AppletQuickItem::~AppletQuickItem()@Base" 4.97.0
  (c++)"non-virtual thunk to PlasmaQuick::ConfigView::~ConfigView()@Base" 4.97.0
+ (c++)"non-virtual thunk to PlasmaQuick::ContainmentView::~ContainmentView()@Base" 5.12.0
  (c++)"non-virtual thunk to PlasmaQuick::Dialog::classBegin()@Base" 4.98.0
  (c++)"non-virtual thunk to PlasmaQuick::Dialog::componentComplete()@Base" 4.98.0
  (c++)"non-virtual thunk to PlasmaQuick::Dialog::~Dialog()@Base" 4.98.0

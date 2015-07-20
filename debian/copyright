@@ -126,7 +126,7 @@ Files: COPYING
        src/plasmaquick/shellpluginloader.h
        src/plasmaquick/view.cpp
        src/plasmaquick/view.h
-       src/tools/inkscape\ extensions/plasmarename.py
+       src/tools/inkscape extensions/plasmarename.py
        tests/dialog.qml
        tests/dialog_fullscreen.qml
        tests/dialog_minWidthHeightRepositioning.qml

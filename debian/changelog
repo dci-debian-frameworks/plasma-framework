@@ -1,7 +1,13 @@
 plasma-framework (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
   * Fix merge.
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols file:
+    - Mark as optional the symbols gone after building with GCC 5
+    - Add new symbols
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:31:14 -0700
 

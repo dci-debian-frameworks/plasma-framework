@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.12.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0+git20150919.0128 amd64 i386
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -148,12 +148,6 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN17ShellPluginLoaderD0Ev@Base 4.98.0
  _ZN17ShellPluginLoaderD1Ev@Base 4.98.0
  _ZN17ShellPluginLoaderD2Ev@Base 4.98.0
- (optional)_ZN18ManagedTextureNodeD0Ev@Base 5.3.0+git20141016.0942
- (optional)_ZN18ManagedTextureNodeD1Ev@Base 5.3.0+git20141016.0942
- (optional)_ZN18ManagedTextureNodeD2Ev@Base 5.3.0+git20141016.0942
- (optional=gccinternal|arch=!amd64)_ZN20QSGSimpleTextureNodeD0Ev@Base 5.6.0
- (optional=gccinternal|arch=!amd64)_ZN20QSGSimpleTextureNodeD1Ev@Base 5.6.0
- (optional=gccinternal|arch=!amd64)_ZN20QSGSimpleTextureNodeD2Ev@Base 5.6.0
  _ZNK11PlasmaQuick10ConfigView10metaObjectEv@Base 4.97.0
  _ZNK11PlasmaQuick10ConfigView11configModelEv@Base 4.97.0
  _ZNK11PlasmaQuick10ConfigView20appletGlobalShortcutEv@Base 4.97.0
@@ -195,7 +189,6 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZTI17ShellPluginLoader@Base 4.98.0
  _ZTI18ManagedTextureNode@Base 5.3.0+git20141016.0942
- (optional=gccinternal|arch=!amd64)_ZTI20QSGSimpleTextureNode@Base 5.6.0
  _ZTI26QQmlAbstractUrlInterceptor@Base 4.96.0
  _ZTIN11PlasmaQuick10ConfigViewE@Base 4.97.0
  _ZTIN11PlasmaQuick11ConfigModelE@Base 4.97.0
@@ -206,7 +199,6 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTIN11PlasmaQuick6DialogE@Base 4.98.0
  _ZTS17ShellPluginLoader@Base 4.98.0
  _ZTS18ManagedTextureNode@Base 5.3.0+git20141016.0942
- (optional=gccinternal|arch=!amd64)_ZTS20QSGSimpleTextureNode@Base 5.6.0
  _ZTS26QQmlAbstractUrlInterceptor@Base 4.96.0
  _ZTSN11PlasmaQuick10ConfigViewE@Base 4.97.0
  _ZTSN11PlasmaQuick11ConfigModelE@Base 4.97.0
@@ -217,8 +209,6 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZTSN11PlasmaQuick6DialogE@Base 4.98.0
  _ZTV17ShellPluginLoader@Base 4.98.0
  _ZTV18ManagedTextureNode@Base 5.3.0+git20141016.0942
- (optional=gccinternal|arch=!amd64)_ZTV20QSGSimpleTextureNode@Base 5.6.0
- (optional)_ZTV26QQmlAbstractUrlInterceptor@Base 4.96.0
  _ZTVN11PlasmaQuick10ConfigViewE@Base 4.97.0
  _ZTVN11PlasmaQuick11ConfigModelE@Base 4.97.0
  _ZTVN11PlasmaQuick15AppletQuickItemE@Base 4.97.0

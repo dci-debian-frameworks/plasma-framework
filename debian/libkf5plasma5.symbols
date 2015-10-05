@@ -1,8 +1,7 @@
-# SymbolsHelper-Confirmed: 5.13.0 amd64
+# SymbolsHelper-Confirmed: 5.14.0 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
- (optional=templinst|arch=!amd64)_ZN14KPluginFactory6createIN6Plasma6AppletEEEPT_P7QObjectRK5QListI8QVariantE@Base 5.11.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -456,7 +455,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma8FrameSvgD1Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD2Ev@Base 4.96.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 5.0.0
- (optional=templinst|arch=i386)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=arm64 armel armhf i386 mips mipsel powerpc ppc64el)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK6Plasma10DataEngine10metaObjectEv@Base 4.96.0
  _ZNK6Plasma10DataEngine10pluginInfoEv@Base 4.96.0

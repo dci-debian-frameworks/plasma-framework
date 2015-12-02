@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0+git20150919.0128 amd64 i386
+# SymbolsHelper-Confirmed: 5.14.0 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0

@@ -1,6 +1,7 @@
 plasma-framework (5.17.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.17.0).
+  * Update symbols files from buildds logs (5.16.0-1).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 07 Dec 2015 14:20:28 +0100
 

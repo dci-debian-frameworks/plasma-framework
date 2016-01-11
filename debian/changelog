@@ -7,6 +7,7 @@ plasma-framework (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Philip Muškovac ]
   * New upstream release
+  * plasma-framework breaks/replaces kapptemplate << 4:15.12 for qml-plasmoid 
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 15:12:37 +0100
 

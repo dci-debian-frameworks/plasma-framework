@@ -1,6 +1,8 @@
 plasma-framework (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
+  * (Experimental specific) Add qt5-qmltooling-plugins as a build-dep,
+    missing dependency of qtdeclarative5-dev
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:44 +0100
 

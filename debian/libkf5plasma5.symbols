@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.16.0+git20151205.0514+16.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.18.0+git20160302.2137+16.04 amd64 i386
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -347,6 +347,8 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Applet24runAssociatedApplicationEv@Base 4.96.0
  _ZN6Plasma6Applet24setAssociatedApplicationERK7QString@Base 4.96.0
  _ZN6Plasma6Applet24setConfigurationRequiredEbRK7QString@Base 4.96.0
+ _ZN6Plasma6Applet28configurationRequiredChangedEbRK7QString@Base 5.18.0+git20160302.2137+16.04
+ _ZN6Plasma6Applet28contextualActionsAboutToShowEv@Base 5.18.0+git20160302.2137+16.04
  _ZN6Plasma6Applet28setAssociatedApplicationUrlsERK5QListI4QUrlE@Base 4.96.0
  _ZN6Plasma6Applet28setHasConfigurationInterfaceEb@Base 4.96.0
  _ZN6Plasma6Applet29flushPendingConstraintsEventsEv@Base 4.96.0
@@ -457,7 +459,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma8FrameSvgD0Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD1Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD2Ev@Base 4.96.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 5.0.0
  (optional=templinst|arch=arm64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc ppc64el)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIdEET_PKcRKS1_@Base 5.16.0+git20151205.0514+16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
@@ -580,6 +581,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Applet21configurationRequiredEv@Base 4.96.0
  _ZNK6Plasma6Applet25associatedApplicationUrlsEv@Base 4.96.0
  _ZNK6Plasma6Applet25hasConfigurationInterfaceEv@Base 4.96.0
+ _ZNK6Plasma6Applet27configurationRequiredReasonEv@Base 5.18.0+git20160302.2137+16.04
  _ZNK6Plasma6Applet29hasValidAssociatedApplicationEv@Base 4.96.0
  _ZNK6Plasma6Applet2idEv@Base 4.96.0
  _ZNK6Plasma6Applet4iconEv@Base 4.96.0
@@ -709,3 +711,4 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTVN6Plasma6CoronaE@Base 4.96.0
  _ZTVN6Plasma7ServiceE@Base 4.96.0
  _ZTVN6Plasma8FrameSvgE@Base 4.96.0
+ _ZZZNK15KMimeTypeTrader5queryERK7QStringS2_S2_Ed0_NKUlvE_clEvE15qstring_literal@Base 5.18.0+git20160302.2137+16.04

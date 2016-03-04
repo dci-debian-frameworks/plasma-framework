@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x
+# SymbolsHelper-Confirmed: 5.18.0+git20160302.2137+16.04 amd64 i386
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -28,6 +28,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick11ConfigModelD0Ev@Base 4.97.0
  _ZN11PlasmaQuick11ConfigModelD1Ev@Base 4.97.0
  _ZN11PlasmaQuick11ConfigModelD2Ev@Base 4.97.0
+ _ZN11PlasmaQuick15AppletQuickItem10childEventEP11QChildEvent@Base 5.18.0+git20160302.2137+16.04
  _ZN11PlasmaQuick15AppletQuickItem10itemChangeEN10QQuickItem10ItemChangeERKNS1_14ItemChangeDataE@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem11qt_metacastEPKc@Base 4.97.0

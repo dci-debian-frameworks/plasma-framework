@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.18.0+git20160302.2137+16.04 amd64 i386
+# SymbolsHelper-Confirmed: 5.19.0+git20160313.1243+16.04 amd64 i386
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -324,9 +324,11 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma5TypesD1Ev@Base 4.96.0
  _ZN6Plasma5TypesD2Ev@Base 4.96.0
  _ZN6Plasma6Applet10timerEventEP11QTimerEvent@Base 4.96.0
+ _ZN6Plasma6Applet11iconChangedERK7QString@Base 5.19.0+git20160313.1243+16.04
  _ZN6Plasma6Applet11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma6Applet11qt_metacastEPKc@Base 4.96.0
  _ZN6Plasma6Applet12loadPlasmoidERK7QStringj@Base 4.96.0
+ _ZN6Plasma6Applet12titleChangedERK7QString@Base 5.19.0+git20160313.1243+16.04
  _ZN6Plasma6Applet13appletDeletedEPS0_@Base 4.96.0
  _ZN6Plasma6Applet13configChangedEv@Base 4.96.0
  _ZN6Plasma6Applet13statusChangedENS_5Types10ItemStatusE@Base 4.96.0
@@ -356,6 +358,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Applet7destroyEv@Base 4.96.0
  _ZN6Plasma6Applet7restoreER12KConfigGroup@Base 4.96.0
  _ZN6Plasma6Applet7setIconERK7QString@Base 4.96.0
+ _ZN6Plasma6Applet8setTitleERK7QString@Base 5.19.0+git20160313.1243+16.04
  _ZN6Plasma6Applet9activatedEv@Base 4.97.0
  _ZN6Plasma6Applet9setStatusENS_5Types10ItemStatusE@Base 4.96.0
  _ZN6Plasma6AppletC1EP7QObjectRK5QListI8QVariantE@Base 4.96.0
@@ -593,7 +596,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Applet7packageEv@Base 4.96.0
  _ZNK6Plasma6Applet8kPackageEv@Base 5.5.0+git20150104.1955+15.04
  _ZNK6Plasma6Applet8locationEv@Base 4.96.0
- _ZNK6Plasma6Applet8setTitleERK7QString@Base 4.96.0
  _ZNK6Plasma6Applet9destroyedEv@Base 4.96.0
  _ZNK6Plasma6Applet9saveStateER12KConfigGroup@Base 4.96.0
  _ZNK6Plasma6Corona10metaObjectEv@Base 4.96.0

@@ -51,7 +51,7 @@ Build-Depends: cmake (>= 2.8.12),
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
-Vcs-Git: https://anonscm.debian.org/pkg-kde/frameworks/plasma-framework.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
 
 Package: plasma-framework-dev
 Architecture: any

@@ -1,6 +1,6 @@
-plasma-framework (5.20.0-1~1.gbpcafcbf) UNRELEASED; urgency=medium
+plasma-framework (5.20.0-1~2.gbp59b6b6) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @cafcbf3a2ca39570354b08048596f05147c758b1 **
+  ** SNAPSHOT build @59b6b61f9b0a0320d1b2a8bca8754f52711bffcf **
 
   [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
@@ -10,7 +10,10 @@ plasma-framework (5.20.0-1~1.gbpcafcbf) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 30 Mar 2016 10:36:50 +0200
+  [ Maximiliano Curia ]
+  * Update acc test script
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:36:13 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

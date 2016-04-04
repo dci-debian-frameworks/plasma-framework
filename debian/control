@@ -74,10 +74,8 @@ Depends: qml-module-org-kde-kquickcontrols,
          qml-module-qtquick-controls,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kapptemplate (<< 4:15.12),
-        plasma-widgets-addons (<< 4:5.4.3+git20151201)
-Replaces: kapptemplate (<< 4:15.12),
-          plasma-widgets-addons (<< 4:5.4.3+git20151201)
+Breaks: plasma-widgets-addons (<< 4:5.4.3+git20151201), kapptemplate (<< 4:15.12)
+Replaces: plasma-widgets-addons (<< 4:5.4.3+git20151201), kapptemplate (<< 4:15.12)
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 

@@ -1,6 +1,6 @@
-plasma-framework (5.20.0-1~4.gbp0cbc31) UNRELEASED; urgency=medium
+plasma-framework (5.20.0-1~5.gbpf4c0b0) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0cbc31a83602ceda77415fa7806622816c159711 **
+  ** SNAPSHOT build @f4c0b032cbf47e59a57e42a2e33a360317e03dd3 **
 
   [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
@@ -20,8 +20,9 @@ plasma-framework (5.20.0-1~4.gbp0cbc31) UNRELEASED; urgency=medium
   * Update symbols files.
 
   [ Maximiliano Curia ]
+  * testsuite: add hicolor icon theme as a dependency
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 07 Apr 2016 14:14:21 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 07 Apr 2016 18:36:12 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

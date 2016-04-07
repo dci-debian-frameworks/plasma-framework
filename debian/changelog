@@ -1,10 +1,27 @@
-plasma-framework (5.19.0-2~) UNRELEASED; urgency=medium
+plasma-framework (5.20.0-1~4.gbp0cbc31) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @0cbc31a83602ceda77415fa7806622816c159711 **
+
+  [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
     removed from kapptemplate in the next upload. (Closes: #816528) Thanks to
     Andreas Beckmann for the report.
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 03 Mar 2016 08:30:54 +0100
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Update acc test script
+  * UNRELEASED
+  * testsuite: Missing XDG_DATA_DIRS, use breeze by default
+  * Add new patch: upstream_fix_iconitem_test.patch
+
+  [ Automatic packaging ]
+  * Update symbols files.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 07 Apr 2016 14:14:21 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

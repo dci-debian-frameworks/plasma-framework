@@ -1,7 +1,7 @@
 Tests: testsuite
 Depends: @, debhelper, cmake, xvfb, xauth, dbus-x11, libqt5sql5-sqlite,
          libkf5globalaccel-bin, libkf5service-bin, breeze-icon-theme,
-         qml-module-qtquick2
+         qml-module-qtquick2, hicolor-icon-theme
 Restrictions: build-needed
 
 Tests: acc

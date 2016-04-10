@@ -1,6 +1,6 @@
-plasma-framework (5.20.0-1~5.gbpf4c0b0) UNRELEASED; urgency=medium
+plasma-framework (5.21.0-1~1.gbpaced6b) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @f4c0b032cbf47e59a57e42a2e33a360317e03dd3 **
+  ** SNAPSHOT build @aced6b70fab80979615431da5b5ad0750a2d13fb **
 
   [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
@@ -21,8 +21,15 @@ plasma-framework (5.20.0-1~5.gbpf4c0b0) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * testsuite: add hicolor icon theme as a dependency
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 07 Apr 2016 18:36:12 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 14:02:50 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

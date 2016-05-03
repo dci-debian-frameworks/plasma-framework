@@ -7,3 +7,4 @@ usr/lib/*/cmake/KF5Plasma/
 usr/lib/*/cmake/KF5PlasmaQuick/
 usr/lib/*/libKF5Plasma.so
 usr/lib/*/libKF5PlasmaQuick.so
+usr/share/kdevappwizard/

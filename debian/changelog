@@ -1,6 +1,6 @@
-plasma-framework (5.21.0-1~2.gbp892744) UNRELEASED; urgency=medium
+plasma-framework (5.22.0-1~1.gbpa34a5c) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @89274440a9656e6930a9fa982a931e7d4388972b **
+  ** SNAPSHOT build @a34a5c6c4e04936fe0b7841df467d5adec6fed56 **
 
   [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
@@ -8,6 +8,8 @@ plasma-framework (5.21.0-1~2.gbp892744) UNRELEASED; urgency=medium
     Andreas Beckmann for the report.
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -32,7 +34,7 @@ plasma-framework (5.21.0-1~2.gbp892744) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 12 Apr 2016 07:46:07 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 15:36:21 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.21.0 amd64
+# SymbolsHelper-Confirmed: 5.22.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -222,18 +222,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma16PackageStructureD2Ev@Base 4.96.0
  _ZN6Plasma16loadScriptEngineERK7QStringPNS_10DataEngineERK5QListI8QVariantE@Base 4.100.0
  _ZN6Plasma16loadScriptEngineERK7QStringPNS_6AppletERK5QListI8QVariantE@Base 4.100.0
- _ZN6Plasma17DataEngineManager10loadEngineERK7QString@Base 4.96.0
- _ZN6Plasma17DataEngineManager10timerEventEP11QTimerEvent@Base 4.96.0
- _ZN6Plasma17DataEngineManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN6Plasma17DataEngineManager11qt_metacastEPKc@Base 4.96.0
- _ZN6Plasma17DataEngineManager12unloadEngineERK7QString@Base 4.96.0
- _ZN6Plasma17DataEngineManager16staticMetaObjectE@Base 4.96.0
- _ZN6Plasma17DataEngineManager4selfEv@Base 4.96.0
- _ZN6Plasma17DataEngineManagerC1Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerC2Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerD0Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerD1Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerD2Ev@Base 4.96.0
  _ZN6Plasma18ContainmentActions11containmentEv@Base 4.96.0
  _ZN6Plasma18ContainmentActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma18ContainmentActions11qt_metacastEPKc@Base 4.96.0
@@ -533,8 +521,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma16DataEngineScript7packageEv@Base 4.96.0
  _ZNK6Plasma16DataEngineScript7sourcesEv@Base 4.96.0
  _ZNK6Plasma16PackageStructure10metaObjectEv@Base 4.96.0
- _ZNK6Plasma17DataEngineManager10metaObjectEv@Base 4.96.0
- _ZNK6Plasma17DataEngineManager6engineERK7QString@Base 4.96.0
  _ZNK6Plasma18ContainmentActions10metaObjectEv@Base 4.96.0
  _ZNK6Plasma18ContainmentActions10pluginInfoEv@Base 4.96.0
  _ZNK6Plasma3Svg10colorGroupEv@Base 5.0.0
@@ -671,7 +657,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTIN6Plasma13DataContainerE@Base 4.96.0
  _ZTIN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTIN6Plasma16PackageStructureE@Base 4.96.0
- _ZTIN6Plasma17DataEngineManagerE@Base 4.96.0
  _ZTIN6Plasma18ContainmentActionsE@Base 4.96.0
  _ZTIN6Plasma3SvgE@Base 4.96.0
  _ZTIN6Plasma5ThemeE@Base 4.96.0
@@ -692,7 +677,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTSN6Plasma13DataContainerE@Base 4.96.0
  _ZTSN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTSN6Plasma16PackageStructureE@Base 4.96.0
- _ZTSN6Plasma17DataEngineManagerE@Base 4.96.0
  _ZTSN6Plasma18ContainmentActionsE@Base 4.96.0
  _ZTSN6Plasma3SvgE@Base 4.96.0
  _ZTSN6Plasma5ThemeE@Base 4.96.0
@@ -711,7 +695,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTVN6Plasma13DataContainerE@Base 4.96.0
  _ZTVN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTVN6Plasma16PackageStructureE@Base 4.96.0
- _ZTVN6Plasma17DataEngineManagerE@Base 4.96.0
  _ZTVN6Plasma18ContainmentActionsE@Base 4.96.0
  _ZTVN6Plasma3SvgE@Base 4.96.0
  _ZTVN6Plasma5ThemeE@Base 4.96.0

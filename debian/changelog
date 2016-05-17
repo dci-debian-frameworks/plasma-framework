@@ -1,6 +1,6 @@
-plasma-framework (5.22.0-1~1.gbpa34a5c) UNRELEASED; urgency=medium
+plasma-framework (5.22.0-1~2.gbpf4bae1) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a34a5c6c4e04936fe0b7841df467d5adec6fed56 **
+  ** SNAPSHOT build @f4bae11438a79ae29abd58c29d4e162ae0a8c3f7 **
 
   [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
@@ -11,6 +11,7 @@ plasma-framework (5.22.0-1~1.gbpa34a5c) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
+  * Update symbols files (private class was wrongly exported)
 
   [ Maximiliano Curia ]
   * Update acc test script
@@ -34,7 +35,7 @@ plasma-framework (5.22.0-1~1.gbpa34a5c) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 15:36:21 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 17 May 2016 17:50:49 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

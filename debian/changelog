@@ -1,6 +1,4 @@
-plasma-framework (5.22.0-1~5.gbpf36e74) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @f36e748b76e95013aa9c14d1288440204c59a5ad **
+plasma-framework (5.22.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Bump kapptemplate breaks/replaces, the conflicting file is going to be
@@ -9,37 +7,20 @@ plasma-framework (5.22.0-1~5.gbpf36e74) UNRELEASED; urgency=medium
   * Update install files
   * Update testsuite scripts
   * Update copyright information
-
-  [ Automatic packaging ]
-  * Update build-deps and deps with the info from cmake
-  * Bump Standards-Version to 3.9.8
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files (private class was wrongly exported)
-  * Update symbols files
-
-  [ Maximiliano Curia ]
   * Update acc test script
-  * UNRELEASED
   * testsuite: Missing XDG_DATA_DIRS, use breeze by default
   * Add new patch: upstream_fix_iconitem_test.patch
-
-  [ Automatic packaging ]
-  * Update symbols files.
-
-  [ Maximiliano Curia ]
   * testsuite: add hicolor icon theme as a dependency
   * uscan no longer supports more than one main upstream tarball being listed
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+  * Update symbols files (private class was wrongly exported)
+  * Update symbols files
   * Refresh patches
 
-  [ Maximiliano Curia ]
-
-  [ Automatic packaging ]
-  * Update symbols files
-
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 27 May 2016 10:36:16 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 27 May 2016 15:28:35 +0200
 
 plasma-framework (5.19.0-1) experimental; urgency=medium
 

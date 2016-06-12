@@ -1,9 +1,7 @@
-# SymbolsHelper-Confirmed: 5.22.0 amd64 armhf i386
+# SymbolsHelper-Confirmed: 5.22.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZN13KPluginTrader23createInstanceFromQueryIN6Plasma16PackageStructureEEEPT_RK7QStringS7_S7_P7QObjectP7QWidgetRK5QListI8QVariantEPS5_@Base 5.19.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZN14KPluginFactory6createIN6Plasma6AppletEEEPT_P7QObjectRK5QListI8QVariantE@Base 5.19.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -454,8 +452,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma8FrameSvgD0Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD1Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD2Ev@Base 4.96.0
- (optional=templinst|arch=!amd64 !armhf !i386)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 5.0.0
- (optional=templinst|arch=arm64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc ppc64el sparc64)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=arm64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64el sparc64)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIdEET_PKcRKS1_@Base 5.17.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK6Plasma10DataEngine10metaObjectEv@Base 4.96.0
@@ -588,7 +585,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Applet7packageEv@Base 4.96.0
  _ZNK6Plasma6Applet8kPackageEv@Base 5.5.0+git20150104.1955+15.04
  _ZNK6Plasma6Applet8locationEv@Base 4.96.0
- (optional=gccinternal|arch=!amd64 !armhf !i386)_ZNK6Plasma6Applet8setTitleERK7QString@Base 4.96.0
  _ZNK6Plasma6Applet9destroyedEv@Base 4.96.0
  _ZNK6Plasma6Applet9saveStateER12KConfigGroup@Base 4.96.0
  _ZNK6Plasma6Corona10metaObjectEv@Base 4.96.0

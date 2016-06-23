@@ -1,11 +1,10 @@
-plasma-framework (5.23.0-1~1.gbp8933ed) UNRELEASED; urgency=medium
+plasma-framework (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @8933ed0f781521fd5b56484a3c971f4821164f96 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files with the buildds results
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 03:36:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Jun 2016 16:30:38 +0200
 
 plasma-framework (5.22.0-1) unstable; urgency=medium
 

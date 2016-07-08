@@ -52,7 +52,7 @@ Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
 
-Package: plasma-framework-dev
+Package: libkf5plasma-dev
 Architecture: any
 Section: libdevel
 Depends: libkf5package-dev (>= 5.23.0~),
@@ -61,13 +61,23 @@ Depends: libkf5package-dev (>= 5.23.0~),
          libkf5service-dev (>= 5.23.0~),
          ${misc:Depends}
 Replaces: kapptemplate (<< 4:15.12.2-1~),
-          plasma-framework (<= 5.9.0+git20150516.1328+15.04-0)
+          plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
+          plasma-framework-dev (<< 5.23.0-2~)
 Breaks: kapptemplate (<< 4:15.12.2-1~),
-        plasma-framework (<= 5.9.0+git20150516.1328+15.04-0)
+        plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
+        plasma-framework-dev (<< 5.23.0-2~)
 Description: development files for plasma-framework
  Plasma library and runtime components based upon KF5 and Qt 5.
  .
  Contains development files for plasma-framework.
+
+Package: plasma-framework-dev
+Depends: libkf5plasma-dev, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
 
 Package: plasma-framework
 Architecture: any

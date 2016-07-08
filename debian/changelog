@@ -1,3 +1,11 @@
+plasma-framework (5.23.0-2) UNRELEASED; urgency=medium
+
+  * Rename -dev package to align with the cmake package name for
+    greater discoverability and consistency across frameworks.
+    Add a transitional package to help with the name transition.
+
+ -- Harald Sitter <sitter@kde.org>  Tue, 14 Jun 2016 12:50:16 +0200
+
 plasma-framework (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

@@ -1,7 +1,9 @@
-# SymbolsHelper-Confirmed: 5.22.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x sparc64 x32
+# SymbolsHelper-Confirmed: 5.23.0 amd64 armhf i386
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
+ (optional=templinst)_ZN13KPluginTrader23createInstanceFromQueryIN6Plasma16PackageStructureEEEPT_RK7QStringS7_S7_P7QObjectP7QWidgetRK5QListI8QVariantEPS5_@Base 5.23.0
+ (optional=templinst)_ZN14KPluginFactory6createIN6Plasma6AppletEEEPT_P7QObjectRK5QListI8QVariantE@Base 5.23.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -255,6 +257,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma3Svg12setImagePathERK7QString@Base 4.96.0
  _ZN6Plasma3Svg13repaintNeededEv@Base 4.96.0
  _ZN6Plasma3Svg13setColorGroupENS_5Theme10ColorGroupE@Base 5.0.0
+ _ZN6Plasma3Svg13statusChangedENS0_6StatusE@Base 5.23.0
  _ZN6Plasma3Svg14setScaleFactorEd@Base 5.8.0+git20150317.1235+15.04
  _ZN6Plasma3Svg16colorHintChangedEv@Base 5.0.0
  _ZN6Plasma3Svg16devicePixelRatioEv@Base 4.97.0
@@ -276,6 +279,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma3Svg6resizeEdd@Base 4.96.0
  _ZN6Plasma3Svg6resizeEv@Base 4.96.0
  _ZN6Plasma3Svg8setThemeEPNS_5ThemeE@Base 4.96.0
+ _ZN6Plasma3Svg9setStatusENS0_6StatusE@Base 5.23.0
  _ZN6Plasma3SvgC1EP7QObject@Base 4.96.0
  _ZN6Plasma3SvgC2EP7QObject@Base 4.96.0
  _ZN6Plasma3SvgD0Ev@Base 4.96.0
@@ -532,6 +536,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma3Svg22containsMultipleImagesEv@Base 4.96.0
  _ZNK6Plasma3Svg4sizeEv@Base 4.96.0
  _ZNK6Plasma3Svg5themeEv@Base 4.96.0
+ _ZNK6Plasma3Svg6statusEv@Base 5.23.0
  _ZNK6Plasma3Svg7isValidEv@Base 4.96.0
  _ZNK6Plasma3Svg9imagePathEv@Base 4.96.0
  _ZNK6Plasma5Theme10metaObjectEv@Base 4.96.0

@@ -1,6 +1,6 @@
-plasma-framework (5.23.0-3~1.gbp4cf775) UNRELEASED; urgency=medium
+plasma-framework (5.24.0-1~1.gbpc31c41) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4cf7750f608c6056bcc74a3007af9ce9825dae3c **
+  ** SNAPSHOT build @c31c41994125a20b8984c3e459b91fd90dc462e0 **
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -9,8 +9,9 @@ plasma-framework (5.23.0-3~1.gbp4cf775) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update symbols files.
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Fri, 08 Jul 2016 16:36:21 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 15:36:21 +0200
 
 plasma-framework (5.23.0-1) unstable; urgency=medium
 

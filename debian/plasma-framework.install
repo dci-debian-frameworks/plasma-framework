@@ -19,3 +19,5 @@ usr/share/kservicetypes5/plasma-wallpaper.desktop
 usr/share/locale/*/*/libplasma5.mo
 usr/share/locale/*/*/libplasma5/
 usr/share/plasma/
+usr/share/man/man1/plasmapkg2.1
+usr/share/man/*/man1/plasmapkg2.1

@@ -1,4 +1,5 @@
 usr/bin/plasmapkg2
+usr/lib/*/qt5/plugins/kpackage/packagestructure/
 usr/lib/*/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so
 usr/lib/*/qt5/plugins/plasma_engine_testengine.so
 usr/lib/*/qt5/qml/QtQuick/Controls/Styles/Plasma/

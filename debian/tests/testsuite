@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Need this to find icon themes used in testing.
 export XDG_DATA_DIRS="/usr/share"
 
-xvfb-run --server-args="-screen 0 1024x768x24" -a dh_auto_test
+[ -e debian/tests.home ] || mkdir debian/tests.home
+trap "rm -rf debian/tests.home" EXIT
+export HOME="$(pwd)/debian/tests.home"
+
+xvfb-run -a --server-args="-screen 0 1024x768x24+32" \
+    dbus-launch --exit-with-session debian/tests/testsuite.xsession

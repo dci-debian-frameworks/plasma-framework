@@ -1,11 +1,12 @@
-plasma-framework (5.25.0-1~1.gbpda3b1e) UNRELEASED; urgency=medium
+plasma-framework (5.25.0-1~2.gbpe79608) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @da3b1e4be650a6ff14c191a63befcac92641abed **
+  ** SNAPSHOT build @e79608cbab8152f893ae34250997bf8e7b1163c7 **
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
     greater discoverability and consistency across frameworks.
     Add a transitional package to help with the name transition.
+  * install new files
 
   [ Automatic packaging ]
   * Update symbols files.
@@ -16,7 +17,7 @@ plasma-framework (5.25.0-1~1.gbpda3b1e) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Install localized manpages.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 15 Aug 2016 15:36:09 +0200
+ -- Harald Sitter <sitter@kde.org>  Wed, 17 Aug 2016 19:49:28 +0200
 
 plasma-framework (5.23.0-1) unstable; urgency=medium
 

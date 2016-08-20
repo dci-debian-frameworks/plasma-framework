@@ -1,6 +1,4 @@
-plasma-framework (5.25.0-1~2.gbpe79608) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e79608cbab8152f893ae34250997bf8e7b1163c7 **
+plasma-framework (5.25.0-1) unstable; urgency=medium
 
   [ Harald Sitter ]
   * Rename -dev package to align with the cmake package name for
@@ -9,15 +7,14 @@ plasma-framework (5.25.0-1~2.gbpe79608) UNRELEASED; urgency=medium
   * install new files
 
   [ Automatic packaging ]
-  * Update symbols files.
-  * Update build-deps and deps with the info from cmake
   * Update symbols file
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Install localized manpages.
+  * Bump group breaks (5.25)
 
- -- Harald Sitter <sitter@kde.org>  Wed, 17 Aug 2016 19:49:28 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:50:53 +0200
 
 plasma-framework (5.23.0-1) unstable; urgency=medium
 

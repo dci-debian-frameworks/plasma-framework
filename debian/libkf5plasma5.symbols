@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 5.19.0 amd64
+# SymbolsHelper-Confirmed: 5.24.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
- (optional=templinst)_ZN13KPluginTrader23createInstanceFromQueryIN6Plasma16PackageStructureEEEPT_RK7QStringS7_S7_P7QObjectP7QWidgetRK5QListI8QVariantEPS5_@Base 5.19.0
- (optional=templinst)_ZN14KPluginFactory6createIN6Plasma6AppletEEEPT_P7QObjectRK5QListI8QVariantE@Base 5.19.0
+ (optional=templinst)_ZN13KPluginTrader23createInstanceFromQueryIN6Plasma16PackageStructureEEEPT_RK7QStringS7_S7_P7QObjectP7QWidgetRK5QListI8QVariantEPS5_@Base 5.23.0
+ (optional=templinst|arch=!amd64)_ZN14KPluginFactory6createIN6Plasma6AppletEEEPT_P7QObjectRK5QListI8QVariantE@Base 5.23.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -134,6 +134,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma12PluginLoader22listContainmentsOfTypeERK7QStringS3_S3_@Base 4.96.0
  _ZN6Plasma12PluginLoader22loadContainmentActionsEPNS_11ContainmentERK7QStringRK5QListI8QVariantE@Base 4.96.0
  _ZN6Plasma12PluginLoader24listEngineInfoByCategoryERK7QStringS3_@Base 4.96.0
+ _ZN6Plasma12PluginLoader25isPluginVersionCompatibleER13KPluginLoader@Base 5.24.0
  _ZN6Plasma12PluginLoader25listAppletInfoForMimeTypeERK7QString@Base 4.96.0
  _ZN6Plasma12PluginLoader25setCustomAppletCategoriesERK11QStringList@Base 4.96.0
  _ZN6Plasma12PluginLoader26listContainmentActionsInfoERK7QString@Base 4.96.0
@@ -222,18 +223,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma16PackageStructureD2Ev@Base 4.96.0
  _ZN6Plasma16loadScriptEngineERK7QStringPNS_10DataEngineERK5QListI8QVariantE@Base 4.100.0
  _ZN6Plasma16loadScriptEngineERK7QStringPNS_6AppletERK5QListI8QVariantE@Base 4.100.0
- _ZN6Plasma17DataEngineManager10loadEngineERK7QString@Base 4.96.0
- _ZN6Plasma17DataEngineManager10timerEventEP11QTimerEvent@Base 4.96.0
- _ZN6Plasma17DataEngineManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
- _ZN6Plasma17DataEngineManager11qt_metacastEPKc@Base 4.96.0
- _ZN6Plasma17DataEngineManager12unloadEngineERK7QString@Base 4.96.0
- _ZN6Plasma17DataEngineManager16staticMetaObjectE@Base 4.96.0
- _ZN6Plasma17DataEngineManager4selfEv@Base 4.96.0
- _ZN6Plasma17DataEngineManagerC1Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerC2Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerD0Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerD1Ev@Base 4.96.0
- _ZN6Plasma17DataEngineManagerD2Ev@Base 4.96.0
  _ZN6Plasma18ContainmentActions11containmentEv@Base 4.96.0
  _ZN6Plasma18ContainmentActions11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma18ContainmentActions11qt_metacastEPKc@Base 4.96.0
@@ -269,6 +258,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma3Svg12setImagePathERK7QString@Base 4.96.0
  _ZN6Plasma3Svg13repaintNeededEv@Base 4.96.0
  _ZN6Plasma3Svg13setColorGroupENS_5Theme10ColorGroupE@Base 5.0.0
+ _ZN6Plasma3Svg13statusChangedENS0_6StatusE@Base 5.23.0
  _ZN6Plasma3Svg14setScaleFactorEd@Base 5.8.0+git20150317.1235+15.04
  _ZN6Plasma3Svg16colorHintChangedEv@Base 5.0.0
  _ZN6Plasma3Svg16devicePixelRatioEv@Base 4.97.0
@@ -290,6 +280,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma3Svg6resizeEdd@Base 4.96.0
  _ZN6Plasma3Svg6resizeEv@Base 4.96.0
  _ZN6Plasma3Svg8setThemeEPNS_5ThemeE@Base 4.96.0
+ _ZN6Plasma3Svg9setStatusENS0_6StatusE@Base 5.23.0
  _ZN6Plasma3SvgC1EP7QObject@Base 4.96.0
  _ZN6Plasma3SvgC2EP7QObject@Base 4.96.0
  _ZN6Plasma3SvgD0Ev@Base 4.96.0
@@ -326,9 +317,12 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma5TypesD1Ev@Base 4.96.0
  _ZN6Plasma5TypesD2Ev@Base 4.96.0
  _ZN6Plasma6Applet10timerEventEP11QTimerEvent@Base 4.96.0
+ _ZN6Plasma6Applet11busyChangedEb@Base 5.21.0
+ _ZN6Plasma6Applet11iconChangedERK7QString@Base 5.21.0
  _ZN6Plasma6Applet11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma6Applet11qt_metacastEPKc@Base 4.96.0
  _ZN6Plasma6Applet12loadPlasmoidERK7QStringj@Base 4.96.0
+ _ZN6Plasma6Applet12titleChangedERK7QString@Base 5.21.0
  _ZN6Plasma6Applet13appletDeletedEPS0_@Base 4.96.0
  _ZN6Plasma6Applet13configChangedEv@Base 4.96.0
  _ZN6Plasma6Applet13statusChangedENS_5Types10ItemStatusE@Base 4.96.0
@@ -349,13 +343,17 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Applet24runAssociatedApplicationEv@Base 4.96.0
  _ZN6Plasma6Applet24setAssociatedApplicationERK7QString@Base 4.96.0
  _ZN6Plasma6Applet24setConfigurationRequiredEbRK7QString@Base 4.96.0
+ _ZN6Plasma6Applet28configurationRequiredChangedEbRK7QString@Base 5.20.0
+ _ZN6Plasma6Applet28contextualActionsAboutToShowEv@Base 5.20.0
  _ZN6Plasma6Applet28setAssociatedApplicationUrlsERK5QListI4QUrlE@Base 4.96.0
  _ZN6Plasma6Applet28setHasConfigurationInterfaceEb@Base 4.96.0
  _ZN6Plasma6Applet29flushPendingConstraintsEventsEv@Base 4.96.0
  _ZN6Plasma6Applet4initEv@Base 4.96.0
  _ZN6Plasma6Applet7destroyEv@Base 4.96.0
  _ZN6Plasma6Applet7restoreER12KConfigGroup@Base 4.96.0
+ _ZN6Plasma6Applet7setBusyEb@Base 5.21.0
  _ZN6Plasma6Applet7setIconERK7QString@Base 4.96.0
+ _ZN6Plasma6Applet8setTitleERK7QString@Base 5.21.0
  _ZN6Plasma6Applet9activatedEv@Base 4.97.0
  _ZN6Plasma6Applet9setStatusENS_5Types10ItemStatusE@Base 4.96.0
  _ZN6Plasma6AppletC1EP7QObjectRK5QListI8QVariantE@Base 4.96.0
@@ -459,8 +457,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma8FrameSvgD0Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD1Ev@Base 4.96.0
  _ZN6Plasma8FrameSvgD2Ev@Base 4.96.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI6QColorEET_PKcRKS2_@Base 5.0.0
- (optional=templinst|arch=arm64 armel armhf i386 kfreebsd-i386 mips mipsel powerpc ppc64el sparc64)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=arm64 armel armhf hurd-i386 i386 kfreebsd-i386 mips mipsel powerpc ppc64el sparc64)_ZNK12KConfigGroup9readEntryI6QRectFEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIdEET_PKcRKS1_@Base 5.17.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 4.100.0
  _ZNK6Plasma10DataEngine10metaObjectEv@Base 4.96.0
@@ -526,8 +523,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma16DataEngineScript7packageEv@Base 4.96.0
  _ZNK6Plasma16DataEngineScript7sourcesEv@Base 4.96.0
  _ZNK6Plasma16PackageStructure10metaObjectEv@Base 4.96.0
- _ZNK6Plasma17DataEngineManager10metaObjectEv@Base 4.96.0
- _ZNK6Plasma17DataEngineManager6engineERK7QString@Base 4.96.0
  _ZNK6Plasma18ContainmentActions10metaObjectEv@Base 4.96.0
  _ZNK6Plasma18ContainmentActions10pluginInfoEv@Base 4.96.0
  _ZNK6Plasma3Svg10colorGroupEv@Base 5.0.0
@@ -542,6 +537,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma3Svg22containsMultipleImagesEv@Base 4.96.0
  _ZNK6Plasma3Svg4sizeEv@Base 4.96.0
  _ZNK6Plasma3Svg5themeEv@Base 4.96.0
+ _ZNK6Plasma3Svg6statusEv@Base 5.23.0
  _ZNK6Plasma3Svg7isValidEv@Base 4.96.0
  _ZNK6Plasma3Svg9imagePathEv@Base 4.96.0
  _ZNK6Plasma5Theme10metaObjectEv@Base 4.96.0
@@ -582,18 +578,19 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Applet21configurationRequiredEv@Base 4.96.0
  _ZNK6Plasma6Applet25associatedApplicationUrlsEv@Base 4.96.0
  _ZNK6Plasma6Applet25hasConfigurationInterfaceEv@Base 4.96.0
+ _ZNK6Plasma6Applet27configurationRequiredReasonEv@Base 5.20.0
  _ZNK6Plasma6Applet29hasValidAssociatedApplicationEv@Base 4.96.0
  _ZNK6Plasma6Applet2idEv@Base 4.96.0
  _ZNK6Plasma6Applet4iconEv@Base 4.96.0
  _ZNK6Plasma6Applet4saveER12KConfigGroup@Base 4.96.0
  _ZNK6Plasma6Applet5titleEv@Base 4.96.0
  _ZNK6Plasma6Applet6configEv@Base 4.96.0
+ _ZNK6Plasma6Applet6isBusyEv@Base 5.21.0
  _ZNK6Plasma6Applet6statusEv@Base 4.96.0
  _ZNK6Plasma6Applet7actionsEv@Base 4.96.0
  _ZNK6Plasma6Applet7packageEv@Base 4.96.0
  _ZNK6Plasma6Applet8kPackageEv@Base 5.5.0+git20150104.1955+15.04
  _ZNK6Plasma6Applet8locationEv@Base 4.96.0
- _ZNK6Plasma6Applet8setTitleERK7QString@Base 4.96.0
  _ZNK6Plasma6Applet9destroyedEv@Base 4.96.0
  _ZNK6Plasma6Applet9saveStateER12KConfigGroup@Base 4.96.0
  _ZNK6Plasma6Corona10metaObjectEv@Base 4.96.0
@@ -662,7 +659,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTIN6Plasma13DataContainerE@Base 4.96.0
  _ZTIN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTIN6Plasma16PackageStructureE@Base 4.96.0
- _ZTIN6Plasma17DataEngineManagerE@Base 4.96.0
  _ZTIN6Plasma18ContainmentActionsE@Base 4.96.0
  _ZTIN6Plasma3SvgE@Base 4.96.0
  _ZTIN6Plasma5ThemeE@Base 4.96.0
@@ -683,7 +679,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTSN6Plasma13DataContainerE@Base 4.96.0
  _ZTSN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTSN6Plasma16PackageStructureE@Base 4.96.0
- _ZTSN6Plasma17DataEngineManagerE@Base 4.96.0
  _ZTSN6Plasma18ContainmentActionsE@Base 4.96.0
  _ZTSN6Plasma3SvgE@Base 4.96.0
  _ZTSN6Plasma5ThemeE@Base 4.96.0
@@ -702,7 +697,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTVN6Plasma13DataContainerE@Base 4.96.0
  _ZTVN6Plasma16DataEngineScriptE@Base 4.96.0
  _ZTVN6Plasma16PackageStructureE@Base 4.96.0
- _ZTVN6Plasma17DataEngineManagerE@Base 4.96.0
  _ZTVN6Plasma18ContainmentActionsE@Base 4.96.0
  _ZTVN6Plasma3SvgE@Base 4.96.0
  _ZTVN6Plasma5ThemeE@Base 4.96.0
@@ -711,3 +705,4 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZTVN6Plasma6CoronaE@Base 4.96.0
  _ZTVN6Plasma7ServiceE@Base 4.96.0
  _ZTVN6Plasma8FrameSvgE@Base 4.96.0
+ _ZZZNK15KMimeTypeTrader5queryERK7QStringS2_S2_Ed0_NKUlvE_clEvE15qstring_literal@Base 5.20.0

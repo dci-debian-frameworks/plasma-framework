@@ -59,6 +59,7 @@ Depends: libkf5package-dev (>= 5.26.0~),
          libkf5plasma5 (= ${binary:Version}),
          libkf5plasmaquick5 (= ${binary:Version}),
          libkf5service-dev (>= 5.26.0~),
+         plasma-framework (= ${binary:Version}),
          ${misc:Depends}
 Replaces: kapptemplate (<< 4:15.12.2-1~),
           plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),

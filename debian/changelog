@@ -1,3 +1,11 @@
+plasma-framework (5.26.0-3~1.gbpccaf24) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ccaf24a099c643ae77e06e74c7c7aefc88bba1b4 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 06 Oct 2016 15:36:46 +0200
+
 plasma-framework (5.26.0-2) unstable; urgency=medium
 
   * Add plasma-framework dependency on the -dev package

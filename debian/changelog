@@ -1,10 +1,8 @@
-plasma-framework (5.26.0-2~1.gbp4a5b65) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @4a5b6595a41a8a465dcd953fef28e248e6bb1344 **
+plasma-framework (5.26.0-2) unstable; urgency=medium
 
   * Add plasma-framework dependency on the -dev package
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 04 Oct 2016 17:36:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Oct 2016 14:19:56 +0200
 
 plasma-framework (5.26.0-1) unstable; urgency=medium
 

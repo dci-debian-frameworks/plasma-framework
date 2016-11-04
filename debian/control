@@ -5,35 +5,36 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.26.0~),
+               extra-cmake-modules (>= 5.27.0~),
                kdoctools-dev (>= 5.25.0~),
                kio-dev (>= 5.26.0~),
                libegl1-mesa-dev,
-               libkf5activities-dev (>= 5.26.0~),
-               libkf5archive-dev (>= 5.26.0~),
-               libkf5codecs-dev (>= 5.18.0~),
-               libkf5config-dev (>= 5.26.0~),
-               libkf5configwidgets-dev (>= 5.26.0~),
-               libkf5coreaddons-dev (>= 5.26.0~),
-               libkf5dbusaddons-dev (>= 5.26.0~),
-               libkf5declarative-dev (>= 5.26.0~),
-               libkf5globalaccel-dev (>= 5.26.0~),
-               libkf5guiaddons-dev (>= 5.26.0~),
-               libkf5i18n-dev (>= 5.26.0~),
-               libkf5iconthemes-dev (>= 5.26.0~),
-               libkf5idletime-dev (>= 5.18.0~),
-               libkf5itemmodels-dev (>= 5.18.0~),
-               libkf5notifications-dev (>= 5.26.0~),
-               libkf5package-dev (>= 5.26.0~),
-               libkf5parts-dev (>= 5.26.0~),
-               libkf5service-dev (>= 5.26.0~),
-               libkf5solid-dev (>= 5.18.0~),
+               libkf5activities-dev (>= 5.27.0~),
+               libkf5archive-dev (>= 5.27.0~),
+               libkf5codecs-dev (>= 5.7.0),
+               libkf5config-dev (>= 5.27.0~),
+               libkf5configwidgets-dev (>= 5.27.0~),
+               libkf5coreaddons-dev (>= 5.27.0~),
+               libkf5dbusaddons-dev (>= 5.27.0~),
+               libkf5declarative-dev (>= 5.27.0~),
+               libkf5globalaccel-dev (>= 5.27.0~),
+               libkf5guiaddons-dev (>= 5.27.0~),
+               libkf5i18n-dev (>= 5.27.0~),
+               libkf5iconthemes-dev (>= 5.27.0~),
+               libkf5idletime-dev (>= 5.7.0),
+               libkf5itemmodels-dev (>= 5.7.0),
+               libkf5kio-dev (>= 5.27.0~),
+               libkf5notifications-dev (>= 5.27.0~),
+               libkf5package-dev (>= 5.27.0~),
+               libkf5parts-dev (>= 5.27.0~),
+               libkf5service-dev (>= 5.27.0~),
+               libkf5solid-dev (>= 5.7.0),
                libkf5su-dev (>= 5.18.0~),
                libkf5threadweaver-dev (>= 5.18.0~),
                libkf5wayland-dev (>= 5.25.0~),
-               libkf5widgetsaddons-dev (>= 5.26.0~),
-               libkf5windowsystem-dev (>= 5.26.0~),
-               libkf5xmlgui-dev (>= 5.26.0~),
+               libkf5widgetsaddons-dev (>= 5.27.0~),
+               libkf5windowsystem-dev (>= 5.27.0~),
+               libkf5xmlgui-dev (>= 5.27.0~),
                libqt5svg5-dev (>= 5.4),
                libqt5x11extras5-dev (>= 5.4),
                libsm-dev,
@@ -56,10 +57,10 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
 Package: libkf5plasma-dev
 Architecture: any
 Section: libdevel
-Depends: libkf5package-dev (>= 5.26.0~),
+Depends: libkf5package-dev (>= 5.27.0~),
          libkf5plasma5 (= ${binary:Version}),
          libkf5plasmaquick5 (= ${binary:Version}),
-         libkf5service-dev (>= 5.26.0~),
+         libkf5service-dev (>= 5.27.0~),
          plasma-framework (= ${binary:Version}),
          ${misc:Depends}
 Replaces: kapptemplate (<< 4:15.12.2-1~),
@@ -80,7 +81,7 @@ Priority: extra
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5runner-dev (<< 5.26)
+Breaks: libkf5runner-dev (<< 5.27)
 
 Package: plasma-framework
 Architecture: any
@@ -109,4 +110,4 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt5.
-Breaks: libkf5runner5 (<< 5.26)
+Breaks: libkf5runner5 (<< 5.27)

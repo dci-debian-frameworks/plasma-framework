@@ -1,3 +1,12 @@
+plasma-framework (5.28.0-1~1.gbped5bd9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ed5bd90e8edc7157bfa6270cc8ce27a1eab7d2a9 **
+
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files from buildds logs (5.27.0-1).
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:36:38 +0100
+
 plasma-framework (5.27.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

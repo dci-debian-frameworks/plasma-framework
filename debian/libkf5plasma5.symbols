@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 m68k
+# SymbolsHelper-Confirmed: 5.28.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
@@ -77,10 +77,10 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma11Containment9addAppletEPNS_6AppletE@Base 4.96.0
  _ZN6Plasma11ContainmentC1EP7QObjectRK5QListI8QVariantE@Base 4.96.0
  _ZN6Plasma11ContainmentC1EP7QObjectRK7QStringj@Base 4.96.0
- _ZN6Plasma11ContainmentC1ERK7QStringj@Base 4.96.0
+ _ZN6Plasma11ContainmentC1ERK15KPluginMetaDataj@Base 5.28.0
  _ZN6Plasma11ContainmentC2EP7QObjectRK5QListI8QVariantE@Base 4.96.0
  _ZN6Plasma11ContainmentC2EP7QObjectRK7QStringj@Base 4.96.0
- _ZN6Plasma11ContainmentC2ERK7QStringj@Base 4.96.0
+ _ZN6Plasma11ContainmentC2ERK15KPluginMetaDataj@Base 5.28.0
  _ZN6Plasma11ContainmentD0Ev@Base 4.96.0
  _ZN6Plasma11ContainmentD1Ev@Base 4.96.0
  _ZN6Plasma11ContainmentD2Ev@Base 4.96.0
@@ -123,6 +123,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma12PluginLoader15setPluginLoaderEPS0_@Base 4.96.0
  _ZN6Plasma12PluginLoader16listContainmentsERK7QStringS3_@Base 4.96.0
  _ZN6Plasma12PluginLoader18internalLoadAppletERK7QStringjRK5QListI8QVariantE@Base 4.96.0
+ _ZN6Plasma12PluginLoader18listAppletMetaDataERK7QStringS3_@Base 5.28.0
  _ZN6Plasma12PluginLoader18listDataEngineInfoERK7QString@Base 4.96.0
  _ZN6Plasma12PluginLoader19internalLoadPackageERK7QStringS3_@Base 4.96.0
  _ZN6Plasma12PluginLoader19internalLoadServiceERK7QStringRK5QListI8QVariantEP7QObject@Base 4.96.0
@@ -358,10 +359,12 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6AppletC1EP7QObjectRK5QListI8QVariantE@Base 4.96.0
  _ZN6Plasma6AppletC1EP7QObjectRK7QStringj@Base 4.96.0
  _ZN6Plasma6AppletC1ERK11KPluginInfoP7QObjectj@Base 4.96.0
+ _ZN6Plasma6AppletC1ERK15KPluginMetaDataP7QObjectj@Base 5.28.0
  _ZN6Plasma6AppletC1ERK7QStringj@Base 4.96.0
  _ZN6Plasma6AppletC2EP7QObjectRK5QListI8QVariantE@Base 4.96.0
  _ZN6Plasma6AppletC2EP7QObjectRK7QStringj@Base 4.96.0
  _ZN6Plasma6AppletC2ERK11KPluginInfoP7QObjectj@Base 4.96.0
+ _ZN6Plasma6AppletC2ERK15KPluginMetaDataP7QObjectj@Base 5.28.0
  _ZN6Plasma6AppletC2ERK7QStringj@Base 4.96.0
  _ZN6Plasma6AppletD0Ev@Base 4.96.0
  _ZN6Plasma6AppletD1Ev@Base 4.96.0
@@ -571,6 +574,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma6Applet13isContainmentEv@Base 4.96.0
  _ZNK6Plasma6Applet14failedToLaunchEv@Base 4.96.0
  _ZNK6Plasma6Applet14globalShortcutEv@Base 4.96.0
+ _ZNK6Plasma6Applet14pluginMetaDataEv@Base 5.28.0
  _ZNK6Plasma6Applet17isUserConfiguringEv@Base 4.96.0
  _ZNK6Plasma6Applet18launchErrorMessageEv@Base 4.96.0
  _ZNK6Plasma6Applet21associatedApplicationEv@Base 4.96.0
@@ -623,6 +627,7 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma7Package5filesEv@Base 4.96.0
  _ZNK6Plasma7Package7isValidEv@Base 4.96.0
  _ZNK6Plasma7Package8filePathEPKcRK7QString@Base 4.96.0
+ _ZNK6Plasma7Package8kPackageEv@Base 5.28.0
  _ZNK6Plasma7Package8metadataEv@Base 4.96.0
  _ZNK6Plasma7Package9entryListEPKc@Base 4.96.0
  _ZNK6Plasma7Package9mimeTypesEPKc@Base 4.96.0

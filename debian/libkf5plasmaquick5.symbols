@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.21.0 amd64
+# SymbolsHelper-Confirmed: 5.28.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -53,8 +53,10 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick15AppletQuickItem25fullRepresentationChangedEP13QQmlComponent@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem26setPreferredRepresentationEP13QQmlComponent@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem28compactRepresentationChangedEP13QQmlComponent@Base 4.97.0
+ _ZN11PlasmaQuick15AppletQuickItem28setActivationTogglesExpandedEb@Base 5.28.0
  _ZN11PlasmaQuick15AppletQuickItem29fullRepresentationItemChangedEP7QObject@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem30preferredRepresentationChangedEP13QQmlComponent@Base 4.97.0
+ _ZN11PlasmaQuick15AppletQuickItem32activationTogglesExpandedChangedEb@Base 5.28.0
  _ZN11PlasmaQuick15AppletQuickItem32compactRepresentationItemChangedEP7QObject@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem4initEv@Base 4.97.0
  _ZN11PlasmaQuick15AppletQuickItem8rootItemEv@Base 4.100.0
@@ -164,6 +166,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZNK11PlasmaQuick15AppletQuickItem12switchHeightEv@Base 4.97.0
  _ZNK11PlasmaQuick15AppletQuickItem13appletPackageEv@Base 4.97.0
  _ZNK11PlasmaQuick15AppletQuickItem13coronaPackageEv@Base 4.97.0
+ _ZNK11PlasmaQuick15AppletQuickItem27isActivationTogglesExpandedEv@Base 5.28.0
  _ZNK11PlasmaQuick15AppletQuickItem6appletEv@Base 4.97.0
  _ZNK11PlasmaQuick15ContainmentView10formFactorEv@Base 5.12.0
  _ZNK11PlasmaQuick15ContainmentView10metaObjectEv@Base 5.12.0

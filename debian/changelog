@@ -1,9 +1,10 @@
-plasma-framework (5.28.0-1~1.gbped5bd9) UNRELEASED; urgency=medium
+plasma-framework (5.28.0-1~2.gbpf1f9fd) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ed5bd90e8edc7157bfa6270cc8ce27a1eab7d2a9 **
+  ** SNAPSHOT build @f1f9fd032035327c064d8ad2dbdd53a5628dadd9 **
 
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.27.0-1).
+  * Update symbols files
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:36:38 +0100
 

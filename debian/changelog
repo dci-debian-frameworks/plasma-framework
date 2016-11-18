@@ -1,12 +1,15 @@
-plasma-framework (5.28.0-1~2.gbpf1f9fd) UNRELEASED; urgency=medium
+plasma-framework (5.28.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f1f9fd032035327c064d8ad2dbdd53a5628dadd9 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.27.0-1).
   * Update symbols files
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 15:36:38 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.28)
+  * Bump group breaks (5.28)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:29 +0100
 
 plasma-framework (5.27.0-1) unstable; urgency=medium
 

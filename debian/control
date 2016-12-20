@@ -84,7 +84,8 @@ Breaks: libkf5runner-dev (<< 5.35)
 
 Package: plasma-framework
 Architecture: any
-Depends: qml-module-org-kde-kquickcontrols,
+Depends: qml-module-org-kde-kconfig,
+         qml-module-org-kde-kquickcontrols,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-controls,
          ${misc:Depends},

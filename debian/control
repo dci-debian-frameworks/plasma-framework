@@ -88,6 +88,7 @@ Depends: qml-module-org-kde-kconfig,
          qml-module-org-kde-kquickcontrols,
          qml-module-org-kde-kquickcontrolsaddons,
          qml-module-qtquick-controls,
+         qml-module-qtquick-templates2,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: plasma-widgets-addons (<= 4:5.5~)

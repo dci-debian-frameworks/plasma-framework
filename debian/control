@@ -88,7 +88,9 @@ Architecture: any
 Depends: qml-module-org-kde-kconfig,
          qml-module-org-kde-kquickcontrols,
          qml-module-org-kde-kquickcontrolsaddons,
+         qml-module-qtqml-models2,
          qml-module-qtquick-controls,
+         qml-module-qtquick-controls2,
          qml-module-qtquick-templates2,
          ${misc:Depends},
          ${shlibs:Depends}

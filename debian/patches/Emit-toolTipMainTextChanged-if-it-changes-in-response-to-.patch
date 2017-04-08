@@ -1,0 +1,40 @@
+From: David Edmundson <kde@davidedmundson.co.uk>
+Date: Tue, 20 Dec 2016 12:09:52 +0000
+Subject: Emit toolTipMainTextChanged if it changes in response to a title
+ change
+
+Summary:
+The fallback for toolTipMainText is showing the applet title.
+
+When the applet title changes, it may result in a change of
+toolTipMainText.
+
+Reviewers: #plasma
+
+Subscribers: plasma-devel
+
+Tags: #plasma
+
+Differential Revision: https://phabricator.kde.org/D3760
+---
+ src/scriptengines/qml/plasmoid/appletinterface.cpp | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+diff --git a/src/scriptengines/qml/plasmoid/appletinterface.cpp b/src/scriptengines/qml/plasmoid/appletinterface.cpp
+index f24bc5152..cfd411010 100644
+--- a/src/scriptengines/qml/plasmoid/appletinterface.cpp
++++ b/src/scriptengines/qml/plasmoid/appletinterface.cpp
+@@ -82,6 +82,13 @@ AppletInterface::AppletInterface(DeclarativeAppletScript *script, const QVariant
+     connect(applet(), &Plasma::Applet::titleChanged,
+             this, &AppletInterface::titleChanged);
+ 
++    connect(applet(), &Plasma::Applet::titleChanged,
++            this, [this]() {
++                if (m_toolTipMainText.isNull()) {
++                    emit toolTipMainTextChanged();
++                }
++            });
++
+     connect(applet(), &Plasma::Applet::iconChanged,
+             this, &AppletInterface::iconChanged);
+ 

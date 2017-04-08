@@ -6,3 +6,4 @@ portait-prop-is-not-relevant-when-there-is-no-text.patch
 correctly-forward-status-from-applets-to-containment.patch
 it-must-also-be-possible-for-the-status-to-be-decreased-a.patch
 set-default-hints-when-repr-doesn-t-export-Layout.patch
+Ref-deref-DataEngines-even-if-the-metadata-is-invalid.patch

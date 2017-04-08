@@ -1,4 +1,4 @@
-plasma-framework (5.28.0-2~) UNRELEASED; urgency=medium
+plasma-framework (5.28.0-2) unstable; urgency=medium
 
   * Change plasma-framework-dev to arch: any.
     Thanks to Helmut Grohne for reporting (Closes: 854063)
@@ -51,7 +51,7 @@ plasma-framework (5.28.0-2~) UNRELEASED; urgency=medium
      Ref-deref-DataEngines-even-if-the-metadata-is-invalid.patch
     This is related to KDE#374531
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sat, 08 Apr 2017 16:28:48 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Apr 2017 17:14:51 +0200
 
 plasma-framework (5.28.0-1) unstable; urgency=medium
 

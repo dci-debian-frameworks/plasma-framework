@@ -1,3 +1,4 @@
 Fix-logic-for-arrow-handling-in-RTL-locales.patch
 Emit-toolTipMainTextChanged-if-it-changes-in-response-to-.patch
 consider-an-empty-panel-always-applets-loaded.patch
+Fix-374127-misplacement-of-popups-from-dock-wins.patch

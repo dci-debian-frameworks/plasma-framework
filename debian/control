@@ -48,7 +48,7 @@ Build-Depends: cmake (>= 2.8.12),
                qttools5-dev (>= 5.4),
                xauth,
                xvfb
-Standards-Version: 3.9.8
+Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git

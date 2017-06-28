@@ -40,6 +40,61 @@ plasma-framework (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:10:11 +0000
 
+plasma-framework (5.28.0-2) unstable; urgency=medium
+
+  * Change plasma-framework-dev to arch: any.
+    Thanks to Helmut Grohne for reporting (Closes: 854063)
+  * Pick "Fix logic for arrow handling in RTL locales" (db15022)
+    Add the upstream patch as:
+     Fix-logic-for-arrow-handling-in-RTL-locales.patch
+    This fixes KDE#373749
+  * Pick "Emit toolTipMainTextChanged if it changes in response to a title change" (17f5a30)
+    The fallback for toolTipMainText is showing the applet title.
+    When the applet title changes, it may result in a change of
+    toolTipMainText.
+    Add the upstream patch as:
+     Emit-toolTipMainTextChanged-if-it-changes-in-response-to-.patch
+  * Pick "consider an empty panel always "applets loaded"" (6ae3a07)
+    This fixes panels sometimes not showing up when reconnecting screens.
+    Add upstream patch as:
+     consider-an-empty-panel-always-applets-loaded.patch
+    Related to KDE#373836
+  * Pick "Fix #374127 misplacement of popups from dock wins" (6aedda9)
+    Fix for "If a Dock window uses a mask then the popups occured from it
+    are placed far from the item that triggered them."
+    Add upstream patch as:
+     Fix-374127-misplacement-of-popups-from-dock-wins.patch
+    This fixes KDE#374127
+  * Pick "portait prop is not relevant when there is no text" (12a4709)
+    This fixes a binding loop on this property when there is no label.
+    Add upstream patch as:
+     portait-prop-is-not-relevant-when-there-is-no-text.patch
+    This fixes KDE#374815
+  * Pick "correctly forward status from applets to containment" (47ec9b8)
+    Add upstream patch as:
+     correctly-forward-status-from-applets-to-containment.patch
+    This fixes KDE#372062
+  * Pick "it must also be possible for the status to be decreased again" (46c87d5)
+    This fixes the autohide panel being broken the first time an applet like
+    kickoff opens. when it closes again, the status has to be decreased
+    again.
+    Add upstream patch as:
+     it-must-also-be-possible-for-the-status-to-be-decreased-a.patch
+  * Pick "set default hints when repr doesn't export Layout.*" (b99a87a)
+    Add upstream patch as:
+     set-default-hints-when-repr-doesn-t-export-Layout.patch
+    This fixes KDE#377153
+  * Add "Ref/deref DataEngines even if the metadata is invalid" (586ed85)
+    Just because the metadata is invalid doesn't mean the DataEngine
+    actually failed to load, we're still returning a valid object, and as
+    seen with the MPris DataEngine bug. It's important that we still release
+    it properly.
+    Add upstream patch as:
+     Ref-deref-DataEngines-even-if-the-metadata-is-invalid.patch
+    This is related to KDE#374531
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Apr 2017 17:14:51 +0200
+
 plasma-framework (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]

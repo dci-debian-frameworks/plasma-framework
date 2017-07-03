@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.28.0 amd64
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -160,6 +160,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZNK11PlasmaQuick11ConfigModel4dataERK11QModelIndexi@Base 4.97.0
  _ZNK11PlasmaQuick11ConfigModel6appletEv@Base 4.97.0
  _ZNK11PlasmaQuick11ConfigModel8rowCountERK11QModelIndex@Base 4.97.0
+ _ZNK11PlasmaQuick11ConfigModel9roleNamesEv@Base 5.35.0
  _ZNK11PlasmaQuick15AppletQuickItem10isExpandedEv@Base 4.97.0
  _ZNK11PlasmaQuick15AppletQuickItem10metaObjectEv@Base 4.97.0
  _ZNK11PlasmaQuick15AppletQuickItem11switchWidthEv@Base 4.97.0

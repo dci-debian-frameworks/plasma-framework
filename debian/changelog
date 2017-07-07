@@ -1,4 +1,4 @@
-plasma-framework (5.35.0-1~) UNRELEASED; urgency=medium
+plasma-framework (5.35.0-1~1) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -20,7 +20,10 @@ plasma-framework (5.35.0-1~) UNRELEASED; urgency=medium
   * more qml deps
   * ECMConfig.cmake
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 22:53:18 +0200
+  [ Harald Sitter ]
+  * start openbox for dialogstatetest
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 23:34:43 +0200
 
 plasma-framework (5.28.0-2) unstable; urgency=medium
 

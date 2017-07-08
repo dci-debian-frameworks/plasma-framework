@@ -81,7 +81,7 @@ Priority: extra
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5runner-dev (<< 5.35)
+Breaks: libkf5runner-dev (<< 5.36)
 
 Package: plasma-framework
 Architecture: any
@@ -112,4 +112,4 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt5.
-Breaks: libkf5runner5 (<< 5.35)
+Breaks: libkf5runner5 (<< 5.36)

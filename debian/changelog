@@ -1,4 +1,4 @@
-plasma-framework (5.35.0-1~1) UNRELEASED; urgency=medium
+plasma-framework (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -8,6 +8,8 @@ plasma-framework (5.35.0-1~1) UNRELEASED; urgency=medium
   * Bump group breaks (5.35)
   * Drop upstream patches
   * Update symbols files.
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Raymond Wooninck ]
   * also include signing-key
@@ -23,7 +25,7 @@ plasma-framework (5.35.0-1~1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * start openbox for dialogstatetest
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 23:34:43 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 14:03:09 +0200
 
 plasma-framework (5.28.0-2) unstable; urgency=medium
 

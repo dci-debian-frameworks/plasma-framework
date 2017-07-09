@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.35.0 amd64
+# SymbolsHelper-Confirmed: 5.36.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -86,8 +86,8 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick21PackageUrlInterceptor14addAllowedPathERK7QString@Base 4.97.0
  _ZN11PlasmaQuick21PackageUrlInterceptor17removeAllowedPathERK7QString@Base 4.97.0
  _ZN11PlasmaQuick21PackageUrlInterceptor9interceptERK4QUrlN26QQmlAbstractUrlInterceptor8DataTypeE@Base 4.97.0
- _ZN11PlasmaQuick21PackageUrlInterceptorC1EP10QQmlEngineRKN6Plasma7PackageE@Base 4.97.0
- _ZN11PlasmaQuick21PackageUrlInterceptorC2EP10QQmlEngineRKN6Plasma7PackageE@Base 4.97.0
+ _ZN11PlasmaQuick21PackageUrlInterceptorC1EP10QQmlEngineRKN8KPackage7PackageE@Base 5.36.0
+ _ZN11PlasmaQuick21PackageUrlInterceptorC2EP10QQmlEngineRKN8KPackage7PackageE@Base 5.36.0
  _ZN11PlasmaQuick21PackageUrlInterceptorD0Ev@Base 4.97.0
  _ZN11PlasmaQuick21PackageUrlInterceptorD1Ev@Base 4.97.0
  _ZN11PlasmaQuick21PackageUrlInterceptorD2Ev@Base 4.97.0

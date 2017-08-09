@@ -77,7 +77,7 @@ Description: development files for plasma-framework
 
 Package: plasma-framework-dev
 Depends: libkf5plasma-dev, ${misc:Depends}
-Architecture: all
+Architecture: any
 Priority: extra
 Section: oldlibs
 Description: transitional dummy package

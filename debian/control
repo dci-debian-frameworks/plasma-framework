@@ -81,7 +81,7 @@ Priority: extra
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5runner-dev (<< 5.36)
+Breaks: libkf5runner-dev (<< 5.37)
 
 Package: plasma-framework
 Architecture: any
@@ -94,7 +94,8 @@ Depends: qml-module-org-kde-kconfig,
          qml-module-qtquick-templates2,
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: plasma-widgets-addons (<= 4:5.5~)
+Breaks: plasma-widgets-addons (<= 4:5.5~),
+        qml-module-org-kde-kirigami2 (<< 5.37)
 Replaces: plasma-widgets-addons (<= 4:5.5~)
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
@@ -112,4 +113,4 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt5.
-Breaks: libkf5runner5 (<< 5.36)
+Breaks: libkf5runner5 (<< 5.37)

@@ -5,7 +5,9 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9),
+               doxygen,
                extra-cmake-modules (>= 5.37.0~),
+               graphviz,
                kdoctools-dev (>= 5.25.0~),
                kio-dev (>= 5.26.0~),
                libegl1-mesa-dev,
@@ -34,6 +36,7 @@ Build-Depends: cmake (>= 3.0~),
                libkf5widgetsaddons-dev (>= 5.37.0~),
                libkf5windowsystem-dev (>= 5.37.0~),
                libkf5xmlgui-dev (>= 5.37.0~),
+               libqt5sql5-sqlite,
                libqt5svg5-dev (>= 5.7.0~),
                libqt5x11extras5-dev (>= 5.4),
                libsm-dev,
@@ -46,8 +49,9 @@ Build-Depends: cmake (>= 3.0~),
                qtdeclarative5-dev (>= 5.7.0~),
                qtscript5-dev (>= 5.4),
                qttools5-dev (>= 5.4),
+               qttools5-dev-tools (>= 5.4),
                xauth,
-               xvfb
+               xvfb,
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/projects/frameworks/plasma-framework
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/plasma-framework.git
@@ -62,26 +66,42 @@ Depends: extra-cmake-modules (>= 5.37.0~),
          libkf5plasmaquick5 (= ${binary:Version}),
          libkf5service-dev (>= 5.37.0~),
          plasma-framework (= ${binary:Version}),
-         ${misc:Depends}
+         ${misc:Depends},
 Replaces: kapptemplate (<< 4:15.12.2-1~),
           plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
-          plasma-framework-dev (<< 5.23.0-2~)
+          plasma-framework-dev (<< 5.23.0-2~),
 Breaks: kapptemplate (<< 4:15.12.2-1~),
         plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
-        plasma-framework-dev (<< 5.23.0-2~)
+        plasma-framework-dev (<< 5.23.0-2~),
+Recommends: libkf5plasma-doc (= ${source:Version})
 Description: development files for plasma-framework
  Plasma library and runtime components based upon KF5 and Qt 5.
  .
  Contains development files for plasma-framework.
 
-Package: plasma-framework-dev
-Depends: libkf5plasma-dev, ${misc:Depends}
+Package: libkf5plasma-doc
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Plasma Runtime components (documentation)
+ Plasma library and runtime components based upon KF5 and Qt5.
+ .
+ This package contains the qch documentation files.
+
+Package: libkf5plasma5
 Architecture: any
-Priority: extra
-Section: oldlibs
-Description: transitional dummy package
- This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5runner-dev (<< 5.37)
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF5 and Qt5.
+Breaks: libkf5runner5 (<< 5.37)
+
+Package: libkf5plasmaquick5
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Plasma Runtime components
+ Plasma library and runtime components based upon KF5 and Qt 5.
 
 Package: plasma-framework
 Architecture: any
@@ -93,24 +113,18 @@ Depends: qml-module-org-kde-kconfig,
          qml-module-qtquick-controls2,
          qml-module-qtquick-templates2,
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Breaks: plasma-widgets-addons (<= 4:5.5~),
-        qml-module-org-kde-kirigami2 (<< 5.37)
+        qml-module-org-kde-kirigami2 (<< 5.37),
 Replaces: plasma-widgets-addons (<= 4:5.5~)
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 
-Package: libkf5plasmaquick5
+Package: plasma-framework-dev
+Depends: libkf5plasma-dev, ${misc:Depends}
 Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Plasma Runtime components
- Plasma library and runtime components based upon KF5 and Qt 5.
-
-Package: libkf5plasma5
-Architecture: any
-Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: Plasma Runtime components
- Plasma library and runtime components based upon KF5 and Qt5.
-Breaks: libkf5runner5 (<< 5.37)
+Priority: extra
+Section: oldlibs
+Description: transitional dummy package
+ This is a transitional dummy package. It can safely be removed.
+Breaks: libkf5runner-dev (<< 5.37)

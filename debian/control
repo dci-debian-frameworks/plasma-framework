@@ -87,6 +87,7 @@ Description: Plasma Runtime components (documentation)
  Plasma library and runtime components based upon KF5 and Qt5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5plasma5
 Architecture: any

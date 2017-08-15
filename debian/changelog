@@ -1,8 +1,13 @@
 plasma-framework (5.37.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.37.0).
+    + Fix build with cmake 3.8 (3ce913b3f997e61358c7384987424225f03964d3)
+      (Closes: #871129) Thanks to Lucas Nussbaum for the report
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.37)
+  * Add a libkf5plasma-doc package for the qch files
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Aug 2017 13:23:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Aug 2017 20:18:47 +0200
 
 plasma-framework (5.36.0-1) experimental; urgency=medium
 

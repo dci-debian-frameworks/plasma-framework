@@ -6,8 +6,8 @@ index dac11a0..01a0043 100644
  cmake_minimum_required(VERSION 3.0)
  
  set(KF5_VERSION "5.36.0") # handled by release scripts
--set(KF5_DEP_VERSION "5.36.0") # handled by release scripts
-+set(KF5_DEP_VERSION "5.35.0") # handled by release scripts
+-set(KF5_DEP_VERSION "5.39.0") # handled by release scripts
++set(KF5_DEP_VERSION "5.38.0") # handled by release scripts
  project(Plasma VERSION ${KF5_VERSION})
  
  # ECM setup

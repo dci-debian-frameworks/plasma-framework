@@ -81,7 +81,7 @@ Description: development files for plasma-framework
 Package: plasma-framework-dev
 Depends: libkf5plasma-dev, ${misc:Depends}
 Architecture: any
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.

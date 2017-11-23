@@ -1,0 +1,14 @@
+diff --git a/src/plasmaquick/KF5PlasmaQuickConfig.cmake.in b/src/plasmaquick/KF5PlasmaQuickConfig.cmake.in
+index 981264d..6e995b9 100644
+--- a/src/plasmaquick/KF5PlasmaQuickConfig.cmake.in
++++ b/src/plasmaquick/KF5PlasmaQuickConfig.cmake.in
+@@ -2,6 +2,9 @@
+ 
+ # Any changes in this ".cmake" file will be overwritten by CMake, the source is the ".cmake.in" file.
+ 
++include(CMakeFindDependencyMacro)
++find_package(KF5::Plasma)
++
+ include("${CMAKE_CURRENT_LIST_DIR}/KF5PlasmaQuickTargets.cmake")
+ 
+ set(PlasmaQuick_INSTALL_PREFIX "@PACKAGE_CMAKE_INSTALL_PREFIX@")

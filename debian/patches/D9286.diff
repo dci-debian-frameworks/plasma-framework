@@ -1,0 +1,65 @@
+diff --git a/src/declarativeimports/plasmacomponents/qml/private/ScrollBarDelegate.qml b/src/declarativeimports/plasmacomponents/qml/private/ScrollBarDelegate.qml
+--- a/src/declarativeimports/plasmacomponents/qml/private/ScrollBarDelegate.qml
++++ b/src/declarativeimports/plasmacomponents/qml/private/ScrollBarDelegate.qml
+@@ -28,8 +28,8 @@
+     imagePath:"widgets/scrollbar"
+     prefix: internalLoader.isVertical ? "background-vertical" : "background-horizontal"
+ 
+-    property int implicitWidth: (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : scrollbarSvg.elementSize("arrow-up").width) * Math.max(1, Math.floor(units.devicePixelRatio))
+-    property int implicitHeight: (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").height : scrollbarSvg.elementSize("arrow-left").height) * Math.max(1, Math.floor(units.devicePixelRatio))
++    property int implicitWidth: (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : scrollbarSvg.elementSize("arrow-up").width)
++    property int implicitHeight: (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").height : scrollbarSvg.elementSize("arrow-left").height)
+ 
+      Keys.onUpPressed: {
+         if (!enabled || !internalLoader.isVertical)
+diff --git a/src/declarativeimports/plasmacomponents/qml/private/ScrollDecoratorDelegate.qml b/src/declarativeimports/plasmacomponents/qml/private/ScrollDecoratorDelegate.qml
+--- a/src/declarativeimports/plasmacomponents/qml/private/ScrollDecoratorDelegate.qml
++++ b/src/declarativeimports/plasmacomponents/qml/private/ScrollDecoratorDelegate.qml
+@@ -28,8 +28,8 @@
+     imagePath:"widgets/scrollbar"
+     prefix: internalLoader.isVertical ? "background-vertical" : "background-horizontal"
+ 
+-    property int implicitWidth: scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width * Math.max(1, Math.floor(units.devicePixelRatio)) : 12
+-    property int implicitHeight: scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").height * Math.max(1, Math.floor(units.devicePixelRatio)) : 12
++    property int implicitWidth: scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : 12
++    property int implicitHeight: scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").height : 12
+ 
+     opacity: 0
+     Behavior on opacity {
+diff --git a/src/declarativeimports/plasmastyle/ProgressBarStyle.qml b/src/declarativeimports/plasmastyle/ProgressBarStyle.qml
+--- a/src/declarativeimports/plasmastyle/ProgressBarStyle.qml
++++ b/src/declarativeimports/plasmastyle/ProgressBarStyle.qml
+@@ -29,7 +29,7 @@
+ 
+     readonly property string imagePath: "widgets/bar_meter_horizontal"
+ 
+-    readonly property real implicitHeight: barSvg.preferredHeight * Math.max(1, Math.floor(units.devicePixelRatio))
++    readonly property real implicitHeight: barSvg.preferredHeight
+ 
+     PlasmaCore.Svg {
+         id: barSvg
+diff --git a/src/declarativeimports/plasmastyle/ScrollViewStyle.qml b/src/declarativeimports/plasmastyle/ScrollViewStyle.qml
+--- a/src/declarativeimports/plasmastyle/ScrollViewStyle.qml
++++ b/src/declarativeimports/plasmastyle/ScrollViewStyle.qml
+@@ -28,7 +28,7 @@
+ QtQuickControlStyle.ScrollViewStyle {
+     property Flickable flickableItem: control.flickableItem
+ 
+-    property real widthHint: Math.round( (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : scrollbarSvg.elementSize("arrow-up").width) * units.devicePixelRatio)
++    property real widthHint: Math.round( (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : scrollbarSvg.elementSize("arrow-up").width))
+ 
+     property StyleItem __styleitem: StyleItem { elementType: "frame" }
+     readonly property int __wheelScrollLines: __styleitem.styleHint("wheelScrollLines")
+diff --git a/src/declarativeimports/plasmastyle/TableViewStyle.qml b/src/declarativeimports/plasmastyle/TableViewStyle.qml
+--- a/src/declarativeimports/plasmastyle/TableViewStyle.qml
++++ b/src/declarativeimports/plasmastyle/TableViewStyle.qml
+@@ -34,7 +34,7 @@
+     activateItemOnSingleClick: false
+ 
+ 
+-    property real scrollbarWidthHint: Math.round( (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : scrollbarSvg.elementSize("arrow-up").width) * units.devicePixelRatio)
++    property real scrollbarWidthHint: Math.round( (scrollbarSvg.hasElement("hint-scrollbar-size") ? scrollbarSvg.elementSize("hint-scrollbar-size").width : scrollbarSvg.elementSize("arrow-up").width))
+ 
+     headerDelegate: PlasmaCore.FrameSvgItem {
+         imagePath: "widgets/button"
+

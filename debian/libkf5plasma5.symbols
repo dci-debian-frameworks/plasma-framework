@@ -1,8 +1,7 @@
-# SymbolsHelper-Confirmed: 5.36.0 amd64
+# SymbolsHelper-Confirmed: 5.41.0 amd64
 libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  (optional=templinst)_ZN12KConfigGroup10writeEntryI7QStringEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRKT_6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
- (optional=templinst)_ZN13KPluginTrader23createInstanceFromQueryIN6Plasma16PackageStructureEEEPT_RK7QStringS7_S7_P7QObjectP7QWidgetRK5QListI8QVariantEPS5_@Base 5.23.0
  _ZN6Plasma10DataEngine10removeDataERK7QStringS3_@Base 4.96.0
  _ZN6Plasma10DataEngine10timerEventEP11QTimerEvent@Base 4.96.0
  _ZN6Plasma10DataEngine11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
@@ -375,10 +374,12 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZN6Plasma6Corona10setPackageERKNS_7PackageE@Base 4.96.0
  _ZN6Plasma6Corona11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.96.0
  _ZN6Plasma6Corona11qt_metacastEPKc@Base 4.96.0
+ _ZN6Plasma6Corona11screenAddedEi@Base 5.41.0
  _ZN6Plasma6Corona11setKPackageERKN8KPackage7PackageE@Base 5.5.0+git20150104.1955+15.04
  _ZN6Plasma6Corona12configSyncedEv@Base 4.96.0
  _ZN6Plasma6Corona12exportLayoutER12KConfigGroup5QListIPNS_11ContainmentEE@Base 4.96.0
  _ZN6Plasma6Corona12importLayoutERK12KConfigGroup@Base 4.96.0
+ _ZN6Plasma6Corona13screenRemovedEi@Base 5.41.0
  _ZN6Plasma6Corona14packageChangedERKNS_7PackageE@Base 4.96.0
  _ZN6Plasma6Corona15kPackageChangedERKN8KPackage7PackageE@Base 5.5.0+git20150104.1955+15.04
  _ZN6Plasma6Corona15setImmutabilityENS_5Types16ImmutabilityTypeE@Base 4.96.0
@@ -657,7 +658,6 @@ libKF5Plasma.so.5 libkf5plasma5 #MINVER#
  _ZNK6Plasma8FrameSvg4maskEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg9alphaMaskEv@Base 4.96.0
  _ZNK6Plasma8FrameSvg9frameSizeEv@Base 4.96.0
- (optional=templinst)_ZNK8KService14createInstanceIN6Plasma18ContainmentActionsEEEPT_P7QWidgetP7QObjectRK5QListI8QVariantEP7QString@Base 5.11.0
  _ZTI11QSharedData@Base 4.96.0
  _ZTI16KSharedDataCache@Base 4.96.0
  _ZTIN6Plasma10DataEngineE@Base 4.96.0

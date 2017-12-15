@@ -4,6 +4,7 @@ usr/lib/*/qt5/plugins/plasma/scriptengines/plasma_appletscript_declarative.so
 usr/lib/*/qt5/plugins/plasma_engine_testengine.so
 usr/lib/*/qt5/qml/QtQuick/Controls.2/Plasma/
 usr/lib/*/qt5/qml/QtQuick/Controls/Styles/Plasma/
+usr/lib/*/qt5/qml/org/kde/kirigami.2/
 usr/lib/*/qt5/qml/org/kde/plasma/
 usr/share/kservices5/plasma-dataengine-testengine.desktop
 usr/share/kservices5/plasma-scriptengine-applet-declarative.desktop

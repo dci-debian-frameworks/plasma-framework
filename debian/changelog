@@ -1,4 +1,4 @@
-plasma-framework (5.41.0-1~1) UNRELEASED; urgency=medium
+plasma-framework (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.38.0). (Closes: 875971)
   * Update build-deps and deps with the info from cmake
@@ -10,8 +10,10 @@ plasma-framework (5.41.0-1~1) UNRELEASED; urgency=medium
   * Update symbols files
   * Add missing runtime dependency libkf5windowsystem-dev.
     Thanks to Adrian Bunk for reporting (Closes: 877187)
+  * Bump group breaks (5.41)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 15:10:56 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:43:22 -0300
 
 plasma-framework (5.37.0-2) sid; urgency=medium
 

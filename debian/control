@@ -96,7 +96,7 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt5.
-Breaks: libkf5runner5 (<< 5.37)
+Breaks: libkf5runner5 (<< 5.41)
 
 Package: libkf5plasmaquick5
 Architecture: any
@@ -117,7 +117,7 @@ Depends: qml-module-org-kde-kconfig,
          ${misc:Depends},
          ${shlibs:Depends},
 Breaks: plasma-widgets-addons (<= 4:5.5~),
-        qml-module-org-kde-kirigami2 (<< 5.37),
+        qml-module-org-kde-kirigami2 (<< 5.41),
 Replaces: plasma-widgets-addons (<= 4:5.5~)
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
@@ -129,4 +129,4 @@ Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5runner-dev (<< 5.37)
+Breaks: libkf5runner-dev (<< 5.41)

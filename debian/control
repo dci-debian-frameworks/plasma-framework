@@ -100,9 +100,11 @@ Depends: qml-module-org-kde-kconfig,
          ${misc:Depends},
          ${shlibs:Depends}
 Breaks: kapptemplate (<< 4:15.12),
-        plasma-widgets-addons (<< 4:5.4.3+git20151201)
+        plasma-widgets-addons (<< 4:5.4.3+git20151201),
+        qml-module-org-kde-kirigami2 (<< 5.41.0+p16.04+git20171214.1221-0)
 Replaces: kapptemplate (<< 4:15.12),
-          plasma-widgets-addons (<< 4:5.4.3+git20151201)
+          plasma-widgets-addons (<< 4:5.4.3+git20151201),
+          qml-module-org-kde-kirigami2 (<< 5.41.0+p16.04+git20171214.1221-0)
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 

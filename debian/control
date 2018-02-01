@@ -9,6 +9,7 @@ Build-Depends: cmake (>= 2.8.12),
                kdoctools-dev (>= 5.25.0~),
                kio-dev (>= 5.26.0~),
                libegl1-mesa-dev,
+               libgl1-mesa-dev,
                libkf5activities-dev (>= 5.28.0~),
                libkf5archive-dev (>= 5.28.0~),
                libkf5codecs-dev (>= 5.7.0),
@@ -41,6 +42,7 @@ Build-Depends: cmake (>= 2.8.12),
                libxcb-composite0-dev,
                libxcb-damage0-dev,
                libxcb-shape0-dev,
+               mesa-common-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4),
@@ -62,6 +64,7 @@ Depends: extra-cmake-modules,
          libkf5plasma5 (= ${binary:Version}),
          libkf5plasmaquick5 (= ${binary:Version}),
          libkf5service-dev (>= 5.28.0~),
+         libkf5windowsystem-dev,
          plasma-framework (= ${binary:Version}),
          ${misc:Depends}
 Replaces: kapptemplate (<< 4:15.12.2-1~),
@@ -78,7 +81,7 @@ Description: development files for plasma-framework
 Package: plasma-framework-dev
 Depends: libkf5plasma-dev, ${misc:Depends}
 Architecture: any
-Priority: extra
+Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.

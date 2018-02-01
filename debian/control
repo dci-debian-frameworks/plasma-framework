@@ -118,8 +118,9 @@ Depends: qml-module-org-kde-kconfig,
          ${misc:Depends},
          ${shlibs:Depends},
 Breaks: plasma-widgets-addons (<= 4:5.5~),
-        qml-module-org-kde-kirigami2 (<< 5.41),
-Replaces: plasma-widgets-addons (<= 4:5.5~)
+        qml-module-org-kde-kirigami2 (<< 5.42~),
+Replaces: plasma-widgets-addons (<= 4:5.5~),
+          qml-module-org-kde-kirigami2 (<< 5.42~),
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt 5.
 

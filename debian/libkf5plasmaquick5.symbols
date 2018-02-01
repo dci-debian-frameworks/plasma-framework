@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.41.0 amd64
+# SymbolsHelper-Confirmed: 5.42.0 amd64
 libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZN11PlasmaQuick10ConfigView11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
  _ZN11PlasmaQuick10ConfigView11qt_metacastEPKc@Base 4.97.0
@@ -234,6 +234,7 @@ libKF5PlasmaQuick.so.5 libkf5plasmaquick5 #MINVER#
  _ZZZN11PlasmaQuick21PackageUrlInterceptor13prefixForTypeEN26QQmlAbstractUrlInterceptor8DataTypeERK7QStringENKUlvE4_clEvE15qstring_literal@Base 4.97.0
  _ZZZN11PlasmaQuick21PackageUrlInterceptor13prefixForTypeEN26QQmlAbstractUrlInterceptor8DataTypeERK7QStringENKUlvE5_clEvE15qstring_literal@Base 4.97.0
  _ZZZN11PlasmaQuick21PackageUrlInterceptor13prefixForTypeEN26QQmlAbstractUrlInterceptor8DataTypeERK7QStringENKUlvE6_clEvE15qstring_literal@Base 4.97.0
+ _ZZZN11PlasmaQuick21PackageUrlInterceptor13prefixForTypeEN26QQmlAbstractUrlInterceptor8DataTypeERK7QStringENKUlvE7_clEvE15qstring_literal@Base 5.42.0
  _ZZZN11PlasmaQuick21PackageUrlInterceptor13prefixForTypeEN26QQmlAbstractUrlInterceptor8DataTypeERK7QStringENKUlvE_clEvE15qstring_literal@Base 4.97.0
  (c++)"non-virtual thunk to PlasmaQuick::AppletQuickItem::~AppletQuickItem()@Base" 4.97.0
  (c++)"non-virtual thunk to PlasmaQuick::ConfigView::~ConfigView()@Base" 4.97.0

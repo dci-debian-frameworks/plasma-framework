@@ -73,6 +73,7 @@ Replaces: kapptemplate (<< 4:15.12.2-1~),
           plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
           plasma-framework-dev (<< 5.23.0-2~),
 Breaks: kapptemplate (<< 4:15.12.2-1~),
+        libkf5runner-dev (<< 5.42),
         plasma-framework (<= 5.9.0+git20150516.1328+15.04-0),
         plasma-framework-dev (<< 5.23.0-2~),
 Recommends: libkf5plasma-doc (= ${source:Version})
@@ -97,7 +98,7 @@ Multi-Arch: same
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Plasma Runtime components
  Plasma library and runtime components based upon KF5 and Qt5.
-Breaks: libkf5runner5 (<< 5.41)
+Breaks: libkf5runner5 (<< 5.42), qml-module-org-kde-runnermodel (<< 5.42)
 
 Package: libkf5plasmaquick5
 Architecture: any
@@ -118,7 +119,7 @@ Depends: qml-module-org-kde-kconfig,
          ${misc:Depends},
          ${shlibs:Depends},
 Breaks: plasma-widgets-addons (<= 4:5.5~),
-        qml-module-org-kde-kirigami2 (<< 5.42~),
+        qml-module-org-kde-kirigami2 (<< 5.42),
 Replaces: plasma-widgets-addons (<= 4:5.5~),
           qml-module-org-kde-kirigami2 (<< 5.42~),
 Description: Plasma Runtime components
@@ -131,4 +132,4 @@ Priority: optional
 Section: oldlibs
 Description: transitional dummy package
  This is a transitional dummy package. It can safely be removed.
-Breaks: libkf5runner-dev (<< 5.41)
+Breaks: libkf5runner-dev (<< 5.42)
